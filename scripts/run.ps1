@@ -1,8 +1,8 @@
 # 1. Activate the virtual environment
-.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate
 
 # 2. Run the main script
-python3 src/main.py
+python .\src\main.py
 
 # 3. Deactivate the virtual environment
 deactivate

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. Activate virtual environment
-source venv/bin/activate
+source .venv/bin/activate
 
 # 2. Install the dependencies from requirements.txt
 pip install -r .\requirements\test.txt

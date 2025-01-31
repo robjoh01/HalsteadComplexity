@@ -1,5 +1,5 @@
 # 1. Activate the virtual environment
-.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate
 
 # 2. Install the dependencies from requirements.txt
 pip install -r .\requirements\test.txt
