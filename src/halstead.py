@@ -22,6 +22,28 @@ KEYWORDS = {
     'lambda'
 }
 
+OPERATORS = {
+    '+',
+    '-',
+    '*',
+    '/',
+    '=',
+    '==',
+    '<',
+    '>',
+    '&&',
+    '||',
+    '!',
+    '(',
+    ')',
+    '{',
+    '}',
+    '[',
+    ']',
+    ',',
+    ';'
+}
+
 def calc_loc_metrics(lines: list) -> dict:
     """
     Calculate Line of Code (LOC) metrics.
@@ -59,17 +81,15 @@ def calc_halstead_metrics(lines: list) -> dict:
     code_text = " ".join(lines)
     tokens = re.findall(r'\b\w+\b|\S', code_text)
     
-    # Operators and operands
-    operators = {'+', '-', '*', '/', '=', '==', '<', '>', '&&', '||', '!', '(', ')', '{', '}', '[', ']', ',', ';'}
     operands = set(re.findall(r'\b\w+\b', code_text))
-    
-    unique_operators = set(tok for tok in tokens if tok in operators)
+
+    unique_operators = set(tok for tok in tokens if tok in OPERATORS)
     unique_operands = operands
     
     # Halstead calculations
     n1 = len(unique_operators)
     n2 = len(unique_operands)
-    N1 = sum(1 for tok in tokens if tok in operators)
+    N1 = sum(1 for tok in tokens if tok in OPERATORS)
     N2 = sum(1 for tok in tokens if tok in operands)
     
     vocabulary = n1 + n2

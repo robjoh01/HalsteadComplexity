@@ -49,11 +49,11 @@ cd halstead_complexity
 To install the dependencies, run this script:
 
 ```powershell
-.\install.ps1
+.\scripts\install.ps1
 ```
 
 ```bash
-./install.sh
+./scripts/install.sh
 ```
 
 ### 3. Test the project
@@ -61,14 +61,24 @@ To install the dependencies, run this script:
 When you are working with the project, remember to run the tests:
 
 ```powershell
-.\test.ps1
+.\scripts\test.ps1
 ```
 
 ```bash
-./test.sh
+./scripts/test.sh
 ```
 
-### 3. Building the Executable:
+### 3. Run the project:
+
+```powershell
+.\scripts\run.ps1
+```
+
+```bash
+./scripts/run.sh
+```
+
+### 4. Building the Executable:
 
 > [!NOTE]
 > Building the `.exe`, only works on Windows machines!
@@ -76,7 +86,7 @@ When you are working with the project, remember to run the tests:
 You can run the build script to build the `.exe` file from the source code:
 
 ```powershell
-.\build.ps1
+.\scripts\build.ps1
 ```
 
 This script will create a virtual environment, install the required dependencies, and build the `.exe` file.
