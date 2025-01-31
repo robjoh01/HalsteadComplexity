@@ -1,0 +1,2 @@
+examples/cpp/output/player_bad.txt
+examples/cpp/output/player_good.txt

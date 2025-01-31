@@ -4,7 +4,7 @@
 source .venv/bin/activate
 
 # 2. Run the main script
-python src/main.py
+python src/main.py "$@"
 
 # 3. Deactivate virtual environment
 deactivate
