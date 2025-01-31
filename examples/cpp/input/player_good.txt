@@ -1,0 +1,54 @@
+class Player
+{
+private:
+    const int MAX_HEALTH = 100
+    int _health = 0
+
+public:
+    inline int GetHealth() => _health
+    inline bool IsDead() => _health <= 0
+
+public:
+    /*
+     * Remove health from the player.
+     * @param amount - The amount to take away from the health.
+     */
+    void TakeDamage(int amount)
+    {
+        if (IsDead())
+            return
+
+        _health =- amount
+
+        if (_health > 0)
+            return
+
+        Died()
+    }
+
+    /*
+     * Adds health to the player.
+     * @param amount - The amount to add back to health.
+     */
+    void Heal(int amount)
+    {
+        if (_health >= MAX_HEALTH)
+            return
+
+        _health = _health + amount
+
+        if (_health < MAX_HEALTH)
+            return
+
+        _health = MAX_HEALTH
+    }
+
+private:
+    /*
+     * Callback for when dieing
+     */
+    void Died()
+    {
+        // You have died.
+    }
+}

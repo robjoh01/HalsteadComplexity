@@ -1,0 +1,103 @@
+"""
+Analyzer module for analyzing code for complexity.
+"""
+
+import os
+from rich.console import Console
+from rich.table import Table
+from rich import box
+from utils import calc_score_and_grade
+from halstead import (
+    calc_loc_metrics,
+    calc_halstead_metrics,
+    calc_keyword_frequency,
+    calc_average_line_length,
+)
+
+console = Console()
+
+class Result:
+    """
+    An object to hold the analysis results.
+    """
+    def __init__(self, loc_metrics, halstead_metrics, keyword_frequency, avg_line_length):
+        self.loc_metrics = loc_metrics
+        self.halstead_metrics = halstead_metrics
+        self.keyword_frequency = keyword_frequency
+        self.avg_line_length = avg_line_length
+        self.score, self.grade = calc_score_and_grade(loc_metrics, halstead_metrics, keyword_frequency, avg_line_length)
+    
+    def write_to_file(self, output_file):
+        """
+        Write the analysis results to a file.
+
+        Args:
+            output_file (str): The path to the output file.
+
+        Returns:
+            None
+        """
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        with open(output_file, 'w') as file:
+            file.write("Code Analysis Report\n")
+            for section, data in {
+                "LOC Metrics": self.loc_metrics,
+                "Halstead Metrics": self.halstead_metrics,
+                "Keyword Frequency": self.keyword_frequency,
+            }.items():
+                file.write(f"\n{section}:\n")
+                for key, value in data.items():
+                    file.write(f"{key}: {value:.2f}\n" if isinstance(value, float) else f"{key}: {value}\n")
+            file.write(f"\nAverage Line Length: {self.avg_line_length:.2f} characters\n")
+            file.write(f"\nFinal Score: {self.score}/100\nGrade: {self.grade}\n")
+    
+    def print_to_console(self):
+        """
+        Print the analysis results to the console.
+
+        Returns:
+            None
+        """
+
+        console.print("\n[bold underline]Code Analysis Report[/bold underline]\n", style="green")
+        
+        def create_table(title, data):
+            table = Table(title=title, box=box.SIMPLE)
+            table.add_column("Metric", justify="left", style="cyan", no_wrap=True)
+            table.add_column("Value", justify="right", style="magenta")
+            for key, value in data.items():
+                table.add_row(key, f"{value:.2f}" if isinstance(value, float) else str(value))
+            console.print(table)
+        
+        create_table("LOC Metrics", self.loc_metrics)
+        create_table("Halstead Metrics", self.halstead_metrics)
+        create_table("Keyword Frequency", self.keyword_frequency)
+        console.print(f"[bold]Average Line Length:[/bold] [magenta]{self.avg_line_length:.2f} characters[/magenta]\n")
+        console.print(f"[bold cyan underline]Final Score:[/bold cyan underline] [bright_cyan bold]{self.score}/100[/bright_cyan bold]")
+        console.print(f"[bold magenta underline]Grade:[/bold magenta underline] [bright_magenta bold]{self.grade}[/bright_magenta bold]")
+
+def analyze_code(file_path, output_file=None):
+    """
+    Analyze the code in the given file and print or save the results.
+
+    Args:
+        file_path (str): The path to the file to analyze.
+        output_file (str): The path to the output file (optional).
+
+    Returns:
+        None
+    """
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+    
+    result = Result(
+        calc_loc_metrics(lines),
+        calc_halstead_metrics(lines),
+        calc_keyword_frequency(lines),
+        calc_average_line_length(lines)
+    )
+    
+    if output_file:
+        result.write_to_file(output_file)
+    else:
+        result.print_to_console()
