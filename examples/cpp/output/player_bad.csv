@@ -1,0 +1,24 @@
+Section,Metric,Value
+LOC Metrics,Total Lines,47
+LOC Metrics,Blank Lines,7
+LOC Metrics,Comment Lines,0
+LOC Metrics,Code Lines,40
+
+Halstead Metrics,Unique Operators,11
+Halstead Metrics,Unique Operands,25
+Halstead Metrics,Total Operators,69
+Halstead Metrics,Total Operands,62
+Halstead Metrics,Vocabulary,36
+Halstead Metrics,Length,131
+Halstead Metrics,Volume,677.26
+Halstead Metrics,Difficulty,13.64
+Halstead Metrics,Effort,9237.83
+
+Keyword Frequency,class,1
+Keyword Frequency,return,4
+Keyword Frequency,if,4
+Keyword Frequency,else,1
+
+Average Line Length,18.625
+Final Score,50
+Grade,C-
