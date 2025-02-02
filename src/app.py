@@ -11,9 +11,9 @@ def get_arguments():
     Args:
         -i, --input: Path to a single input file containing code to analyze.
         -o, --output: Path to a single output file (leave blank to display on console).
-        --batch: Enables batch mode for multiple input/output files.
-        --input-list: Path to a text file containing a list of input file paths.
-        --output-list: Path to a text file containing a list of output file paths.
+        -b, --batch: Enables batch mode for multiple input/output files.
+        -il, --input-list: Path to a text file containing a list of input file paths.
+        -ol, --output-list: Path to a text file containing a list of output file paths.
 
     Returns:
         args: The parsed command line arguments.

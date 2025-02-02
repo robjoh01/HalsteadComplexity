@@ -44,8 +44,11 @@ def handle_single_file_mode(input_path, output_path):
     if output_path:
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
+    # Check if output file is a CSV
+    csv = output_path and output_path.endswith(".csv")
+
     # Call analyze_code with the specified files
-    analyze_code(input_path, output_path)
+    analyze_code(input_path, output_path, csv)
 
 def handle_batch_mode(input_list_path, output_list_path):
     """
@@ -93,7 +96,11 @@ def handle_batch_mode(input_list_path, output_list_path):
         if output_path:
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-        analyze_code(input_path, output_path)
+        # Check if output file is a CSV
+        csv = output_path and output_path.endswith(".csv")
+
+        # Call analyze_code with the specified files
+        analyze_code(input_path, output_path, csv)
 
 if __name__ == "__main__":
     args = get_arguments()
