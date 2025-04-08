@@ -10,6 +10,7 @@ from prompt_toolkit.completion import PathCompleter
 
 from app import get_arguments
 from analyzer import analyze_code
+from analyzer import combine_results_to_csv
 
 console = Console()
 
@@ -50,13 +51,14 @@ def handle_single_file_mode(input_path, output_path):
     # Call analyze_code with the specified files
     analyze_code(input_path, output_path, csv)
 
-def handle_batch_mode(input_list_path, output_list_path):
+def handle_batch_mode(input_list_path, output_list_path=None, combined_output_path=None):
     """
     Handle batch mode for multiple input/output files.
 
     Args:
         input_list_path (str): The path to the input list file.
         output_list_path (str): The path to the output list file.
+        combined_output_path (str): Path to save combined results to a single file.
 
     Returns:
         None
@@ -70,37 +72,60 @@ def handle_batch_mode(input_list_path, output_list_path):
     with open(input_list_path, "r") as file:
         input_files = [line.strip() for line in file.readlines() if line.strip()]
 
-    # If an output list file is provided, read output file paths
-    output_files = []
-    if output_list_path:
-        if not os.path.exists(output_list_path):
-            console.print(f"[red]Error: The output list file '{output_list_path}' does not exist.[/red]")
-            exit(1)
+    if combined_output_path:
+        # Combined output mode
+        all_results = []
 
-        with open(output_list_path, "r") as file:
-            output_files = [line.strip() for line in file.readlines() if line.strip()]
+        # Process each input file and collect the results
+        for input_path in input_files:
+            if not os.path.exists(input_path):
+                console.print(f"[yellow]Warning: Skipping '{input_path}' (file not found).[/yellow]")
+                continue
 
-        # Ensure input and output lists are the same length
-        if len(input_files) != len(output_files):
-            console.print("[red]Error: The number of input and output files must match.[/red]")
-            exit(1)
+            # Get the filename for identification in the combined output
+            filename = os.path.basename(input_path)
+
+            # Analyze the file and get the result
+            result = analyze_code(input_path, None, False)
+            all_results.append((filename, result))
+
+            # Print status
+            console.print(f"Analyzed [cyan]{input_path}[/cyan]")
+
+        # Save all results to a single CSV file
+        combine_results_to_csv(all_results, combined_output_path)
+        console.print(f"[green]Combined results saved to {combined_output_path}[/green]")
+
     else:
-        output_files = [None] * len(input_files)  # Output to console if no output list is provided
+        # Individual output files mode
+        # If an output list file is provided, read output file paths
+        output_files = []
+        if output_list_path:
+            if not os.path.exists(output_list_path):
+                console.print(f"[red]Error: The output list file '{output_list_path}' does not exist.[/red]")
+                exit(1)
+            with open(output_list_path, "r") as file:
+                output_files = [line.strip() for line in file.readlines() if line.strip()]
+            # Ensure input and output lists are the same length
+            if len(input_files) != len(output_files):
+                console.print("[red]Error: The number of input and output files must match.[/red]")
+                exit(1)
+        else:
+            output_files = [None] * len(input_files)  # Output to console if no output list is provided
 
-    # Process each input file
-    for input_path, output_path in zip(input_files, output_files):
-        if not os.path.exists(input_path):
-            console.print(f"[yellow]Warning: Skipping '{input_path}' (file not found).[/yellow]")
-            continue
+        # Process each input file
+        for input_path, output_path in zip(input_files, output_files):
+            if not os.path.exists(input_path):
+                console.print(f"[yellow]Warning: Skipping '{input_path}' (file not found).[/yellow]")
+                continue
+            if output_path:
+                os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-        if output_path:
-            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+            # Check if output file is a CSV
+            csv_output = output_path and output_path.endswith(".csv")
 
-        # Check if output file is a CSV
-        csv = output_path and output_path.endswith(".csv")
-
-        # Call analyze_code with the specified files
-        analyze_code(input_path, output_path, csv)
+            # Call analyze_code with the specified files
+            analyze_code(input_path, output_path, csv_output)
 
 if __name__ == "__main__":
     args = get_arguments()
@@ -109,6 +134,11 @@ if __name__ == "__main__":
         if not args.input_list:
             console.print("[red]Error: --batch mode requires --input-list.[/red]")
             exit(1)
-        handle_batch_mode(args.input_list, args.output_list)
+
+        # Check if a single output file is specified with -o
+        if args.output and not args.output_list:
+            handle_batch_mode(args.input_list, combined_output_path=args.output)
+        else:
+            handle_batch_mode(args.input_list, args.output_list)
     else:
         handle_single_file_mode(args.input, args.output)
