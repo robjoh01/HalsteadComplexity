@@ -1,0 +1,574 @@
+Issue Number,Title,State,Created At,Updated At,Assignee,Labels
+5129,incorrect bar chart label shown in documentation,open,2025-04-05T10:51:56Z,2025-04-08T13:06:28Z,LiamConnors,"bug, P1, documentation"
+5124,plotly.io.to_json method does not convert large numbers correctly,open,2025-04-03T14:22:24Z,2025-04-08T13:04:53Z,marthacryan,"bug, P1, regression"
+5120,`vline` and `hline` visibility not updated by custom buttons,open,2025-03-30T23:13:57Z,2025-03-31T14:57:36Z,LiamConnors,"bug, P2, documentation"
+5119,Unable to access customdata using clickData [plotly>=6.0.0],open,2025-03-30T20:00:37Z,2025-03-31T14:56:05Z,,"bug, P1, regression"
+5118,Plotly FigureWidget Display Problem in Sphinx,open,2025-03-28T11:59:39Z,2025-03-31T14:55:29Z,marthacryan,"bug, P3"
+5116,API reference docs for `layout.Legend` out of sync with `layout` docs,closed,2025-03-27T21:01:50Z,2025-04-07T21:34:26Z,LiamConnors,"bug, P1, documentation"
+5115,Legend group title are shifted to the right when written in LaTeX,open,2025-03-27T17:06:59Z,2025-03-31T14:53:27Z,,"bug, P3"
+5113,plotly/package_data/widgetbundle.js has not been included in the release,open,2025-03-26T09:58:26Z,2025-04-01T13:12:50Z,emilykl,"bug, P1, infrastructure, regression"
+5107,View jumps when zooming line graph,open,2025-03-22T10:44:49Z,2025-03-24T18:46:35Z,,"bug, P2"
+5106,"When calling update_layout() on a figure, xaxis_range does not update correctly when margin_b is specified",open,2025-03-21T20:59:38Z,2025-03-24T15:02:38Z,,"bug, P1, regression"
+5105,Incorrect fill in graph objects when connectgaps is set to false,open,2025-03-21T12:30:47Z,2025-03-31T13:29:07Z,,"bug, P2"
+5101,Plotly Express not displaying datetime,open,2025-03-19T22:49:42Z,2025-04-04T09:40:42Z,,"bug, P1, regression"
+5100,Grouped Stacked Bar Chart - offsetgroup not being respected,open,2025-03-19T02:03:10Z,2025-03-19T18:55:33Z,,"bug, P2"
+5099,"y-axis values are displayed in ascending order in scatter plots, version 6.0.1",open,2025-03-18T14:48:25Z,2025-03-18T18:04:03Z,,"bug, P1, cs"
+5097,Plotly 6.0.1 not showing the first plot in vscode,open,2025-03-18T04:02:18Z,2025-03-24T15:06:52Z,marthacryan,"bug, P1"
+5095,API reference doc build failing,closed,2025-03-17T18:49:48Z,2025-03-21T17:02:28Z,gvwilson,"bug, P1, documentation"
+5075,"Hover template for chart with ""base""",open,2025-03-10T08:08:48Z,2025-03-11T14:02:10Z,,"bug, P2"
+5069,Plotly 6.0 requires jupyterlab,closed,2025-03-07T08:33:52Z,2025-03-21T19:44:22Z,marthacryan,"bug, P1, regression"
+5068,Plotly graphs not showing in html renders,closed,2025-03-07T05:53:01Z,2025-03-18T13:17:17Z,,"bug, P1, regression"
+5067,Crash when plotting with labels and WebGL,open,2025-03-06T13:04:20Z,2025-03-07T17:21:28Z,,"bug, P1"
+5066,Colorbar is not showing last tick,open,2025-03-06T11:36:48Z,2025-03-10T09:19:24Z,,"bug, P2"
+5063,"go.Scattergl with mode=""text"" does not display text in Plotly 6.0.0",open,2025-03-05T09:34:27Z,2025-03-12T18:13:29Z,,"bug, P1, regression"
+5060,"In Plotly==6.0.0, the title is not displayed when switching the button.",open,2025-03-02T10:53:02Z,2025-03-27T15:14:28Z,marthacryan,"bug, P1, regression"
+5059,`mpl_to_plotly` does not preserve axis labels (bar plots are useless),open,2025-02-28T20:54:24Z,2025-03-03T17:56:53Z,,"bug, P3"
+5056,plotly on jupyter creates HUGE notebooks file sizes,open,2025-02-26T08:30:51Z,2025-03-25T18:20:59Z,marthacryan,"bug, P1, performance"
+5055,Error with Jinja2 3.1.5 and new Plotly 6.0.0,open,2025-02-25T10:39:49Z,2025-03-05T18:20:28Z,,"bug, P3"
+5047,"px.scatter_3d, use case where color param affects size output",open,2025-02-20T14:10:21Z,2025-02-21T01:53:36Z,,"bug, P2"
+5046,"Error Received value: 'rgba(255, 153, 51, np.float64(1.0))' when using cufflinks to make figures after upgrading python to 3.13.2 and plotly to 6.0.0",open,2025-02-20T02:56:09Z,2025-02-20T22:57:38Z,,"bug, P2, regression"
+5045,Plotly 6.0.0 with Flask app no longer displays plot data with base 64 encoding,closed,2025-02-19T03:36:38Z,2025-02-21T00:26:20Z,marthacryan,"bug, P1, regression"
+5041,Release builds in CI not installing dependencies and not recognising [express] extra,closed,2025-02-17T21:16:33Z,2025-02-18T22:16:47Z,marthacryan,"bug, P1, infrastructure"
+5039,TypeError: When using orjson and serializing pandas.NA,closed,2025-02-16T14:53:53Z,2025-02-18T20:49:47Z,marthacryan,"bug, P1"
+5038,Bug Report: strange behavior with `Scattergl` and slider,open,2025-02-14T15:52:05Z,2025-02-14T16:15:49Z,,"bug, P2, cs"
+5034,to_html produces js which doesn't pass eslint-config-standard,open,2025-02-13T14:07:35Z,2025-02-13T14:11:21Z,,"bug, P3"
+5032,axis label change via updatemenus not working anymore in 6.0.0,open,2025-02-13T10:35:16Z,2025-02-13T14:10:45Z,,"bug, P1"
+5028,erratic result from colorscale validator test,open,2025-02-11T15:05:54Z,2025-02-11T15:06:02Z,gvwilson,"bug, P2, testing"
+5027,`FigureWidget` fails with `anywidget` in v6.0.0,open,2025-02-11T10:19:23Z,2025-03-20T21:30:05Z,marthacryan,"bug, P1"
+5026,Plotly chart selection not working with non-scatter plot charts.,open,2025-02-11T08:47:04Z,2025-02-11T13:40:22Z,,"bug, P3"
+5014,Make PyArrow datetime timezone test pass,closed,2025-02-06T18:35:31Z,2025-02-07T01:35:12Z,gvwilson,"bug, P1, testing"
+5007,offsetgroup with horizontally stacked/relative bar traces,open,2025-02-03T11:48:59Z,2025-03-10T08:10:24Z,,"bug, P2"
+5006,Color of Contour lines in Surfaces with colormap are not correctly set,open,2025-02-02T18:16:15Z,2025-02-03T15:48:16Z,,"bug, P3"
+4998,6.0.0 vs. 5.24.1 → go.FigureWidget → same syntax broken output in JN 7.3.2,open,2025-01-29T21:44:35Z,2025-03-20T03:31:42Z,,"bug, P2"
+4997,DeprecationWarning scattermapbox unrelated trigger,closed,2025-01-29T21:12:35Z,2025-03-13T14:22:57Z,emilykl,"bug, P1"
+4996,"6.0.0 release issue for Shiny for Python apps: ""Please install anywidget to use the FigureWidget class""",open,2025-01-29T12:58:08Z,2025-02-11T10:20:52Z,marthacryan,"bug, P1, documentation"
+4974,add_vline fails with datetime64[ns],open,2025-01-21T08:30:08Z,2025-01-23T20:21:17Z,,"bug, P2"
+4965,Performance issue - add_vlines,open,2025-01-14T14:55:31Z,2025-02-09T15:30:10Z,,"bug, P2, performance"
+4961,Bug: Exceptions thrown following User Interaction with Annotations on a time axis,open,2025-01-14T00:17:41Z,2025-02-06T19:45:15Z,,"bug, P2"
+4960,figure not rendered in jupyter notebook with default renderer,open,2025-01-13T15:59:17Z,2025-01-15T13:57:34Z,,"bug, P2"
+4959,Sphinx gallery scraper is not parallel-safe,open,2025-01-09T18:32:14Z,2025-01-09T21:03:07Z,gvwilson,"bug, P2"
+4957,`plotly.colors.validate_colors` fails for valid colors and passes for invalid colors,open,2025-01-08T19:23:25Z,2025-01-13T12:27:27Z,,"bug, P2"
+4955,Can't export static image,open,2025-01-06T15:19:29Z,2025-02-13T21:17:57Z,emilykl,"bug, P2"
+4953,"Plots not shown in HTML export for ""vscode+notebook"" renderer",open,2024-12-26T20:10:45Z,2025-04-04T07:35:06Z,marthacryan,"bug, P1"
+4947,issue with link in label,open,2024-12-18T17:03:55Z,2024-12-19T14:31:36Z,,"bug, P3"
+4946,"`groupclick=""toggleitem""` Does Not Work Consistently Across Subplots in Plotly",open,2024-12-18T16:05:26Z,2024-12-19T14:30:22Z,,"bug, P3"
+4942,Map doesn't recenter after interac with the graph on mobile,open,2024-12-13T17:54:44Z,2024-12-16T18:49:29Z,,"bug, P3"
+4941,go.Bar zorder parameter ignored on Chart Studio,open,2024-12-12T11:10:19Z,2024-12-12T13:50:46Z,,"bug, P3"
+4940,Update_yaxes mirror not working,open,2024-12-11T09:01:52Z,2024-12-12T13:50:13Z,,"bug, P3"
+4933,Erratic behavior when working with multiple FigureWidget instances (after adoption of anywidget?),closed,2024-12-07T20:46:24Z,2025-02-21T15:50:15Z,marthacryan,"bug, P1"
+4925,Invalid value of type 'builtins.dict'  error when copying figure in 6.0.0rc0,closed,2024-12-03T19:22:03Z,2024-12-09T19:07:41Z,marthacryan,"bug, P1"
+4923,"`fig.add_vline` on date axis fails with date, timestamp and string as `x` value",open,2024-12-03T13:32:03Z,2024-12-19T10:46:45Z,,"bug, P3"
+4919,Exception raised with empty dataframe in v6.0.0rc0,closed,2024-11-29T23:46:17Z,2024-12-03T20:47:15Z,emilykl,"bug, P1"
+4917,plotly.express.scattermatrix displays no color if supplied a pandas.DataFrame with a DataTime index,closed,2024-11-28T16:17:25Z,2024-12-05T21:57:13Z,emilykl,"bug, P1"
+4913,Plotly express process_dataframe_timeline expects datetime as strings,closed,2024-11-28T13:29:14Z,2024-12-05T22:02:12Z,emilykl,"bug, P1"
+4912,layout image is not rendered when two scatter traces have different zorders,open,2024-11-28T00:12:36Z,2025-02-05T21:47:15Z,,"bug, P3"
+4904,`fig.update_traces(xaxis=..)` will destroy `hline` or `vline` objects on subplots,open,2024-11-26T20:17:49Z,2024-12-03T14:22:32Z,,"bug, P3"
+4899,Plolty graph not showing up in JupyterLab 4.3.1 on MacBook,open,2024-11-22T08:37:42Z,2025-03-07T05:45:00Z,,"bug, P3"
+4896,cannot hide all shape entries in a group by its legend,open,2024-11-21T15:45:01Z,2024-11-30T03:28:58Z,,"bug, P3"
+4885,Exception caused when using `plotly.express.timeline` when `kaleido` is installed,open,2024-11-18T02:30:33Z,2024-11-18T16:35:51Z,,"bug, P2"
+4882,Incorrect legend style with x unify hovermode,open,2024-11-15T08:56:21Z,2024-11-15T15:03:18Z,,"bug, P3"
+4879,Add `scattermap` and `map` to plotly.py templates similar to `scattermapbox` and `mapbox`,closed,2024-11-14T16:38:21Z,2024-11-22T21:42:14Z,archmoj,"bug, P1"
+4875,Setting `category_orders` leads to missing data (master branch),closed,2024-11-13T17:59:16Z,2024-11-14T17:46:00Z,,"bug, P1"
+4872,constraining axes leads to paper coordinates being off and to extra space between plot area and annotations,open,2024-11-13T03:29:44Z,2024-11-13T15:00:38Z,,"bug, P2"
+4863,Some charts rendering differently on master branch vs Plotly.py 5.24.1,closed,2024-11-12T15:24:46Z,2024-11-18T17:22:52Z,emilykl,"bug, P1"
+4858,Textangle breaks when the figure size changes.,open,2024-11-10T13:57:16Z,2024-11-11T15:16:43Z,,"bug, P2"
+4854,FigureWidget.show() returns a Figure instead of a FigureWidget,closed,2024-11-07T20:31:49Z,2024-11-13T15:45:27Z,,"bug, P2"
+4853,Chart studio tests don't run in the CI,closed,2024-11-07T16:44:27Z,2025-01-30T17:34:43Z,,"bug, P2, testing"
+4846,`plotly.express.imshow` blurry when exported to pdf,open,2024-11-02T15:21:26Z,2024-11-05T21:07:13Z,,"bug, P2"
+4845,Certain renderers not working on master branch,open,2024-11-01T21:02:55Z,2024-11-05T21:06:58Z,marthacryan,"bug, P2"
+4841,non-pandas (e.g. Polars) plot raises if an argument contains a mix of column names and Series,closed,2024-10-29T10:37:29Z,2024-11-13T17:06:49Z,emilykl,"bug, P1"
+4838,"fig.update_layout(xaxis_type=""category"") breaks make_subplots(shared_xaxes=True)",open,2024-10-28T11:43:50Z,2024-10-28T19:20:56Z,,"bug, P2"
+4837,plotly with pandas>=3.0 fails to raise name conflict error,closed,2024-10-28T09:47:23Z,2024-11-13T17:07:18Z,emilykl,"bug, P2"
+4828,Plotly figures are cropped in sphinx-gallery examples,open,2024-10-24T14:31:53Z,2025-02-07T15:01:26Z,,"bug, P2"
+4827,Automatically set correct renderer for Plotly charts in VSCode Notebooks,open,2024-10-24T13:53:42Z,2024-11-28T16:46:11Z,,"bug, P2"
+4810,fix or disable failing percy tests,open,2024-10-21T15:47:57Z,2024-10-22T13:55:44Z,gvwilson,"bug, P2, testing"
+4808,"Colorscales in templates are not valid list of lists, which breaks `plotly.colors.sample_colorscale`",open,2024-10-17T20:16:20Z,2024-10-18T14:40:23Z,,"bug, P3"
+4806,plotly doesn't render html for data with long descriptions,open,2024-10-17T12:54:12Z,2024-10-22T19:27:29Z,,"bug, P3"
+4802,empty splom in case of two dimensions,open,2024-10-15T14:35:28Z,2024-10-15T16:01:12Z,,"bug, P3"
+4801,Hover data not showing correctly for px.scatter inside go.FigureWidget,open,2024-10-15T12:33:21Z,2024-10-15T15:22:03Z,,"bug, P3"
+4798,Erratic zooming behavior with `scrollZoom` when changing margins or adding axis labels,open,2024-10-12T21:46:04Z,2024-10-15T15:21:01Z,,"bug, P3"
+4796,"slider changes don't trigger axes (x, y, colorbar) adjustments",open,2024-10-11T17:12:13Z,2024-11-28T16:07:07Z,,"bug, sev-3, P2, cs"
+4794,facet_row_spacing modified in a callback for px.imshow changes the figure dict but not the plot,closed,2024-10-11T16:06:57Z,2024-11-26T19:12:27Z,marthacryan,"bug, sev-3, P2"
+4792,Remove `heatmapgl` and `pointcloud` traces in Plotly.py,closed,2024-10-10T14:02:35Z,2024-10-22T15:08:08Z,archmoj,"bug, P1"
+4788,Using a `DataFrame` with a scrambled index and `color` in `px.scatter_matrix()` yields mismatched/null colors,closed,2024-10-08T17:50:33Z,2024-12-05T21:57:13Z,,"bug, P3"
+4787,SI prefixes don't display Peta (P) correctly,open,2024-10-08T16:01:23Z,2024-10-24T11:53:34Z,,"bug, P3"
+4775,Scattermap Class doesn't render,closed,2024-10-01T18:43:18Z,2024-10-24T13:54:10Z,marthacryan,"bug, P2"
+4773,Typo in documentation,closed,2024-10-01T01:23:45Z,2024-10-01T19:59:55Z,LiamConnors,"bug, P2, documentation"
+4768,Slider in `scatter_3d` and `scatter` makes some data points go missing,open,2024-09-16T22:47:43Z,2024-10-02T17:12:19Z,,"bug, P3"
+4761,treemap AttributeError: 'DataFrame' object has no attribute 'append',open,2024-09-11T14:58:06Z,2024-12-01T13:42:36Z,,"bug, P2"
+4760,Some marker symbols cant be drawn.,open,2024-09-11T09:35:00Z,2024-09-12T11:52:58Z,,"bug, P3"
+4759,Mesh3d ignores lighting with orthographic projection ,open,2024-09-11T07:25:03Z,2024-09-11T19:11:14Z,,"bug, P3"
+4754,bug in Infinite Scroll - column wrapText has no effect,open,2024-09-09T06:55:22Z,2024-09-09T17:40:44Z,,"bug, P3"
+4752,"No version of module jupyterlab-plotly is registered (Win 11 64 bit, VS Code)",open,2024-09-08T06:17:54Z,2024-09-09T17:42:01Z,archmoj,"bug, P2"
+4751,empty fig using new px.choropleth_map (even with code example),closed,2024-09-06T23:36:42Z,2024-09-10T17:39:08Z,,"bug, P2"
+4746,Property `zorder` cannot be updated on Scattergl traces.,closed,2024-08-30T17:26:59Z,2024-10-03T14:44:17Z,archmoj,"bug, P3"
+4745,Building wheel package fails with JS dependency error,closed,2024-08-30T17:14:00Z,2024-11-25T13:52:25Z,LiamConnors,"bug, P1"
+4742,add_vline fails in batch mode,open,2024-08-30T14:22:00Z,2024-10-02T17:16:37Z,,"bug, P3"
+4741,Certain fonts contain weights and widths excluded by the Validator,open,2024-08-30T11:01:24Z,2024-09-03T18:56:23Z,,"bug, P3"
+4729,Parallel Coordinates Plot is not working.,closed,2024-08-27T12:30:14Z,2024-08-30T09:39:34Z,,"bug, P2"
+4723,Possible bug in Plotly (python) when dragging and dropping shapes in scatter plots,open,2024-08-23T13:01:12Z,2024-08-26T15:17:29Z,,"bug, P3"
+4722,Plotly scraper not working with sphinx-gallery,open,2024-08-21T14:29:46Z,2024-08-27T14:40:46Z,,"bug, P3"
+4720,"When only one value is set for `xaxis.range`, the other value becomes invalid.",open,2024-08-19T03:55:27Z,2025-01-09T08:06:13Z,,"bug, P3"
+4716,Passing color as tuple not working as expected,open,2024-08-14T04:30:26Z,2024-08-16T13:29:46Z,,"bug, P3"
+4715,Subtitle does not render following example from docs,closed,2024-08-13T20:51:37Z,2024-10-24T13:55:04Z,emilykl,"bug, P2"
+4713,Bar plot hover shows incorrect bar length when base is used,open,2024-08-08T12:01:20Z,2024-08-20T15:03:27Z,,"bug, P3"
+4712,Multi values graph do not share same ZERO,open,2024-08-08T10:36:50Z,2025-03-13T00:00:14Z,,"bug, P3"
+4710, Indicator domain doesn't work in make_subplots(),open,2024-08-07T17:36:35Z,2024-08-13T13:28:11Z,,"bug, P3"
+4705,fig.add_vrect() items do not hide when clicking on grouped legend if showlegend=False,open,2024-08-04T19:42:19Z,2025-02-11T12:08:23Z,,"bug, P3"
+4687,Scatter3d.on_click doesn't receive InputDeviceState object,open,2024-07-23T07:08:18Z,2024-08-13T13:26:02Z,,"bug, P3"
+4686,"textposition=""auto"" doesn't show texts for 0 values",open,2024-07-23T04:31:36Z,2024-08-13T13:25:58Z,,"bug, P3"
+4678,different behavior for `.show()` and `.write_image()` with `ticksuffix`/`tickprefix`,open,2024-07-18T14:30:13Z,2024-08-13T13:25:16Z,,"bug, P2"
+4674,missing tick in chart with rangebreaks,open,2024-07-17T15:06:00Z,2024-10-03T12:54:52Z,,"bug, P2, cs"
+4670,Legend not fully displayed in SVG,open,2024-07-17T12:04:36Z,2024-08-13T13:24:24Z,,"bug, P3"
+4669,marginal-distribution subplots include overall-trendline,open,2024-07-17T07:32:29Z,2024-08-13T13:24:20Z,,"bug, P3"
+4665,Empty toggle attribution button,open,2024-07-15T11:39:56Z,2024-08-13T13:23:53Z,archmoj,"bug, sev-3, P3"
+4664,Transparent markers misbehaving in plotly.express.scatter,open,2024-07-15T08:17:16Z,2024-08-13T13:23:26Z,,"bug, P3"
+4662,Link to license broken,open,2024-07-12T15:03:19Z,2024-11-20T17:43:37Z,gvwilson,"bug, P2"
+4660,"Choropleth maps only render the first feature with a matching featureidkey, not all matching features",open,2024-07-11T00:06:34Z,2024-08-13T13:22:25Z,,"bug, P3"
+4655,px.line erratic and wrong for large x value ranges,open,2024-07-05T15:54:53Z,2024-08-13T13:21:51Z,,"bug, P3"
+4652,Scattermapbox figure doesn't render correct bounds in my dash app,open,2024-07-01T20:28:21Z,2024-08-13T13:21:05Z,,"bug, P3"
+4650,Jupyterlab additional view is not updated,open,2024-06-30T10:35:07Z,2024-08-13T13:20:06Z,,"bug, P3"
+4649,`plotly.graph_objects.Scatter` property `fillgradient` does not plot gradients with v5.22.0 in python,open,2024-06-28T17:22:26Z,2024-09-13T22:56:54Z,,"bug, P3"
+4646,Sunburst graph open in Firefox but not Chrome (at least in Windows),open,2024-06-24T09:26:56Z,2024-08-13T13:18:08Z,,"bug, P3"
+4645,Shape Layer example not working for layer='between' and yref='y domain',open,2024-06-20T17:21:42Z,2024-08-13T13:18:03Z,,"bug, P3"
+4643,Updating `xaxis_range` changes y-axis range for `px.scatter` when marginals are displayed.,open,2024-06-19T01:57:24Z,2024-08-13T13:17:40Z,,"bug, P3"
+4637,No module named `tenacity.asyncio`,open,2024-06-17T13:17:49Z,2024-08-13T13:16:46Z,,"bug, P3"
+4632,figure_factory create_hexbin_mapbox ignored agg_func,open,2024-06-11T14:06:13Z,2024-08-12T13:40:55Z,,"bug, sev-4, P3"
+4631,"imshow does not respect plot height, width in combination with binary_string = True",closed,2024-06-08T20:57:49Z,2024-07-12T00:05:23Z,,"bug, sev-3"
+4619,Full build failing,closed,2024-05-30T20:25:58Z,2024-06-10T18:32:52Z,,bug
+4611,`px.timeline` with a Daylight Savings Time scenario - missing/extra hour,open,2024-05-14T14:32:43Z,2024-08-12T13:40:54Z,,"bug, sev-3, P3"
+4603,Hoversubplots=axis not working with make_subplots,open,2024-05-06T14:40:29Z,2025-01-17T14:02:53Z,,"bug, sev-3, P3"
+4588,Adding secondary-y latex legend name shifts x-axis coordinates,open,2024-04-25T10:05:44Z,2024-08-13T13:14:05Z,,"bug, sev-3, P3"
+4586,weird behavior of hover text for surfacecolor ,open,2024-04-23T03:59:23Z,2024-08-13T13:13:58Z,,"bug, sev-3, P3"
+4580,Opacity and color not working together in px.scatter,open,2024-04-18T23:02:44Z,2024-08-12T13:40:52Z,,"bug, sev-3, P3"
+4578,Plotly legends cutoff in Quarto Dashboards,open,2024-04-18T19:44:08Z,2024-08-13T13:13:29Z,,"bug, P3"
+4568,`Legendrank` does not work in plotly (pyscript) when `fill` argument is used,open,2024-04-10T09:14:12Z,2024-08-12T13:40:51Z,,"bug, sev-3, P3"
+4565,tickmode='sync' option is not working as expected,open,2024-04-02T16:25:17Z,2024-08-13T13:13:10Z,,"bug, P3"
+4564,The color of Scattergl points are missing when using animation,open,2024-04-01T12:14:32Z,2024-08-12T13:41:20Z,,"bug, sev-3, P3"
+4563,px.strip jitter doesn't work as expected due to underlying go.Box config,open,2024-03-31T17:32:07Z,2024-08-12T13:41:20Z,archmoj,"bug, sev-3, P3"
+4556,Scattergl points disappear when reaching a certain threshold in size difference,open,2024-03-22T09:41:31Z,2024-08-12T13:41:20Z,,"bug, sev-2, P3"
+4553,Inconsistent row and col parameters used to add vline to faceted subplots,open,2024-03-20T08:38:10Z,2024-09-17T17:45:00Z,,"bug, sev-2, P3"
+4548,Static image excludes layout_images if source is not absolute path,open,2024-03-14T13:07:56Z,2024-08-13T13:11:39Z,,"bug, P3"
+4507,go.Scatter3d doesn't display a given tensor,open,2024-02-06T16:07:02Z,2024-08-13T13:08:34Z,,"bug, sev-2, P3"
+4505,FutureWarning in _core.py,closed,2024-02-02T22:31:18Z,2024-11-26T14:25:39Z,,"bug, P3"
+4502,"Button with method ""update"" does not work as intended",open,2024-02-02T08:46:29Z,2024-08-12T13:41:16Z,,"bug, sev-2, P3"
+4501,imshow() animation_frame behaves incorrectly with binary_string = True ,open,2024-02-02T04:46:42Z,2024-08-13T13:08:01Z,,"bug, P3"
+4494,Unify hovertemplate title cannot be edited.,open,2024-01-24T09:18:58Z,2024-08-12T13:41:15Z,,"bug, sev-3, P3"
+4493,loop to direct links (and reverse) transformation after node drag-and-drop in Sankey diagram,open,2024-01-23T05:37:30Z,2024-08-13T13:06:39Z,,"bug, sev-2, P3"
+4465,go.Histogram2dContour does not normalize when using shared coloraxis and coloring='fill',open,2023-12-17T16:49:59Z,2024-08-12T13:41:14Z,,"bug, sev-2, P3"
+4463,Mapbox Standard Map Style Not Showing,open,2023-12-17T03:14:38Z,2024-08-13T13:05:13Z,,"bug, P3"
+4462,Error on shape editing with `dcc.Graph`: Invalid property specified for object of type plotly.graph_objs.layout.shape.label: 'texttemplate',open,2023-12-15T18:34:32Z,2024-08-12T13:41:13Z,,"bug, sev-2, P3"
+4460,The ayref annotation should support the `paper` value,closed,2023-12-15T14:42:36Z,2024-01-11T21:16:16Z,,"bug, sev-2, P3"
+4455,y axis labels does not appear in scatter plot when using plotly.express with 2 inputs,closed,2023-12-08T18:51:24Z,2024-01-18T21:25:16Z,,"bug, sev-2"
+4454,`to_image` documentation incorrect,open,2023-12-08T04:10:18Z,2024-08-12T21:10:37Z,LiamConnors,"bug, P3, documentation"
+4452,"Axis labels are not shown for all subplots when using plotly express, facets and string labels",open,2023-12-06T20:07:23Z,2024-08-12T21:10:28Z,,"bug, P3"
+4443,Inconsistent error message and documentation on px.histogram parameter nbins,open,2023-11-28T13:37:37Z,2024-08-12T21:10:06Z,LiamConnors,"bug, P3"
+4438,Order of marginal wrong when using facet_col and setting traces to invisible by default,open,2023-11-22T14:36:44Z,2024-08-12T21:09:49Z,,"bug, P3"
+4433,Plotly Express Key Error With Filtered Categorical Variables in Dataframe,closed,2023-11-17T21:09:38Z,2023-11-22T19:51:17Z,,"bug, sev-3"
+4432,add_hline and add_vline show random diagonal line when passed np.nan,open,2023-11-17T11:31:39Z,2024-08-12T21:09:43Z,,"bug, sev-4, P3"
+4431,FigureWidget + go.Image.source breaks notebook kernel in VSCode,open,2023-11-17T11:08:14Z,2024-08-12T21:09:37Z,,"bug, P3"
+4426,Normalized Histogram with Marginal producing the wrong plot,open,2023-11-16T10:33:58Z,2024-08-12T13:41:41Z,,"bug, sev-4, P3"
+4423,On_selection event in faceted plot only works correctly in first facet,open,2023-11-14T19:40:14Z,2024-08-12T21:09:11Z,,"bug, P3"
+4421,`config = {responsive: False}` does not work as expected in jupyter lab,open,2023-11-13T18:05:22Z,2024-08-12T21:09:06Z,marthacryan,"bug, P2"
+4418,Sunburst plot not rendering without any error or warning message,open,2023-11-10T17:59:44Z,2024-08-12T21:08:33Z,,"bug, P3"
+4416,Bar plot has bad additive color algebra when opacity<1,open,2023-11-08T14:46:14Z,2024-08-12T21:08:29Z,,"bug, P3"
+4415,Empty Facets on partially filled MultiIndex DataFrame with datetime.date in bar plot,open,2023-11-06T13:59:49Z,2024-08-12T13:41:39Z,,"bug, sev-2, P3"
+4401,Warn about `write_image` hanging with latest Kaleido ,closed,2023-10-26T13:57:14Z,2024-10-25T14:10:39Z,,"bug, sev-3"
+4387,"`px.scatter(df, ..., render_mode=""webgl"")` fails when color column contains all `NaN`",open,2023-10-18T22:40:15Z,2024-08-12T21:08:03Z,,"bug, P3"
+4382,`plotly.graph_objects.scatter3d.Marker` color incorrect HSV/HSL interpretation,open,2023-10-13T07:43:39Z,2024-08-12T21:07:58Z,,"bug, P3"
+4380,setting up a development environment is difficult,open,2023-10-11T12:41:21Z,2024-08-12T21:07:53Z,,"bug, P2, infrastructure"
+4377,color_continuous_scale incompatible with marginal distributions in density_heatmap,open,2023-10-06T13:24:19Z,2024-08-12T13:41:37Z,,"bug, sev-2, P3"
+4376,Error in line plot when including text attribute related to floating point representation.,open,2023-10-06T11:34:11Z,2024-08-12T21:07:26Z,,"bug, P3"
+4375,subplot layouts break with go.Scatter and go.Scattergl,open,2023-10-05T21:12:08Z,2024-08-12T21:07:21Z,,"bug, P3"
+4374,FigureWidget doesn't allow draggable polygon,open,2023-10-05T19:38:29Z,2024-08-12T21:07:17Z,,"bug, P3"
+4368,percentTotal not shown as percentage,open,2023-09-22T17:16:20Z,2024-08-12T21:07:04Z,,"bug, P3"
+4367,Multiple legends are not independent in their placement and placement is not consistent,open,2023-09-21T15:42:02Z,2024-08-12T21:07:00Z,,"bug, P3"
+4353,Error bars in px.scatter should inherit color and opacity from markers by default,open,2023-09-12T19:11:24Z,2024-08-12T21:06:19Z,,"bug, P3"
+4351,Syncing Axes Ticks does not work in 5.16.1,open,2023-09-11T02:40:49Z,2024-08-12T21:06:08Z,,"bug, P3, regression"
+4348,`px.Scatter`'s `text` breaks when plotting many data points,open,2023-09-04T22:08:49Z,2024-08-12T21:05:56Z,,"bug, P3"
+4344,plotly.express.bar does not work with pandas uint32 dtype when passing in a list of values for y,open,2023-08-29T19:10:55Z,2024-08-12T21:05:51Z,,"bug, P3"
+4341,remove `Loading [MathJax]/extensions/MathMenu.js` message,open,2023-08-27T18:45:36Z,2024-08-12T21:05:47Z,,"bug, P3"
+4340,Cannot display latex correctly in make_subplots,open,2023-08-27T17:52:14Z,2024-08-12T21:02:36Z,marthacryan,"bug, P3"
+4336,Latex not working in jupyter notebook v7.,closed,2023-08-22T10:35:54Z,2025-03-20T18:21:40Z,marthacryan,"bug, sev-2, P1"
+4318,FigureWidget missing update for annotations/static lines,open,2023-08-11T18:47:47Z,2024-08-12T21:02:06Z,,"bug, P3"
+4315,ScatterGL alignment fails above height=8190,open,2023-08-08T05:02:40Z,2024-08-12T21:01:54Z,,"bug, P3"
+4310,Bar ordering is inconsistent,open,2023-08-04T16:19:41Z,2024-08-12T21:01:11Z,,"bug, P3"
+4309,Title moves off-page when adding new line with `<br>`,open,2023-08-04T03:07:07Z,2024-08-12T21:01:07Z,,"bug, P3"
+4302,Plotting data only on secondary_y axes ignores subplot grid,open,2023-07-28T13:01:26Z,2024-08-12T20:58:23Z,,"bug, P3"
+4299,`zmax` argument not effective in `px.imshow` when `img` contains `np.nan`,open,2023-07-27T16:15:46Z,2024-08-12T20:58:17Z,,"bug, P3"
+4297,"Unexpected behavior of rangebreaks with px.timeline and pattern ""hour""",open,2023-07-27T15:14:04Z,2024-08-12T20:58:12Z,,"bug, P3"
+4291,uint32 dataframe don't display in `px.bar`,open,2023-07-21T15:40:07Z,2024-08-12T20:57:51Z,,"bug, P3"
+4284,Imshow behaviour incorrect with log scale on yaxis,open,2023-07-19T09:37:48Z,2024-08-12T20:57:45Z,,"bug, P3"
+4283," Since upgrading plotly.py to 5.15.0 subplots with 2 columns, the yaxis2 title_text is showing on the left next to yaxis",open,2023-07-19T00:01:31Z,2024-08-12T20:57:31Z,,"bug, P3, regression"
+4280,`to_json` does not handle color as `np.nan` properly,open,2023-07-13T13:40:40Z,2024-08-12T20:57:06Z,,"bug, P3"
+4268,Image show fails in Firefox with high resolution image ,open,2023-07-03T23:35:56Z,2024-08-12T20:56:41Z,,"bug, P3"
+4267,color_continuous_scale causes a bug when the last item is not 1.0,open,2023-07-01T22:13:03Z,2024-08-12T20:56:36Z,,"bug, P3"
+4262,"`fitbounds=""locations""` parameter not working for `px.choropleth_mapbox`",open,2023-06-26T08:53:34Z,2024-08-12T20:56:29Z,,"bug, P3"
+4243,"marker symbol ""y-[up, down, left, right]"" doesnt work.",closed,2023-06-12T16:49:28Z,2024-07-11T23:31:30Z,,"bug, sev-2"
+4242,Bug in parallel_coordinates(),open,2023-06-11T16:17:55Z,2024-08-12T20:56:06Z,,"bug, P3"
+4240,Font size units missing in docs,open,2023-06-09T10:48:39Z,2025-03-18T13:46:34Z,LiamConnors,"bug, P3, documentation"
+4235,FigureWidget update issues after single bin histogram. ,open,2023-06-08T01:10:49Z,2024-08-12T20:55:39Z,,"bug, P3"
+4234,Uirevision doesn’t seem to work properly with images in dcc.Graph,open,2023-06-07T15:06:34Z,2024-08-12T20:55:33Z,,"bug, P3"
+4223,Figure margin edit makes scrollZoom glitch / lag,open,2023-05-31T16:53:09Z,2024-12-19T21:54:13Z,,"bug, P3, performance"
+4220,Scattermode=group does not autoscale yaxis,open,2023-05-25T17:02:30Z,2024-08-12T20:54:38Z,,"bug, P3"
+4219,ValueError: Plotly Express cannot process wide-form data with columns of different type.,open,2023-05-24T05:18:22Z,2024-08-12T20:54:29Z,,"bug, P3"
+4215,heatmaps hide data if any X- or Y-axis label is repeated (px.imshow and go.Heatmap),open,2023-05-18T01:57:08Z,2024-08-12T20:54:22Z,,"bug, P3"
+4213,go.Scatter ignores the masked array elements in numpy masked arrays,open,2023-05-15T20:04:24Z,2024-08-12T20:54:14Z,,"bug, P3"
+4205,Full python docstring not included in web API docs,open,2023-05-12T13:24:24Z,2024-08-12T20:54:00Z,LiamConnors,"bug, P3, documentation"
+4194,Strange animation behavior with improperly specified color,open,2023-05-08T17:49:24Z,2024-08-12T20:53:53Z,,"bug, P3"
+4192,Visual bug for nodes with fixed position in Sankey plot,open,2023-05-06T10:31:57Z,2024-08-12T20:53:49Z,,"bug, P3"
+4175,Parcats not support displaying the category name,open,2023-04-25T09:11:52Z,2024-08-12T20:53:10Z,,"bug, P3"
+4172,Sunburst figures not aggregating custom_data for parents with >1 leaf,open,2023-04-22T07:18:28Z,2024-08-12T20:53:06Z,,"bug, P3"
+4171,Improper conversion of Pandas-Arrow date to datetime fails,open,2023-04-20T21:05:11Z,2024-11-26T12:11:48Z,,"bug, P3"
+4163,Plotly object not displayed by ipywidgets Button,open,2023-04-18T06:47:55Z,2024-08-12T20:52:42Z,,"bug, P3"
+4160,ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all(),open,2023-04-14T20:34:39Z,2024-08-12T20:52:37Z,,"bug, P3"
+4155,plotly.graph_objects.sankey.node.Line does not work with an array of color,open,2023-04-11T13:11:36Z,2024-08-12T20:52:30Z,,"bug, P3"
+4154,plotly express scatterplots not displaying correctly in jupyter,open,2023-04-07T07:01:10Z,2024-08-12T20:52:20Z,,"bug, P3"
+4144,Certain padding values cause plots to overtake all other subplots,open,2023-04-03T17:35:36Z,2024-08-12T20:51:34Z,,"bug, P3"
+4140,Line width = 0 in templates effectively disables hline and vline,open,2023-03-31T09:52:01Z,2024-08-12T20:51:30Z,,"bug, P3"
+4130,lightposition for surface plots doesn't work,open,2023-03-28T22:48:59Z,2024-08-12T20:51:23Z,,"bug, P3"
+4127,Plotly and tqdm in the same notebook cell causes blank plot  ,open,2023-03-28T12:49:36Z,2024-09-28T18:34:00Z,,"bug, P3"
+4125,example in docs about adding a wms layer not working,open,2023-03-27T18:26:15Z,2024-08-12T20:51:10Z,LiamConnors,"bug, P3, documentation"
+4117,Plotly Express constructor: lists passed to `x` and `y` params are mutated,open,2023-03-21T06:01:51Z,2024-08-12T20:50:43Z,,"bug, P3"
+4105,Missing clipping in n_colors,closed,2023-03-15T10:04:26Z,2023-06-04T20:26:17Z,,bug
+4099,go.Table creates an unsightly and non-removable scroll bar when plotting on another figure.,open,2023-03-13T19:47:17Z,2024-08-12T20:50:04Z,,"bug, P3"
+4080,add `packaging` to setup.py file?,closed,2023-02-24T21:27:45Z,2023-03-17T05:16:20Z,,bug
+4069,"[Typing] `px.timeline.color_continuous_scale` accepts also `list[tuple[float,str]]`, not only `list[str]`",open,2023-02-13T16:43:36Z,2024-08-12T20:22:43Z,T4rk1n,"bug, P3"
+4068,px.scatter_mapbox animation issue: color shows the 1st frame and won't update ,closed,2023-02-13T07:14:59Z,2023-02-16T00:53:35Z,,bug
+4040,Misleading error message when an invalid y column name is provided to px.line,open,2023-01-26T16:42:50Z,2024-08-12T13:42:42Z,,"bug, P3"
+4004,"languages RTL direction issue fig.write_image ""jpeg""",open,2022-12-30T10:40:09Z,2024-08-12T13:42:40Z,,"bug, P3"
+4003,Timeline slider causes width flickering/glitching,open,2022-12-28T12:35:26Z,2024-08-30T08:41:53Z,,"bug, P3, performance"
+3985,go.images moved around dcc.graph in combination with plotly.make_subplots(),open,2022-12-15T20:11:00Z,2024-08-12T20:27:30Z,,"bug, P3"
+3984,plot empty dataframe fails if facet_col/row is specified,closed,2022-12-15T14:58:44Z,2023-06-04T01:47:23Z,,bug
+3976,Box/Lasso selection giving wrong indices in point_inds for px.scatter,open,2022-12-06T11:03:48Z,2024-08-12T20:27:38Z,,"bug, P3"
+3968,vline annotation gives TypeError,open,2022-11-28T10:53:15Z,2024-08-12T13:43:10Z,,"bug, P3"
+3959,Artifacts on line scatter plot when the first item is None,closed,2022-11-18T10:48:33Z,2023-02-17T20:00:42Z,,bug
+3957,Incorrect handling of `np.datetime64[ns]` date values,open,2022-11-16T13:46:54Z,2024-08-12T13:43:09Z,,"bug, P3"
+3952,`figure_factory.create_distplot` does not allow displaying of axes lines,open,2022-11-15T10:11:10Z,2024-08-12T13:43:08Z,,"bug, P3"
+3951,uirevision property doesn't keep the viewpoint consistent,open,2022-11-12T08:53:52Z,2024-08-12T13:43:08Z,,"bug, sev-3, P3"
+3936,Explicit figure height replaced with autosize=True in callback,open,2022-10-25T23:48:45Z,2024-08-12T20:28:25Z,,"bug, P3"
+3933,graph_objs.volume and .isosurface not rendering non-cuboid,open,2022-10-23T10:53:34Z,2024-08-12T20:28:32Z,,"bug, P3"
+3929,Customdata in texttemplate could not be found in heatmap,open,2022-10-19T21:00:48Z,2024-08-12T20:28:46Z,,"bug, P3"
+3910,`on_selection` callback seems to not get fired,open,2022-10-02T16:10:39Z,2024-08-12T20:29:02Z,,"bug, P3"
+3907,Installation requirements are not sufficiently detailed: jupyterlab-widgets version is critical,open,2022-09-29T20:38:18Z,2024-08-12T20:29:55Z,marthacryan,"bug, P3, documentation"
+3900,OSError: Address 'http://127.0.0.1:8050' already in use,open,2022-09-25T09:59:05Z,2024-08-12T20:30:14Z,,"bug, P3, regression"
+3889,Polar barplots do not have reset zoom available,open,2022-09-14T08:02:44Z,2024-11-12T09:45:48Z,,"bug, P3"
+3884,Can't render in jupyter lab with history_manager disabled,closed,2022-09-07T20:20:19Z,2024-07-11T14:01:24Z,,bug
+3883,legend and yaxis titles don't match in color,open,2022-09-07T15:19:31Z,2024-08-12T13:43:03Z,LiamConnors,"bug, P3"
+3874,fig.add_vline fails on figure with a separate subplot containing Scatter3d,open,2022-08-31T10:01:47Z,2024-08-12T13:43:02Z,,"bug, P3"
+3870,"Violin plot `quartilemethod` arg in docs, but not library",closed,2022-08-28T11:30:29Z,2023-03-23T17:24:14Z,,bug
+3865,Plot fails with `NoneType object not callable` for plotly backend in pandas ,open,2022-08-23T08:20:43Z,2024-08-12T20:33:10Z,,"bug, P3"
+3864,Histogram hover template doesn't recognise trace name,open,2022-08-22T10:06:02Z,2024-08-12T20:33:15Z,,"bug, P3"
+3860,"Problems with ""Reds"", ""Turbo"", ""Inferno"" (...?) colorscales",open,2022-08-20T14:34:59Z,2024-08-12T20:33:21Z,,"bug, P3"
+3845,Plotly Weekly & Monthly Range selector buttons not working on time series data,open,2022-08-11T14:07:41Z,2024-08-12T20:33:57Z,,"bug, P3"
+3843,ValueError: Invalid property specified for object of type plotly.graph_objs.layout.Shape: 'symbol',closed,2022-08-10T13:20:36Z,2024-07-11T14:06:16Z,,bug
+3834,Error in ff.create_hexbin_mapbox,open,2022-08-05T05:31:32Z,2024-08-12T20:34:07Z,,"bug, P3"
+3826,Pie chart category_orders not working with boolean values,open,2022-07-27T12:25:41Z,2024-08-12T20:34:31Z,,"bug, P3"
+3806,.full_figure_for_development() doesn't show all computed data for go.Carpet,open,2022-07-11T17:17:24Z,2024-08-12T20:34:36Z,,"bug, P3"
+3802,Sorted categories (Pandas `Categorical` series) aren't sorted in chart,open,2022-07-01T04:32:47Z,2024-08-12T20:35:03Z,,"bug, P3"
+3801,legend_tracegroupgap  doesn't work when legend_traceorder is used,open,2022-07-01T03:44:41Z,2024-08-12T13:43:27Z,,"bug, sev-4, P3"
+3799,px.density_contour() ignores color labels for negative histfunc results,open,2022-06-29T11:31:04Z,2024-08-12T20:35:12Z,,"bug, P3"
+3798,wrong location of xticks in plotly express,open,2022-06-28T13:46:15Z,2024-12-01T10:04:48Z,,"bug, P3"
+3797,"Strange ""/"" sign in the center of the plot.",open,2022-06-28T11:26:34Z,2024-08-12T20:19:09Z,,"bug, P3"
+3780,"Tick texts on the histogram are shifted to the left if ""xbins"" and ""tickvals"" were customized",open,2022-06-15T17:35:39Z,2024-08-12T20:17:27Z,archmoj,"bug, P3"
+3778,Bug in changing Title persian(arabic) fonts in plotly.GO,open,2022-06-15T10:26:04Z,2024-08-12T20:16:58Z,,"bug, P3"
+3770,"Box Plot line color changes the fill color as well, unless fill color is specified",open,2022-06-10T11:07:05Z,2024-08-12T20:15:56Z,,"bug, P3"
+3768,Legend with latex displays wrong in jupyter lab,open,2022-06-09T09:55:02Z,2024-08-12T20:15:48Z,marthacryan,"bug, P3"
+3759,color_discrete_map in px.pie() should require color argument,open,2022-06-05T08:14:09Z,2024-08-12T20:15:43Z,,"bug, P3"
+3753,Animation deletes traces,open,2022-06-02T11:32:47Z,2024-08-12T20:15:26Z,,"bug, P3"
+3719,[PLOTLY==5.7.0 BUG] CRIMEA IS NOT RUSSIA,closed,2022-05-09T16:22:22Z,2025-01-14T20:24:47Z,gvwilson,"bug, P2"
+3710,"Custom values for `griddash`, e.g. '10px' don't work (plotly.js 2.12.0)",closed,2022-05-05T18:44:38Z,2022-05-10T00:32:06Z,,bug
+3709,px.area() ignores color_discrete_sequence or color_discrete_map when mode='none',open,2022-05-04T14:31:59Z,2024-08-12T20:13:37Z,LiamConnors,"bug, P3, documentation"
+3677,Multiple traces in a FigureWidget break callbacks,open,2022-04-12T14:38:43Z,2024-08-13T20:40:51Z,,"bug, P3"
+3675,Missing functionality in `px.timeline` against `create_gantt()` figure factory,open,2022-04-11T14:09:23Z,2024-08-12T20:12:50Z,,"bug, P3, regression"
+3674,rendering problems with mesh3d and logarithmic zaxis ,open,2022-04-09T13:48:37Z,2024-08-12T20:12:32Z,,"bug, P3"
+3661,Latex plot titles are not rendered in VS Code,open,2022-04-01T14:44:52Z,2024-08-12T20:12:07Z,marthacryan,"bug, P3"
+3643,Long dataframes break HTML parsing,open,2022-03-24T20:38:01Z,2024-08-12T20:11:25Z,,"bug, P3"
+3631,scattermapbox plot doesn't update with change in pandas dataframe in a callback,closed,2022-03-15T04:42:55Z,2023-10-04T13:22:29Z,,bug
+3619,Violin scalemode has no effect ,open,2022-03-08T08:21:14Z,2024-08-12T20:10:28Z,,"bug, P3"
+3613,"Problem with yaxis.autorange, when set to False",open,2022-03-03T15:44:52Z,2024-08-12T20:10:13Z,,"bug, P3"
+3606,"""x unified"" Does not show all data info at same X",open,2022-02-25T09:25:21Z,2024-08-12T20:10:09Z,,"bug, P3"
+3604,"px.density_mapbox does not show the data point if z value is ""1""",closed,2022-02-24T18:05:50Z,2024-07-03T17:00:55Z,,bug
+3601,First of multiple plots blank in Jupyter when using iframe renderer.,open,2022-02-21T01:48:16Z,2024-08-12T20:10:04Z,,"bug, P3"
+3599,plotly.io.write_html return,closed,2022-02-18T07:43:00Z,2025-03-03T22:02:15Z,LiamConnors,"bug, P3"
+3587,Improper Sankey rendering for certain minimal topologies with loops,open,2022-02-07T21:18:57Z,2024-08-12T16:01:11Z,,"bug, P3"
+3586,Empty plot on setting axis type to 'log',open,2022-02-07T17:49:03Z,2024-08-12T16:01:16Z,,"bug, P3"
+3582,Long length word in table cell not visible,open,2022-02-03T21:08:55Z,2024-08-12T16:01:54Z,,"bug, P3"
+3580,title_font broken within template layouts,open,2022-02-03T13:48:39Z,2024-08-12T16:01:58Z,,"bug, P3"
+3578,Update Method Example Broken,open,2022-02-01T22:29:36Z,2024-08-12T16:02:12Z,,"bug, P3"
+3577,scatter_matrix is incorrect when using color and non-sorted index,closed,2022-01-31T17:50:51Z,2024-12-05T21:57:13Z,,"bug, P3"
+3576,parallel_coordinates is incorrect when using `color` and non-sorted index,closed,2022-01-30T19:48:01Z,2024-12-05T21:57:14Z,,"bug, P3"
+3575,updatemenu button moves on 2nd click,open,2022-01-29T09:03:48Z,2024-08-12T16:02:30Z,,"bug, P3"
+3573,Plot does not download as png/svg,open,2022-01-28T20:25:28Z,2024-08-12T16:02:49Z,,"bug, P3"
+3572,add_vline not rendering properly with secondary y-axis,open,2022-01-28T13:15:03Z,2024-08-12T16:02:54Z,,"bug, P3"
+3568,Weird Sankey cycles when nodes are positionned and not ordered by increasing x values,open,2022-01-25T20:21:08Z,2024-08-12T16:02:59Z,,"bug, P3"
+3567,"With newer versions of orjson, users need to specify the json engine explicitly (bug?)",closed,2022-01-25T12:39:26Z,2024-12-02T17:11:41Z,emilykl,"bug, sev-1"
+3566,Fixed line is drawn wrongly after zoom and pan,open,2022-01-24T14:37:50Z,2024-08-12T16:03:08Z,,"bug, P3"
+3558,Box plot with custom quartiles being inconsistent with upperfence parameter,open,2022-01-19T08:08:09Z,2024-08-12T16:03:13Z,,"bug, P3"
+3551,incorrect string representation of Infinity,open,2022-01-15T15:05:46Z,2024-08-12T16:03:29Z,,"bug, P3"
+3549,Traces in facet plot drawn outside of figure area.,open,2022-01-14T17:45:55Z,2024-08-12T16:03:34Z,,"bug, P3"
+3548,"""Double click to isolate one trace"" does not always do so",open,2022-01-14T16:31:18Z,2024-08-12T16:03:39Z,,"bug, P3"
+3547,"add_vline/hline annotation text location fixed to first shape if using a pre-instantiated dict for the ""annotation"" input parameter",open,2022-01-14T13:31:00Z,2024-08-12T16:03:46Z,,"bug, P3"
+3543,Error of `make html` to build API reference,open,2022-01-08T21:50:00Z,2024-11-20T17:49:20Z,gvwilson,"bug, P3, infrastructure, documentation"
+3542,range is only working on the x Axis,open,2022-01-07T17:15:20Z,2024-08-12T16:04:16Z,,"bug, P3"
+3539,Using a slider creates jitter on an animated scattermapbox,open,2022-01-06T17:28:36Z,2024-08-12T16:04:24Z,,"bug, P3, performance"
+3538,incorrect behavior of on_selection callback attached to multiple subplots on Linux,open,2022-01-06T00:10:52Z,2024-08-12T16:04:47Z,,"bug, P3"
+3537,Some points not included in range of axes of 3D Axes in Python,open,2022-01-04T07:38:04Z,2024-08-12T16:05:06Z,,"bug, P3"
+3516,Hover tooltip works incorrectly in scatter WebGL,open,2021-12-15T15:33:20Z,2024-08-12T16:05:51Z,,"bug, P3"
+3507,px.ecdf // x_log leads to shifted marginal histogram,open,2021-12-08T21:36:43Z,2024-08-12T16:07:23Z,,"bug, P3"
+3501,Bar yaxis range does not work with datetime,open,2021-12-06T09:44:42Z,2024-08-12T16:07:31Z,,"bug, P3"
+3493,problem with vrect in log plot,open,2021-12-01T14:19:50Z,2024-08-12T16:08:13Z,nicholas-esterer,"bug, P3"
+3490,useless line in the _Quiver class definition,open,2021-11-25T17:48:09Z,2024-08-12T16:08:25Z,,"bug, P3"
+3481,Problem with radialaxis ticks in polar plot when using date values,open,2021-11-21T14:37:54Z,2024-08-12T16:08:30Z,,"bug, P3"
+3473,px.timeline Incorrectly interprets x_end datetimes,open,2021-11-16T19:24:16Z,2024-08-12T16:08:58Z,,"bug, P3"
+3470,plotly.graph_objects.FigureWidget does not support NaN or Inf due to JSON limitations,open,2021-11-15T09:54:31Z,2024-08-12T16:09:02Z,,"bug, P3"
+3469,"Write Image as PDF with Box includes text ""Loading [MathJax]/extensions/MathMenu.js""",open,2021-11-15T08:36:09Z,2025-02-25T07:01:35Z,,"bug, P2"
+3463,add_layout_image doesn't work with secondary_y,open,2021-11-12T04:04:53Z,2024-08-12T16:09:29Z,,"bug, P3"
+3462, adding bar traces with add_trace gives different x-axis spacing than adding strip or box traces in Plotly Express,open,2021-11-11T14:59:22Z,2024-08-12T16:10:52Z,,"bug, P3"
+3459,Surface Plot not potting values properly when there is only one piece of data in a row or column of the data,open,2021-11-10T15:26:28Z,2024-08-12T16:10:57Z,,"bug, P3"
+3456,Line break for text is not working in Scattergl(),open,2021-11-09T07:10:58Z,2024-08-12T16:11:02Z,,"bug, P3"
+3455,Violin plot with 'name' attribute set as Datetime gets flattened out,open,2021-11-09T06:44:14Z,2024-08-12T16:11:13Z,,"bug, P3"
+3453,KeyError in express.scatter plot with facet_col when the data contains nan,open,2021-11-05T16:42:55Z,2024-08-12T16:11:17Z,,"bug, P3"
+3444,Offline plot does not work properly if the path to the working folder contains Cyrillic,open,2021-10-28T19:19:35Z,2024-08-12T16:11:21Z,,"bug, P3"
+3441,ValueError(“Invalid value”) in basedatatypes.py,open,2021-10-24T22:33:23Z,2024-08-12T16:11:25Z,,"bug, P3"
+3424,mixed graph and table subplots break when hline or vline are added,open,2021-10-09T13:43:53Z,2024-08-12T16:11:42Z,,"bug, P3"
+3406,stats model missing in plotly express requirements.txt file,open,2021-10-01T14:00:35Z,2024-08-12T16:12:32Z,,"bug, P3, infrastructure"
+3394,Plotly Express cannot process wide-form data with columns of different type,open,2021-09-22T15:30:11Z,2024-08-12T16:12:42Z,,"bug, P3"
+3380,Handle serializing dicts with ints and strings,closed,2021-09-13T15:04:27Z,2021-09-16T14:11:14Z,,bug
+3352,Automargins cause imshow figure to jump around and change pixel size and labels spacing,open,2021-08-20T15:46:56Z,2024-08-12T16:14:36Z,,"bug, P3"
+3348,Scattermapbox fill plotting jagged lines,open,2021-08-13T16:39:28Z,2024-08-12T16:14:57Z,,"bug, P3"
+3339,mapbox static image export fails with tile server requiring client certificates,open,2021-08-06T14:03:19Z,2024-09-03T04:09:59Z,,"bug, P3"
+3323,create_trisurf raises an IndexError exception when one triangle's average height is very close to max height,open,2021-07-30T19:23:21Z,2024-08-12T16:15:43Z,,"bug, P3"
+3308,wrong customdata shape in go.Surface,open,2021-07-20T13:08:49Z,2024-08-12T16:15:57Z,,"bug, P3"
+3300,Incompatible behavior for filling area with `Scattergl` compared to `Scatter`,open,2021-07-13T18:23:16Z,2024-08-12T16:16:06Z,,"bug, P3"
+3297,log_y=True produces empty plot,open,2021-07-12T10:15:12Z,2024-08-12T16:16:10Z,,"bug, P3"
+3296,px.imshow requires int for facet_col while px.scatter can be str,open,2021-07-09T21:29:02Z,2024-08-12T16:16:15Z,,"bug, P3"
+3294,'plotly' package contains 123MB of autogenerated code,closed,2021-07-09T01:49:58Z,2025-03-18T14:09:13Z,gvwilson,"bug, P2, infrastructure"
+3292,minor regression: `customdata` is sometimes a tuple ,closed,2021-07-07T13:25:51Z,2021-07-15T18:11:29Z,jonmmease,bug
+3291,Plotly Express doesn't force category orders on axes,open,2021-07-07T13:13:23Z,2024-08-12T16:16:44Z,,"bug, P3"
+3276,Changing active slider value doesn't change the displayed data,open,2021-06-24T23:34:16Z,2024-08-12T16:16:54Z,,"bug, P3"
+3253,Plotly express not compatible with pandas NAType/pandas.NA/pd.NA values,closed,2021-06-18T11:27:24Z,2024-07-11T13:45:33Z,,"bug, sev-3"
+3234,Document Inaccurate for make_subplots function,open,2021-06-08T19:26:45Z,2024-08-12T16:17:31Z,LiamConnors,"bug, P3"
+3224,fail to update_xaxes rangebreaks by datetime,open,2021-06-06T09:32:11Z,2024-08-12T16:19:16Z,,"bug, P3"
+3210,secondary_y creates a small spacing on the right,open,2021-05-29T18:23:54Z,2024-08-12T16:19:33Z,,"bug, P3"
+3198,Bug when using categorical axes and colors in plotly.express,open,2021-05-19T06:35:45Z,2024-08-12T16:19:38Z,,"bug, P3"
+3194,Scattergl and px.line fill and continuous error bands don't appear,open,2021-05-13T07:23:00Z,2024-08-12T16:19:42Z,,"bug, P3"
+3176,Difference in NaNs in hover values between figure and figure widget,open,2021-04-29T16:26:55Z,2024-08-12T16:20:02Z,,"bug, P3"
+3134,holidays on week days behave incorrectly,open,2021-04-05T23:36:23Z,2024-08-12T16:20:45Z,,"bug, P3"
+3099,Empty String on axis ticks changes plot size,open,2021-03-04T12:16:52Z,2024-08-12T16:21:44Z,,"bug, P3"
+3098,"fig.show() result - Chrome displays Aw, Snap! error if Chrome is initially closed",open,2021-03-03T19:30:25Z,2024-08-12T16:21:50Z,,"bug, P3"
+3071,px.scatter() errors when size param is Pandas Extension dtype Int64,open,2021-02-12T12:24:39Z,2024-08-12T13:44:36Z,,"bug, sev-2, P3"
+3068,"Example ""Update Button"" is broken in: Python > Custom Controls > Custom Buttons",open,2021-02-08T13:39:30Z,2024-08-12T16:22:16Z,,"bug, P3"
+3065,Error on using add_vline with text annotation for data with date-time x axis,open,2021-02-05T17:08:33Z,2024-08-12T13:45:07Z,nicholas-esterer,"bug, sev-2, P3"
+3059,Sankey is not updated on callback,open,2021-02-02T08:23:28Z,2024-08-12T16:22:22Z,,"bug, P3"
+3054,unlabel_rgb does not work on a list as it says in the docs,open,2021-01-30T09:45:42Z,2024-08-16T15:29:02Z,,"bug, P3, documentation"
+3052,Jupyterlab 3: Renderer broken inside fresh env with extensions properly installed,open,2021-01-28T21:07:43Z,2024-08-12T15:03:29Z,,"bug, P3"
+3045,right click context menu hidden when panning in line3d,open,2021-01-24T21:37:23Z,2024-08-12T15:04:31Z,,"bug, P3"
+3033,category_order is not working after using facet plots,open,2021-01-19T22:05:42Z,2024-08-12T15:05:58Z,,"bug, P3"
+3013,add_vline is broken for categorical scatter plots with categories that convert to numbers,open,2021-01-08T23:38:38Z,2024-08-12T13:45:02Z,nicholas-esterer,"bug, P3"
+3003,Sankey node x and y positions ignored if node is empty,open,2021-01-04T19:19:54Z,2024-08-12T15:06:49Z,,"bug, P3"
+2998,y-values overlap when using rangebreaks ,open,2020-12-30T04:06:41Z,2024-08-12T15:06:53Z,,"bug, P3"
+2987,Bar chart with timeseries index not displaying depending on proximity of the times,open,2020-12-22T11:18:11Z,2024-08-12T15:07:23Z,,"bug, P3"
+2982,Incorrect marker style in scatter3d,open,2020-12-17T02:53:30Z,2024-08-12T15:07:48Z,,"bug, P3"
+2981,modeBarButtonsToAdd doesn’t appear to be working as intended,open,2020-12-16T00:30:25Z,2024-08-12T15:07:53Z,,"bug, P3"
+2971,Scattergl doesn't fill to zero y properly,open,2020-12-14T09:57:50Z,2024-08-12T15:08:09Z,,"bug, P3"
+2969,Funnel plot text does not position itself properly,open,2020-12-12T05:00:20Z,2024-08-12T15:08:13Z,,"bug, P3"
+2966,px.pie has no legend title,open,2020-12-10T21:32:06Z,2024-08-12T13:44:57Z,,"bug, P3"
+2965,"Scattermapbox maki symbols plot on map, but not legend",open,2020-12-09T14:25:34Z,2024-08-12T15:08:36Z,,"bug, P3"
+2942,Broken filled area plot after interaction,open,2020-11-28T20:29:03Z,2024-08-12T15:09:15Z,,"bug, P3"
+2924,Pie chart and hover_data: multiple values are all shown under same label,open,2020-11-21T21:43:08Z,2024-08-12T15:09:50Z,,"bug, P3"
+2918,Cannot show the figure in jupyterlab,open,2020-11-20T01:10:23Z,2024-08-12T15:09:55Z,,"bug, P3"
+2914,French Guiana plotted as France in choropleth map,closed,2020-11-19T05:56:44Z,2025-02-11T16:13:43Z,,"bug, P3, P2"
+2902,"go.Sankey not respecting (x,y) coordinates",open,2020-11-13T10:59:21Z,2025-01-10T02:00:17Z,,"bug, P3"
+2899,log_x not working in histogram,open,2020-11-12T23:26:53Z,2025-03-24T00:33:13Z,,"bug, P3"
+2887,Titles with LATEX strings doesn't appear in firefox,open,2020-11-10T12:49:38Z,2024-08-12T15:11:02Z,,"bug, P3"
+2881,Scattergl (WebGL) lines are not well behaved when zoomed very close,open,2020-11-06T21:27:15Z,2024-08-12T15:11:33Z,,"bug, P3"
+2877,JupyterDash line shapes incorrect plotted,open,2020-11-05T18:18:58Z,2024-08-12T15:11:46Z,,"bug, P3"
+2869,xaxis labels/ticklabels missing from the last columns in charts using facet_col_wrap,open,2020-10-30T21:49:48Z,2024-08-12T15:13:01Z,,"bug, P3"
+2856,Can not use transparency in px.imshow,open,2020-10-23T17:43:56Z,2024-08-12T15:13:44Z,,"bug, P3"
+2811,Layer disappears if zoomed out.  Reappears when zooming.,open,2020-10-07T20:04:59Z,2024-08-12T15:14:21Z,,"bug, P3"
+2810,Malaysia is shown in a wrong place on a map ,closed,2020-10-07T05:23:26Z,2025-02-11T16:13:53Z,gvwilson,"bug, P2"
+2788,Auto-scaling of the go.Bar does not respect labels,open,2020-09-23T09:35:16Z,2024-08-12T15:14:46Z,,"bug, P3"
+2760,hover_data in PX doesn't accept df.index,open,2020-09-09T17:53:45Z,2024-08-12T15:15:15Z,LiamConnors,"bug, P3"
+2759,Scattergl fill not shown when too many scattergl-traces in plot,open,2020-09-09T14:59:36Z,2024-08-12T15:15:20Z,,"bug, P3"
+2751,Events such as on_click in charts/figures with multiple traces only receive point ids for one trace ,open,2020-09-06T13:57:02Z,2024-08-12T15:15:25Z,,"bug, P3"
+2741,textfont color ignored in Sankey diagram,open,2020-09-02T00:56:29Z,2024-08-12T15:15:34Z,,"bug, P3"
+2740,Axis formatting not carrying over to hover text in shared axes,open,2020-09-01T19:28:13Z,2024-08-12T15:15:39Z,,"bug, P3"
+2738,Horizontal zooming on faceted scatter plots does not scale y axes correctly,open,2020-09-01T07:10:16Z,2024-08-12T15:16:12Z,,"bug, P3"
+2705,Shared x-axis does not work when using grid layout,open,2020-08-13T13:49:26Z,2024-08-12T15:17:04Z,,"bug, P3"
+2699,"Parcoords line opacity, rgba color not working",open,2020-08-10T11:43:16Z,2024-08-12T13:45:42Z,LiamConnors,"bug, P3"
+2697,"tickformat = ',d' results in an unexpected alignment of subplots",closed,2020-08-10T00:00:49Z,2024-06-18T15:55:33Z,,bug
+2694,ipywidgets  GridspecLayout not supported,open,2020-08-07T11:48:16Z,2024-08-12T15:17:28Z,,"bug, P3"
+2684,Incorrect height of coloured px.timeline bars,closed,2020-08-04T15:19:09Z,2024-11-21T23:16:10Z,,bug
+2618,Error when running the create_dendrogram example,closed,2020-07-06T06:22:46Z,2020-07-13T13:57:40Z,,bug
+2607,"cannot use column name ""parent"" for the dataframe passed to sunburst graph",closed,2020-06-28T12:49:47Z,2020-07-15T17:19:11Z,emmanuelle,bug
+2604,Pie Chart hover displays e+10 as e+1,open,2020-06-26T09:53:00Z,2024-08-12T15:18:10Z,,"bug, P3"
+2581,clicktoshow not working for annotations on log scale,open,2020-06-20T22:40:16Z,2024-08-12T15:18:44Z,,"bug, P3"
+2580,annotation coordinates do not respect log scaling,open,2020-06-20T21:34:39Z,2024-08-12T15:18:48Z,,"bug, P3"
+2575,plotly.express.scatter_geo shows values provided to text argument in the hoverinfo instead of printing them on the map,open,2020-06-18T00:38:12Z,2024-10-23T16:34:49Z,,"bug, P3"
+2570,Choropleth_mapbox and FigureWidget - 'mapbox._derived' Value Error,open,2020-06-15T19:15:37Z,2024-08-12T15:19:29Z,,"bug, P3"
+2569,Mouse wheel zoom doesn't work in plotly 3d output,open,2020-06-15T18:26:29Z,2024-08-23T09:12:26Z,,"bug, P3"
+2567,sunburst bug when color and values correspond to the same column,closed,2020-06-15T12:27:07Z,2020-06-26T13:07:07Z,emmanuelle,bug
+2562,some columns do not appear in hover if using labels overrides already used common names in Plotly Express,open,2020-06-12T14:43:45Z,2024-08-12T15:19:47Z,,"bug, P3"
+2511,"scene aspectmodes ""cube"" or ""manual"" do not work with Scatter3D",open,2020-05-27T20:16:09Z,2025-02-17T14:24:57Z,,"bug, P3"
+2474,Orthographic projection prevents scene camera updates,open,2020-05-15T16:20:08Z,2024-08-12T14:28:53Z,,"bug, P3"
+2445,Fix FigureWidget attribute error on wildcard import with ipywidgets not installed,closed,2020-05-07T11:46:57Z,2022-01-02T21:36:13Z,,bug
+2443,Figure factory broken in release 4.7.0,closed,2020-05-06T22:48:41Z,2022-01-03T12:56:10Z,,bug
+2433,Pandas import error,open,2020-05-04T13:39:24Z,2024-08-12T13:46:04Z,,"bug, P3"
+2395,tickvals and ticktext don't work with subcategory axes,open,2020-04-19T20:04:04Z,2024-08-12T14:27:16Z,,"bug, P3"
+2391,fig.append_trace() raises ValueError if row arg is not type int.,closed,2020-04-16T22:02:11Z,2020-06-04T15:58:59Z,,"bug, good first issue"
+2376,code not formatted correctly in the dash renderers example,closed,2020-04-12T21:31:22Z,2020-04-14T12:45:06Z,,bug
+2348,chrome/chromium renderer not detected correctly on Ubuntu (name is chromium-browser) ,closed,2020-04-02T17:13:13Z,2021-07-21T18:22:42Z,,bug
+2328,Buttons: update method not behaving as expected,closed,2020-03-28T07:27:36Z,2024-06-14T13:04:59Z,,bug
+2327,Waterfall plot doesn't always plot the right axis range,closed,2020-03-28T05:19:31Z,2020-06-01T15:20:37Z,,bug
+2324,Cannot specify figure width with Jupyterlab,open,2020-03-27T14:12:40Z,2024-08-12T13:46:02Z,,"bug, P3"
+2322,Scatter plot filltozeroy fails on multi-signed values,open,2020-03-27T07:35:19Z,2024-08-12T14:26:25Z,,"bug, P3"
+2306,incorrect representation of mixed rgb and rgba colors in mesh3d,open,2020-03-23T17:24:07Z,2024-08-12T14:26:19Z,,"bug, P3"
+2302,write_html: locale config does not work,open,2020-03-20T22:56:56Z,2024-08-12T14:25:58Z,,"bug, P3"
+2267,incorrect rientation of y-axis in heatmap,closed,2020-03-11T02:09:10Z,2024-11-20T19:31:32Z,,"bug, P3"
+2259,px animations does not show correctly colors if all colors are not in the first frame,open,2020-03-09T21:25:44Z,2024-08-12T13:45:59Z,,"bug, P3"
+2258,marginal graphs do not match the logarithmic axis,open,2020-03-09T20:27:40Z,2024-08-12T14:25:21Z,,"bug, P3"
+2231,problem with colorbar LaTeX title rendering,open,2020-02-25T22:18:16Z,2024-08-12T14:24:50Z,,"bug, P3"
+2202,FigureWidget in Google Colab,closed,2020-02-15T21:35:33Z,2024-06-25T20:01:51Z,,bug
+2194,Mesh3d generates inaccurate mesh,open,2020-02-14T10:57:01Z,2024-08-12T14:24:20Z,,"bug, P3"
+2187,Annotated heatmaps: font colour blends with the colour of the square when using zmin and zmax,closed,2020-02-12T14:01:52Z,2020-11-26T02:26:34Z,,bug
+2176,lightposition in Surface plots does not function correctly,open,2020-02-10T15:56:55Z,2024-08-12T14:24:15Z,,"bug, P3"
+2168,px.defaults too permissive,closed,2020-02-06T22:18:28Z,2020-02-12T17:17:43Z,jdamiba,bug
+2167,update_annotations: patch should not be required,closed,2020-02-06T21:57:05Z,2020-02-19T19:38:39Z,Mahdis-z,bug
+2152,node positions do not work with link value zero in Sankey ,open,2020-02-03T09:11:50Z,2024-08-12T14:24:10Z,,"bug, P3"
+2151,Contour or heatmap traces disappear in animations,open,2020-02-01T00:00:01Z,2024-08-12T14:24:05Z,,"bug, P3"
+2126,Animation glitch with missing data,open,2020-01-24T13:49:48Z,2024-08-12T14:24:01Z,,"bug, P3"
+2098,create_ternary_contour get wrong if all values are same,closed,2020-01-19T00:17:52Z,2024-06-14T13:09:19Z,,bug
+2079,Scattergl Hover:closest and Click only active with first-plotted trace,open,2020-01-15T21:35:11Z,2024-08-12T14:03:48Z,,"bug, P3"
+2059,Error in plotly express scatter with continuous_color_scale and marginal_x,open,2020-01-11T15:44:10Z,2024-08-12T14:03:41Z,,"bug, P3"
+2029,Sunburst plots override font size and don't position unreadable labels outside ,open,2020-01-04T15:04:57Z,2024-08-12T14:03:21Z,,"bug, P3"
+4714,Sankey Plot Node Positions are incorrect,open,2020-01-03T09:42:46Z,2024-08-13T15:00:50Z,,"bug, P3"
+2021,Bug in streamline?,closed,2019-12-28T12:00:53Z,2024-07-08T12:12:22Z,,"bug, sev-4"
+1973,"ValueError when setting zmin, zmax for rgb image",open,2019-12-04T19:42:10Z,2024-08-12T14:02:33Z,,"bug, P3"
+1918,string or categorical integer values considered as numeric in strip/box/violin plots,open,2019-11-22T03:42:37Z,2024-08-12T14:01:08Z,,"bug, P3"
+1862,unwanted change in spacing for marginal x and y plots,open,2019-11-03T23:42:34Z,2025-02-12T21:37:26Z,marthacryan,"bug, P3, regression"
+1836,Passing data frame column to facet_col raises exception,closed,2019-10-20T20:54:15Z,2019-10-22T04:48:21Z,,bug
+1816,Bug in updating express visualization with facet row and animation frame,open,2019-10-14T13:42:07Z,2024-08-12T13:59:49Z,,"bug, P3"
+1809,Python 2.7 incompatibility in the iframe renderer,closed,2019-10-10T15:34:09Z,2019-10-15T21:22:33Z,,bug
+1807,Presentation template should not change colors,closed,2019-10-07T16:12:35Z,2019-10-15T14:35:09Z,,bug
+1804,Some Scattermapbox Symbols Not Available,open,2019-10-06T20:53:29Z,2024-09-05T14:29:06Z,,"bug, P3"
+1792,Hover issue in subplots when adding parallel coordinates,open,2019-09-30T14:10:35Z,2024-08-12T13:58:14Z,,"bug, P3"
+1777,Isosurface and other 3D types prevent Scatterplot hover,open,2019-09-17T07:09:34Z,2024-11-28T15:41:44Z,,"bug, P3"
+1753,Polar and polar subplot (make_subplots) not displaying correctly in FigureWidget Jupyter Ipython notebook,open,2019-09-05T17:23:58Z,2024-08-12T13:56:59Z,,"bug, P3"
+1740,Figure does not display LaTeX title,open,2019-08-27T22:56:35Z,2024-08-13T13:51:22Z,,"bug, P3"
+1739,Plotly express scatter webgl render_mode does not seem to work,open,2019-08-27T01:24:41Z,2024-08-12T13:56:36Z,,"bug, P3"
+1737,Cannot Animate Plot by pandas.Timestamp,closed,2019-08-23T18:23:25Z,2024-06-13T19:46:32Z,nicholas-esterer,bug
+1728,ScatterMapbox subplots not working,closed,2019-08-19T18:13:14Z,2024-08-12T14:24:10Z,,"bug, P3"
+1706,Width adjustment with fig.show(),closed,2019-08-05T19:41:32Z,2024-06-13T19:44:50Z,,bug
+1699,Display of plot is missing: Show plot/graph/chart/.. in jupyter lab #jupyter,closed,2019-08-01T13:01:22Z,2024-11-20T19:29:53Z,,"bug, P3"
+1677,Can't draw spike line across subplots with make_subplots in 4.0.0,open,2019-07-23T14:34:04Z,2024-08-12T13:55:03Z,,"bug, P3"
+1651,hexadecimal color definition with alpha,closed,2019-07-02T03:18:52Z,2024-06-13T19:40:30Z,,bug
+1622,uploading a second unnamed figure using chart-studio 1.0.0a2 causes error,closed,2019-06-17T18:01:15Z,2019-07-08T15:35:57Z,,bug
+1616,create_animation doesn't handle mix of dict and graph_objs,closed,2019-06-15T11:56:18Z,2024-06-13T19:33:28Z,,bug
+1609,plotlyServerURL config option overridden by plotly_domain from ~/.plotly/.config,closed,2019-06-13T15:10:35Z,2019-06-15T18:39:15Z,,bug
+1572,Offline Height of Plot no respected in SageMaker,closed,2019-05-22T17:36:00Z,2019-05-29T11:39:27Z,,bug
+1565,Mesh3d plot disappears when opacity less than 1,open,2019-05-14T20:02:16Z,2024-08-12T13:54:22Z,,"bug, P3"
+1560,template height not respected with offline.iplot?,closed,2019-05-10T01:31:10Z,2019-05-27T22:42:18Z,,bug
+1558,Hover data doesn't map for create_facet_grid from figure factory,closed,2019-05-08T17:04:20Z,2024-06-13T19:32:17Z,,bug
+1556,PlotlyJSONEncoder doesn't work with simplejson installed,closed,2019-05-07T20:45:52Z,2019-05-25T14:13:52Z,,bug
+1536,Sankey diagram breaks depending on the order of the trace.,closed,2019-04-26T18:24:34Z,2024-06-13T19:31:40Z,,bug
+1527,Using sankey subplots breaks plots depending on trace order.,closed,2019-04-18T14:46:57Z,2019-05-06T13:21:26Z,,bug
+1524,autosize not working as expected in plotly.offline.plot,closed,2019-04-16T02:09:52Z,2019-04-19T09:34:17Z,,bug
+1513,Issue with zooming when projection is set to orthographic,closed,2019-04-10T22:15:11Z,2019-09-05T17:09:16Z,,bug
+1502,How to download figures from plotly.offline.iplot after setting atttribute image='svg',closed,2019-04-08T16:40:16Z,2019-04-12T23:07:35Z,,bug
+1499,Sankey Diagram Not Resolving HTML Tags in Labels,open,2019-04-07T03:48:39Z,2024-08-12T13:46:34Z,,"bug, P3"
+1493,Gantt chart legend scrolls dues to extra legend entries,closed,2019-04-04T11:28:49Z,2024-06-13T19:30:13Z,,bug
+1491,Sorting issues with multicategories,closed,2019-04-03T16:38:13Z,2024-06-14T07:47:27Z,,bug
+1488,x-axis errorbars fail on Scatter with datetime axis,closed,2019-04-02T02:00:25Z,2024-06-13T19:27:04Z,,bug
+1478,Scattergl points disappear on FigureWidget update,closed,2019-03-26T12:33:44Z,2024-06-13T19:26:18Z,,bug
+1465,Plotly templates do not include the titlefont attibute,closed,2019-03-14T19:49:43Z,2024-06-13T19:25:43Z,,bug
+1463,FigureWidget does not honor all template attributes,closed,2019-03-12T16:42:21Z,2024-06-13T19:25:37Z,,bug
+1462,Figure.update() misbehaviour in Python 2,closed,2019-03-12T14:24:30Z,2019-03-19T09:42:53Z,,bug
+1454,Templates overwrite colorscale property of traces.,closed,2019-03-06T14:59:23Z,2019-05-06T13:25:56Z,,bug
+1451,ODE integrator for FF streamline produces NaNs,open,2019-03-05T16:12:53Z,2024-08-12T13:46:33Z,,"bug, P3"
+1442,Parcoords skipping all colors from the colorscale except min and max value,closed,2019-02-28T10:32:47Z,2019-03-25T22:57:21Z,,bug
+1433,selectedpoints in FigureWidget not updated on selection,closed,2019-02-12T10:44:32Z,2019-03-08T16:27:44Z,,bug
+1429,Create country choropleth hover regression,closed,2019-02-08T11:32:27Z,2024-06-13T19:24:45Z,,bug
+1421,Merely importing plotly 3.6.0 causes error,closed,2019-02-02T19:21:02Z,2019-02-04T20:49:43Z,,bug
+1404,FigureWidget doesn't update in Jupyter Notebook,open,2019-01-23T22:14:23Z,2024-08-12T13:53:57Z,,"bug, P3"
+1403,Since Plotly 3.5.0 i get KeyError: 'titlefont',closed,2019-01-23T19:55:38Z,2019-01-26T13:28:54Z,,bug
+1402,Problem plotting historical time series,closed,2019-01-23T10:35:43Z,2019-04-12T23:03:04Z,,bug
+1398,Multiple scattercarpet's,closed,2019-01-21T11:52:40Z,2019-01-26T13:43:56Z,,bug
+1389,Violin Plots not Grouping into Multiple Violins,closed,2019-01-04T22:24:41Z,2024-06-13T17:42:53Z,,bug
+1372,Using domain to draw multiple parcoords only draws first trace,closed,2018-12-17T15:31:53Z,2024-06-13T17:43:04Z,,bug
+1300,Annotated heatmaps: font colour blends with the colour of the square.,closed,2018-12-11T18:00:47Z,2020-10-09T18:56:21Z,,bug
+1293,clear and restore problematic NODE environment variables before calling orca,closed,2018-12-03T11:02:11Z,2018-12-27T14:23:08Z,,bug
+1289,Unicode symbols in jupyter notebook plots (plotly3),closed,2018-11-29T08:20:09Z,2018-12-28T13:23:33Z,,bug
+1283,3D Network shows only one lable,closed,2018-11-21T20:21:04Z,2019-01-08T10:53:06Z,,bug
+1265,Incorrect validation error for animate args info array,closed,2018-11-06T11:42:55Z,2018-11-08T01:04:22Z,,bug
+1264,Exporting image from Plotly Offline After Interaction SVG error,closed,2018-11-06T11:01:44Z,2024-06-13T17:44:21Z,,bug
+1257,Histogram in 3.4.0,closed,2018-11-03T13:20:02Z,2018-11-07T12:46:52Z,,bug
+1255,Can only call write_image a certain number of times before process hangs,closed,2018-11-02T09:11:42Z,2018-11-07T12:46:06Z,,bug
+1244,"""None"" value of `hovertext` is shown as String",closed,2018-10-25T11:08:55Z,2018-10-30T22:50:56Z,,bug
+1235,uuid.uuid1() fails on some machines (python bug),closed,2018-10-22T17:20:56Z,2018-10-24T12:23:12Z,,bug
+1231,inconsistency in (bar) chart api - width does not accept pandas series,closed,2018-10-19T21:00:18Z,2018-10-30T10:23:27Z,,bug
+1229,tools.make_subplots titles don't respect row_width/column_width,closed,2018-10-19T10:25:46Z,2018-10-30T22:27:02Z,,bug
+1220,Incorrect Validation Error for layout.grid.subplots attribute,closed,2018-10-10T19:26:52Z,2018-10-23T14:22:34Z,,bug
+1216,"plotly.tools.make_subplots() doesn't render correctly, y axis overlaps  if rows > 70",closed,2018-10-05T11:23:06Z,2020-06-09T02:41:52Z,,bug
+1212,go.Scatter incorrect traceback message for color type error,closed,2018-10-03T15:29:23Z,2019-01-26T15:38:09Z,,bug
+1200,Multiple Y axes: only one scatterplot renders,closed,2018-09-25T22:17:01Z,2018-10-04T03:07:52Z,,bug
+1189,"on-prem accounts cannot upload with grid_ops, etc, from plotly.py",closed,2018-09-20T17:44:14Z,2024-06-13T17:39:36Z,Kully,bug
+1181,wrong leaves determination of _dendrogram.py,closed,2018-09-17T06:43:02Z,2018-09-26T19:31:20Z,,bug
+1160,Plotly 3.2.0 troubles with Pandas Series date time display,closed,2018-09-06T12:10:25Z,2018-10-14T04:26:43Z,,bug
+1158,Support legacy _raise and get_ordered use cases,closed,2018-09-05T20:09:57Z,2018-09-14T14:34:12Z,,bug
+1155,Unsigned numpy uint64 unsupported,closed,2018-09-03T13:35:53Z,2018-09-10T11:48:44Z,,bug
+1150,ScatterGeo updatemenus button not updating plot,closed,2018-09-01T23:12:37Z,2024-06-13T17:40:12Z,,bug
+1143,Links in plotly x-axis labels not working,closed,2018-08-30T21:02:01Z,2024-06-13T17:40:22Z,,bug
+1139,Error bars not scaled correctly in logarithmic 3D plots,closed,2018-08-29T17:50:14Z,2018-10-24T13:33:29Z,,bug
+1125,"annotations deprecated, but not in right place",closed,2018-08-21T14:37:08Z,2018-08-29T22:43:58Z,,bug
+1122,Annotated Heatmap with custom color scale raises ValueError,closed,2018-08-20T19:42:09Z,2018-09-02T00:03:58Z,,bug
+1108,stream.write raises error in plotly 3.1.0,closed,2018-08-13T21:01:34Z,2018-09-01T22:04:47Z,,bug
+1107,Specifying dash length list no longer works,closed,2018-08-13T20:10:55Z,2018-08-29T11:15:04Z,,bug
+1106,Ploty image.save.as can't complete display Chinese,closed,2018-08-13T06:02:23Z,2018-09-05T14:59:53Z,,bug
+1100,`tickmode` set to invalid value in mpltools,closed,2018-08-08T11:07:53Z,2018-08-09T10:43:44Z,,bug
+1093,Silent failure to display scatter3d plot in mode lines+markers when line color is given,closed,2018-08-05T04:31:29Z,2019-01-08T10:49:03Z,,bug
+1087,ColorScaleValidator should probably return a string when it's specified as a string.,closed,2018-08-01T05:36:07Z,2018-08-07T12:59:09Z,,bug
+1086,Zoom not working well on Scatter3d plots with FigureWidgets,closed,2018-08-01T04:21:51Z,2018-08-07T13:04:01Z,,bug
+1085,Color scale doesn't show up for Lines on Scatter3d plots,closed,2018-08-01T02:37:42Z,2019-01-26T16:20:28Z,,bug
+1072,Using update to initialize an empty array property fails,closed,2018-07-26T10:04:22Z,2018-08-07T13:04:25Z,,bug
+1059,ff.create_violin fails for multiple violins plot,closed,2018-07-16T09:10:43Z,2018-07-18T07:34:52Z,,bug
+1055,3D Scatter Plot `textposition` Broken (Offline),closed,2018-07-10T18:26:19Z,2018-10-31T23:50:25Z,,bug
+1051,Cone not working properly?,closed,2018-07-08T23:05:28Z,2018-08-04T10:42:17Z,,bug
+1050,Can't set numbered subplot axis using update in plotly.py 3.0.0,closed,2018-07-08T08:40:40Z,2018-08-07T13:03:24Z,,bug
+1040,ipywidgets not working in Python 2.7,closed,2018-06-26T15:09:26Z,2020-11-17T13:46:50Z,,bug
+1031,plotly.tools.make_subplots() breaks down if rows>=100,closed,2018-06-12T14:08:50Z,2020-07-16T13:51:17Z,,bug
+1002,subplot_titles posisiong value goes negative when shared axes is True and start_cell is bottom-left ,closed,2018-05-06T14:06:34Z,2024-06-13T17:42:12Z,,bug
+873,Inconsistent make_subplots print_grid output for subplot with rowspan and colspan,closed,2017-11-08T11:09:24Z,2024-06-10T18:31:18Z,,bug
+868,imgStretch param doesn't work properly for Presentations API,closed,2017-10-27T17:27:33Z,2024-06-10T18:31:12Z,Kully,bug
+867,Fix reversed color scale in annotated heatmap,closed,2017-10-26T22:10:39Z,2018-10-30T23:49:15Z,,bug
+855,Interactive tooltip order,closed,2017-10-13T07:55:38Z,2018-09-26T19:30:03Z,,bug
+816,Markdown Heading in Jupyter Notebook can break offline mode,closed,2017-08-10T06:03:59Z,2018-10-31T00:24:41Z,,bug
+789,numerical colormaps don't interpret numerical color in ff.facet_grid,closed,2017-07-03T13:04:29Z,2024-06-10T18:30:30Z,,bug
+765,Missing LICENSE file on pypi release,closed,2017-06-05T16:22:10Z,2018-09-25T23:18:11Z,,bug
+719,'secret' plots sometimes show up as 'private' on cloud,closed,2017-03-23T22:08:00Z,2017-08-09T18:09:53Z,,bug
+696,IPython import error,closed,2017-02-17T03:02:51Z,2018-09-26T20:04:05Z,jonmmease,bug
+686,Streaming Tutorial Doesn't Work,closed,2017-02-03T00:21:46Z,2017-02-03T16:49:09Z,,bug
+665,Grid() should be able to accept Pandas dataframes,closed,2017-01-17T16:36:06Z,2017-01-27T15:32:55Z,Kully,bug
+649,Intermittent image server test errors are slowing us down!,closed,2017-01-05T20:53:17Z,2018-09-22T13:36:48Z,,bug
+621,offline plotting error when using domain other than plot.ly,closed,2016-11-29T19:51:56Z,2016-12-01T17:14:04Z,Kully,bug
+612,`import plotly` fails with `KeyError: 'metaKeys'`,closed,2016-11-21T20:19:55Z,2016-11-21T21:29:57Z,,bug
+520,Can't add subplot titles/horizontal spacing to 3d subplots,closed,2016-07-14T19:15:44Z,2024-06-10T18:29:04Z,,bug
+466,Ensure plotlyjs loaded,closed,2016-05-18T20:25:22Z,2016-05-19T18:27:53Z,,bug
+414,JSON Serializing Fails on Decimal,closed,2016-03-01T06:41:31Z,2016-12-30T17:06:58Z,,bug
+413,Orientation of y-axis in Heatmap,open,2016-02-25T06:40:05Z,2024-11-20T19:31:07Z,,"bug, P3"
+376,require specific version of `six`,closed,2015-12-18T20:23:02Z,2018-09-22T10:24:57Z,,bug
+354,`image.save_as` can't translate the response object when unauthenticated,closed,2015-11-18T16:39:56Z,2018-09-22T10:16:00Z,,bug
+336,Test matplotlylib once matplotlib build works on circle,closed,2015-10-21T14:53:29Z,2018-09-22T10:03:38Z,,bug
+335,Fix IPython 4.0.0 related failure in test suite,closed,2015-10-21T14:52:31Z,2018-09-22T10:02:54Z,,bug
+331,Converted IPython2 to Jupyter notebooks not displaying properly,closed,2015-10-12T18:56:46Z,2018-09-22T10:02:42Z,,bug
+228,update graph reference,closed,2015-06-15T03:48:19Z,2015-09-28T13:42:20Z,theengineear,bug
+224,new data-file storage breaks on some machines,closed,2015-06-01T10:30:08Z,2018-09-23T12:59:13Z,,bug
+216,Quiver object has no attribute marker size,closed,2015-05-13T13:01:41Z,2015-07-13T20:18:49Z,,bug
+210,Key Error on failed `plotly.plotly.image.save_as()` call,closed,2015-04-11T21:07:00Z,2018-09-22T00:22:25Z,,bug
+189,Edit (workspace) url cannot be pasted into get_figure.,closed,2015-02-10T20:18:15Z,2024-06-10T14:38:24Z,,bug
+84,"Strings have `'__iter__'` attribute in Python 3, stronger array check needed.",closed,2014-07-19T04:20:25Z,2014-07-19T07:28:31Z,,bug
+67,world_readable gives timeout/error,closed,2014-07-09T22:15:51Z,2024-06-05T12:50:41Z,,bug
+52,matplotlylib - data referenced annotations hang over plot edge or do not show,closed,2014-07-03T17:49:17Z,2014-07-04T18:29:39Z,,bug
+50,matplotlylib - change showline==True default to track,closed,2014-07-03T17:47:37Z,2014-07-04T18:16:42Z,,bug
+49,matplotlylib - left align multi-line annotations,closed,2014-07-03T17:46:16Z,2014-07-03T20:13:44Z,,bug
+19,Broken links to plotly notebooks,closed,2014-05-15T15:42:48Z,2014-05-15T16:35:38Z,,bug
