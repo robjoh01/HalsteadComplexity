@@ -1,0 +1,37 @@
+*.egg-info
+
+*.pyc
+
+*.gz
+
+*.ipynb
+
+*.coverage
+
+*.tox
+
+debug_script.py
+
+test_output.txt
+
+plotly/api/v2/spectacle_presentations.py
+
+plotly/presentation_objs/
+
+.idea
+
+js/node_modules/
+
+# Compiled javascript
+plotlywidget/static/
+
+.pytest_cache
+
+# virtual envs
+vv
+venv
+
+# dist files
+build
+dist
+plotly.egg-info/
