@@ -103,6 +103,46 @@ class Result:
         console.print(f"[bold cyan underline]Final Score:[/bold cyan underline] [bright_cyan bold]{self.score}/100[/bright_cyan bold]")
         console.print(f"[bold magenta underline]Grade:[/bold magenta underline] [bright_magenta bold]{self.grade}[/bright_magenta bold]")
 
+def combine_results_to_csv(results, output_path):
+    """
+    Combine multiple analysis results into a single CSV file.
+
+    Args:
+        results (list): List of tuples containing (filename, Result object)
+        output_path (str): Path to the output CSV file
+    """
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    with open(output_path, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+
+        # Write header row
+        writer.writerow(["Filename", "Section", "Metric", "Value"])
+
+        # Write data for each file
+        for filename, result in results:
+            # Add LOC metrics
+            for key, value in result.loc_metrics.items():
+                writer.writerow([filename, "LOC Metrics", key, f"{value:.2f}" if isinstance(value, float) else str(value)])
+
+            # Add Halstead metrics
+            for key, value in result.halstead_metrics.items():
+                writer.writerow([filename, "Halstead Metrics", key, f"{value:.2f}" if isinstance(value, float) else str(value)])
+
+            # Add keyword frequency
+            for key, value in result.keyword_frequency.items():
+                writer.writerow([filename, "Keyword Frequency", key, f"{value:.2f}" if isinstance(value, float) else str(value)])
+
+            # Add average line length
+            writer.writerow([filename, "General", "Average Line Length", f"{result.avg_line_length:.2f}"])
+
+            # Add score and grade
+            writer.writerow([filename, "Results", "Final Score", result.score])
+            writer.writerow([filename, "Results", "Grade", result.grade])
+
+            # Add a blank row between files for better readability
+            writer.writerow([])
+
 def analyze_code(file_path, output_file=None, csv=False):
     """
     Analyze the code in the given file and print or save the results.
@@ -131,3 +171,5 @@ def analyze_code(file_path, output_file=None, csv=False):
             result.write_to_file(output_file)
     else:
         result.print_to_console()
+
+    return result

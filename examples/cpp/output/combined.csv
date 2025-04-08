@@ -1,0 +1,43 @@
+Filename,Section,Metric,Value
+player_bad.txt,LOC Metrics,Total Lines,47
+player_bad.txt,LOC Metrics,Blank Lines,7
+player_bad.txt,LOC Metrics,Comment Lines,0
+player_bad.txt,LOC Metrics,Code Lines,40
+player_bad.txt,Halstead Metrics,Unique Operators,11
+player_bad.txt,Halstead Metrics,Unique Operands,25
+player_bad.txt,Halstead Metrics,Total Operators,69
+player_bad.txt,Halstead Metrics,Total Operands,62
+player_bad.txt,Halstead Metrics,Vocabulary,36
+player_bad.txt,Halstead Metrics,Length,131
+player_bad.txt,Halstead Metrics,Volume,677.26
+player_bad.txt,Halstead Metrics,Difficulty,13.64
+player_bad.txt,Halstead Metrics,Effort,9237.83
+player_bad.txt,Keyword Frequency,class,1
+player_bad.txt,Keyword Frequency,return,4
+player_bad.txt,Keyword Frequency,if,4
+player_bad.txt,Keyword Frequency,else,1
+player_bad.txt,General,Average Line Length,18.62
+player_bad.txt,Results,Final Score,50
+player_bad.txt,Results,Grade,C-
+
+player_good.txt,LOC Metrics,Total Lines,54
+player_good.txt,LOC Metrics,Blank Lines,10
+player_good.txt,LOC Metrics,Comment Lines,0
+player_good.txt,LOC Metrics,Code Lines,44
+player_good.txt,Halstead Metrics,Unique Operators,11
+player_good.txt,Halstead Metrics,Unique Operands,41
+player_good.txt,Halstead Metrics,Total Operators,68
+player_good.txt,Halstead Metrics,Total Operands,91
+player_good.txt,Halstead Metrics,Vocabulary,52
+player_good.txt,Halstead Metrics,Length,159
+player_good.txt,Halstead Metrics,Volume,906.37
+player_good.txt,Halstead Metrics,Difficulty,12.21
+player_good.txt,Halstead Metrics,Effort,11064.34
+player_good.txt,Keyword Frequency,class,1
+player_good.txt,Keyword Frequency,if,4
+player_good.txt,Keyword Frequency,return,4
+player_good.txt,Keyword Frequency,for,1
+player_good.txt,General,Average Line Length,20.07
+player_good.txt,Results,Final Score,55
+player_good.txt,Results,Grade,C
+

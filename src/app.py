@@ -32,7 +32,7 @@ def get_arguments():
     parser.add_argument(
         "-o", "--output",
         type=str,
-        help="Path to a single output file (leave blank to display on console)."
+        help="Path to a single output file or combined output in batch mode (leave blank to display on console)."
     )
 
     # Batch mode

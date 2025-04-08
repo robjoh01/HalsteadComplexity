@@ -95,7 +95,26 @@ The `.exe` file will be generated in the `dist` folder.
 
 ## 🔥 Usage
 
-TODO
+### Single mode
+
+```powershell
+./scripts/run.ps1 -i "examples/cpp/input/player_bad.txt" -o "examples/cpp/output/player_bad.txt"
+./scripts/run.ps1 -i "examples/cpp/input/player_bad.txt" -o "examples/cpp/output/player_bad.csv"
+```
+
+### Batch mode
+
+Multiple files
+
+```powershell
+./scripts/run.ps1 -b -il "examples/cpp/inputs.txt" -ol "examples/cpp/outputs.txt"
+```
+
+Combined CSV file
+
+```powershell
+./scripts/run.ps1 -b -il "examples/cpp/inputs.txt" -o "examples/cpp/output/combined.csv"
+```
 
 ## 🆘 Support
 
