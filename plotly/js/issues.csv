@@ -1,0 +1,1001 @@
+Issue Number,Title,State,Created At,Updated At,Assignee,Labels
+7398,Right click triggers drag event on some machines & fails to fire `plotly_click`,open,2025-03-31T15:51:31Z,2025-04-09T10:36:05Z,,"bug, P2"
+7397,x axis label is inconsistent for different range of duration in line chart,open,2025-03-31T12:15:48Z,2025-03-31T14:49:20Z,,"bug, P3"
+7391,Choropleth: can't add/remove from current selection after zoom,open,2025-03-19T02:10:55Z,2025-03-19T21:17:36Z,,"bug, P3"
+7387,Plotly-strict - Calls to WebGLRenderingContext.clear() Trigger Warning,open,2025-03-06T22:20:58Z,2025-04-03T14:37:45Z,,"bug, P2"
+7386,"Legend size is calculated incorrectly with orientation 'v', yref 'container'",open,2025-03-06T00:52:55Z,2025-03-07T17:17:04Z,,"bug, P2"
+7383,Fill doesnt work when curves are of type scattergl,open,2025-02-28T14:30:58Z,2025-04-07T20:31:26Z,,"bug, P3"
+7380,Strict CSP breaks bold tags in annotation text,open,2025-02-27T15:52:34Z,2025-02-28T17:55:53Z,,"bug, P2"
+7377,yaxis.autorange === true unexpected behavior since 3.0,open,2025-02-24T10:49:37Z,2025-02-24T16:22:10Z,,"bug, regression, P2"
+7376,Logarithmic colorbar in heatmaps not working as documented,open,2025-02-24T09:01:08Z,2025-02-24T16:21:10Z,,"bug, P2, documentation"
+7375,Customdata missing in hoverdata in Ploly 6.0.0,open,2025-02-22T09:32:46Z,2025-03-15T09:24:15Z,,"bug, regression, P1"
+7372,Bug: Exporting as HTML (New Issues as of v.3.0.1),open,2025-02-19T15:03:32Z,2025-02-21T14:47:52Z,,"bug, P2"
+7363,`axis.showline` does not work with `trace.zorder`,open,2025-02-11T17:11:55Z,2025-02-13T14:11:37Z,,"bug, P2, cs"
+7361,Plotly.js 3.0.0 Webpack compatibility issue,closed,2025-02-09T08:04:22Z,2025-02-18T19:02:39Z,marthacryan,"bug, P1, infrastructure"
+7356,Shape with dashed line appears as solid line for certain plot dimensions,open,2025-02-07T13:26:50Z,2025-02-10T18:12:37Z,,"bug, P2"
+7354,Glitch when trying to display few data entries sharing only two different dates,open,2025-02-05T14:14:30Z,2025-03-31T10:51:38Z,,"bug, P2"
+7353,"""TypeError: POt.indexOf is not a function"" with mode: text and type: scattergl",open,2025-02-04T13:22:53Z,2025-02-10T20:48:23Z,emilykl,"bug, P1"
+7350,Wrong layout when adjusting gap between positive-side violin plots.,open,2025-01-30T06:09:44Z,2025-02-03T16:02:01Z,,"bug, P3"
+7347,redraw <chart type> with no changes is not a noop (svg mocks),open,2025-01-25T00:16:44Z,2025-02-03T16:00:49Z,,"bug, testing"
+7344,Plotly.extendTraces freezes/lags on some devices / JavaScript,open,2025-01-22T05:57:05Z,2025-01-24T14:10:24Z,,"bug, P3, performance"
+7337,Documentation mismatch re: polar + bargap,open,2025-01-16T20:06:13Z,2025-02-03T15:59:51Z,LiamConnors,"bug, P2, documentation"
+7332,plotly.css file should be added to the release files,open,2025-01-10T19:21:06Z,2025-01-15T14:00:22Z,alexcjohnson,"bug, P1"
+7331,Incorrect type error when assigning string to automargin property in LayoutAxis,open,2025-01-10T18:54:51Z,2025-01-15T13:59:41Z,,"bug, P2"
+7330,`Hovertemplate` will block the point due to the lack of `top` and `bottom` side,open,2025-01-09T17:59:15Z,2025-01-09T19:18:36Z,,"bug, P3"
+7322,Plotly ESM broken on jsdelivr,open,2024-12-18T15:28:01Z,2025-03-13T14:46:34Z,gvwilson,"bug, P2"
+7320,zoom broken with multiple traces with different zorder,open,2024-12-17T10:21:50Z,2024-12-19T14:32:55Z,,"bug, P3"
+7319,Not able to unselect some actions,open,2024-12-17T07:53:42Z,2025-01-01T05:39:05Z,,"bug, P3"
+7318,Boxplot hoverinfo/hovertext fails to take,open,2024-12-17T02:52:15Z,2025-01-07T14:07:23Z,,"bug, P3"
+7317,Hovertemplate should allow nil values from arrays,closed,2024-12-16T23:29:54Z,2025-02-17T21:34:36Z,,bug
+7316,Shape movement does not emit plotly_relayouting event,open,2024-12-16T12:31:41Z,2024-12-16T18:52:33Z,,"bug, P3"
+7310,Plotly Candlestick Flickering when moving slider,open,2024-12-13T15:23:01Z,2024-12-17T16:09:31Z,,"bug, P3"
+7308,`regl-codegen` fails,open,2024-12-11T23:46:38Z,2024-12-11T23:46:38Z,,bug
+7307,`npm start` Produces Error,open,2024-12-11T23:39:08Z,2024-12-11T23:39:39Z,,bug
+7306,Dependency Installation Fails on Node 22,open,2024-12-11T23:09:38Z,2025-03-31T22:12:36Z,,bug
+7305,Errorbars on scatter plots don't react to point selection,open,2024-12-11T15:25:12Z,2024-12-11T15:25:12Z,,bug
+7300,Overlaying x axis doesn't work correctly.,open,2024-12-06T13:54:52Z,2024-12-06T19:49:21Z,,"bug, P3"
+7298,Virtual WebGL Workaround Fails On 3d Plots,closed,2024-12-04T22:48:33Z,2024-12-16T17:04:06Z,archmoj,"bug, P1, cs"
+7296,`anchor: 'free'` breaks fixed range with multiple axes,open,2024-12-03T09:43:28Z,2025-03-11T08:29:21Z,,"bug, P3"
+7293,Single-point or empty trace is not updated with slider,open,2024-12-02T10:34:06Z,2024-12-03T14:20:24Z,,"bug, P3"
+7292,Text of topmost trace in a vertically stacked bar chart is cut off if y is comparatively smaller,open,2024-12-02T04:29:46Z,2024-12-03T14:20:10Z,,"bug, P3"
+7289,Default mapbox style missing,open,2024-11-26T16:16:04Z,2024-11-26T17:37:15Z,archmoj,"bug, P2"
+7286,performance issue when hovering on the blank area of a scattergl trace,open,2024-11-25T11:41:31Z,2024-11-26T17:28:58Z,,"bug, P2, performance"
+7285,Canvas2D willReadFrequently warning,open,2024-11-24T21:14:41Z,2024-11-26T17:29:19Z,,"bug, P3"
+7277,Set key function for layout images,closed,2024-11-21T00:39:40Z,2024-11-21T20:20:19Z,archmoj,"bug, P2, performance"
+7276,Node.js returns self is not defined,open,2024-11-20T23:37:12Z,2024-11-26T17:26:42Z,,"bug, P2"
+7275,npm run build generates untracked files,open,2024-11-19T22:41:52Z,2024-11-26T17:20:02Z,,"bug, P2, infrastructure"
+7271,selectedpoints doesn't work from Plotly.update for scattergl,open,2024-11-15T08:35:05Z,2024-11-19T09:22:15Z,,"bug, regression, P2"
+7270,Plot does not appear in some cases if rangebreaks overlap,open,2024-11-14T15:40:42Z,2024-11-15T15:14:58Z,,"bug, P2"
+7264,Scattergl plot rendering issues in Firefox – Missing traces on updates,open,2024-11-07T16:32:12Z,2025-01-17T16:54:25Z,,"bug, P3"
+7263,Dynamic assignment of Reversed and 'Normal' autorange not working properly,open,2024-11-07T11:49:46Z,2024-11-11T15:07:17Z,,"bug, P3"
+7261,Sankey links go out of boundaries with automatic layout at some window sizes,open,2024-11-04T13:37:20Z,2024-11-07T11:14:50Z,,"bug, P3"
+7258,Custom bundle doesn't generate CSS file anymore.,open,2024-10-31T11:38:26Z,2024-11-07T18:02:37Z,archmoj,"bug, P2"
+7242,Y-axis changes to hoverformat value when both tickformat and hoverformat are set,open,2024-10-21T07:21:38Z,2024-10-21T15:12:53Z,,"bug, P3"
+7239,Concave data in contour plots causes rendering issues,open,2024-10-18T14:04:53Z,2024-10-18T20:25:56Z,,"bug, P3, cs"
+7235,zorder property changes trace color,open,2024-10-17T15:39:11Z,2024-11-11T11:22:56Z,,"bug, P2, cs"
+7232,"Hover labels do not match x-axis value in scattermode ""group""",open,2024-10-17T14:53:47Z,2024-10-18T14:41:12Z,,"bug, P3"
+7227,Inside tick labels show under overlayed subplots with zorder ,open,2024-10-16T14:19:31Z,2024-10-17T15:41:09Z,archmoj,"bug, P2"
+7225,X-axis type lost after restyle,open,2024-10-10T15:40:12Z,2024-10-10T16:29:44Z,,"bug, P3"
+7222,"Broken dependency ""webpack"" for ""react-scripts"" v3.4.1",open,2024-10-08T21:53:45Z,2024-10-10T16:30:24Z,archmoj,"bug, P1"
+7218,Blank spaces in between treemap - react plotly,open,2024-10-08T04:15:00Z,2024-10-09T12:38:00Z,,"bug, P3"
+7199,Use URLs directly for layout images,closed,2024-10-02T20:27:08Z,2024-12-12T20:20:45Z,,"bug, performance"
+7194,"Chart2Music: when no x or y axis title is present, the title of the chart becomes ""Click to enter x axis title""",open,2024-10-02T18:41:12Z,2024-10-04T20:10:37Z,marthacryan,"bug, P2"
+7193,chart2music: auto-generated trace names are incorrect,open,2024-10-02T18:28:52Z,2024-10-04T20:10:16Z,,"bug, P2"
+7184,x hover label hidden when using `hoversubplots='axis'` and `hovermode='x'`,open,2024-10-02T13:10:11Z,2024-10-02T16:35:28Z,emilykl,"bug, P3"
+7171,Fix lower zorder traces behing some gridlines on overlayed suplots,closed,2024-09-24T18:05:15Z,2024-10-16T14:20:25Z,,"bug, P1"
+7170,Global CSS cannot be imported from within node_modules.,open,2024-09-23T15:06:19Z,2024-12-09T14:41:51Z,marthacryan,"bug, P2"
+7169,"Error when providing axis tickformat, but dataset is empty",open,2024-09-22T19:34:47Z,2024-09-23T14:27:16Z,,"bug, P3"
+7167,Fix scatterternary with ids attribute,closed,2024-09-20T20:13:53Z,2024-09-20T21:07:02Z,,bug
+7166,ids attribute breaks scatterternary,closed,2024-09-20T19:21:44Z,2024-09-20T21:32:13Z,,bug
+7164,fix to allow you to add fake selections,closed,2024-09-19T17:29:29Z,2024-12-12T20:20:55Z,,bug
+7161,Missing source maps for maplibre-gl,closed,2024-09-17T19:11:58Z,2024-10-04T13:09:52Z,archmoj,"bug, P2"
+7159,"Box trace with `boxpoints=""all""` and `line_width=0` doesn't render marker in legend",open,2024-09-17T16:21:57Z,2024-09-23T14:23:24Z,,"bug, P3"
+7152,Incorrect hover label for missing last value with hovermode `x-unified` and `tickson=boundaries`,open,2024-09-12T09:22:32Z,2024-09-12T18:10:35Z,,"bug, P3"
+7144,zorder property for traces causes gridline to be drawn above traces,open,2024-09-10T09:58:45Z,2024-09-16T13:15:31Z,archmoj,"bug, P2"
+7143,aspectmode=data is incorrect when cones and scatter points are both involved,open,2024-09-08T22:26:14Z,2024-09-08T22:26:15Z,,"bug, sev-2"
+7139,Plotly tries to access maplibre-gl.css,closed,2024-09-03T10:25:48Z,2024-09-07T02:45:23Z,archmoj,"bug, P1"
+7133,Inconsistent `gap` attributes causes misalignment,open,2024-08-27T14:43:01Z,2024-08-27T14:43:02Z,,"bug, sev-3"
+7132,Distorted link loop in sankey diagram,closed,2024-08-27T12:21:01Z,2024-12-16T18:06:51Z,,"bug, P3"
+7131,Fix rendering of WebGL traces on latest `Chrome-128` and `Edge-128` browsers,closed,2024-08-26T23:53:16Z,2024-08-28T20:12:34Z,archmoj,"bug, P1"
+7130,"`Chrome 128` seems to have problem rendering WebGL traces including `parcoords`, `mesh3d`, `surface`",closed,2024-08-22T15:19:53Z,2024-08-30T08:20:28Z,archmoj,"bug, P2"
+7123,Mismatched Tooltip Behavior in Heatmap Charts with Line Chart Overlays,open,2024-08-21T19:20:06Z,2024-08-26T15:18:32Z,,"bug, P3"
+7085,no predefined stamen styles in map subplots,closed,2024-08-12T15:46:20Z,2024-08-27T19:08:32Z,,bug
+7082,"mapbox attribute control toggle, wrong styling",open,2024-08-09T14:09:40Z,2024-08-27T01:03:28Z,archmoj,"bug, P3"
+7079,Y axis title can be misplaced when legend is anchored to container,open,2024-08-09T08:57:43Z,2024-08-09T14:09:02Z,,"bug, P3"
+7076,maplibre attributions are expanded by default,closed,2024-08-08T15:58:44Z,2024-08-27T20:05:01Z,archmoj,"bug, P1"
+7075,Attributions display twice on `mapbox` ,closed,2024-08-08T15:08:06Z,2024-08-09T14:42:47Z,archmoj,"bug, P1"
+7073,Plotly.js fails on yarn install,open,2024-08-08T06:45:38Z,2024-08-17T02:39:34Z,archmoj,"bug, P2"
+7072,Legend cannot be scrolled to the end  if `xref`/`yref` is set to `container`,open,2024-08-06T11:45:48Z,2024-08-09T14:12:10Z,,"bug, P2"
+7071,Adding layers makes tooltips disappear ,open,2024-07-30T14:02:58Z,2024-08-09T14:12:16Z,,"bug, P3"
+7070,`zorder` on overlayed subplots case of multiple traces in each subplot,closed,2024-07-30T13:00:02Z,2024-09-09T18:22:55Z,archmoj,"bug, P1, cs"
+7069,Nearly zero axis label - Floating point rounding error,open,2024-07-29T16:10:33Z,2024-08-09T14:12:27Z,,"bug, P2, cs"
+7068,load maki icon,closed,2024-07-26T17:05:35Z,2024-07-26T19:07:01Z,,"bug, community"
+7066,Scrolling on the legend will cause the parent to scroll,open,2024-07-26T00:40:38Z,2024-08-09T14:12:48Z,,"bug, sev-3, P2"
+7065,Scattergl slower than scatter with many points,closed,2024-07-25T13:10:07Z,2024-12-16T17:53:30Z,,"bug, P3, performance"
+7062,plotly.js via Packagist (Composer - PHP) dependencies conflict,open,2024-07-23T16:31:43Z,2024-08-09T14:14:02Z,archmoj,"bug, P2"
+7059,Responsive config option does not apply on elements size changes,open,2024-07-21T10:53:42Z,2025-02-07T13:29:13Z,,"bug, P2"
+7057,Fix missing cursor for ternary plot,closed,2024-07-20T16:33:29Z,2024-08-27T19:07:52Z,,"bug, community"
+7052,Weird Symbols show up when using Local version compared to CDN,open,2024-07-17T15:15:08Z,2024-08-30T16:42:18Z,,"bug, P3"
+7051,showframe not working for scattergeo if geo.scope is set,open,2024-07-16T20:45:59Z,2024-08-09T14:15:20Z,,"bug, P3"
+7049,pointNumber passed to Plotly.Fx.Hover() is not used for box plots,open,2024-07-16T17:11:06Z,2024-08-09T14:16:14Z,,"bug, P2"
+7048,"With shapes that reference categorical axis, shape is drawn when no category exists",open,2024-07-15T20:56:52Z,2024-08-09T14:16:24Z,,"bug, P3"
+7045,Performance Issues with Sankey Diagram in react-plotly.js with large data,open,2024-07-14T11:56:54Z,2024-08-12T15:52:51Z,,"bug, P3, performance"
+7044,Adjust failing modebar test after merging PR #5879,closed,2024-07-13T22:50:07Z,2024-07-17T16:03:30Z,,bug
+7042,overlapped links become inaccessible in Sankey plot,open,2024-07-08T14:16:31Z,2024-08-09T14:17:32Z,,"bug, P3"
+7041, Duplicate Keys on X-Axis with Date Format and formatTick,open,2024-07-02T15:34:00Z,2025-04-04T15:10:50Z,,"bug, P2"
+7040,Remove line numbers from `lib/locales/es.js`,open,2024-06-28T19:46:31Z,2024-08-09T14:17:59Z,,"bug, P2, infrastructure"
+7039,hoveron fills doesn't work on charts with rangeslider,open,2024-06-28T12:41:27Z,2024-08-09T14:18:16Z,,"bug, P3"
+7038,Dynamically assigning false to the legendPosition property in Plotly.js is not working.,open,2024-06-26T13:42:59Z,2024-08-09T14:18:24Z,,"bug, P3"
+7032,Handle `zorder` between overlayed cartesian subplots,closed,2024-06-19T19:36:01Z,2024-07-04T14:32:42Z,,"bug, feature"
+7029,Fix Jasmine test `restyle radial axis title`,open,2024-06-18T19:18:50Z,2024-08-09T14:19:35Z,,"bug, regression, P2"
+7026,Replace country-regex Part 2,open,2024-06-14T13:00:14Z,2024-12-12T14:41:59Z,archmoj,"bug, P2, infrastructure"
+7024,partial autorange gets overridden on subsequent `react` calls,open,2024-06-13T22:03:40Z,2024-11-05T08:55:42Z,,"bug, P3"
+7023,Multiple legends no longer work starting with v2.25.0,open,2024-06-13T07:54:12Z,2024-08-09T14:20:44Z,,"bug, regression, P2"
+7021,Fast scroll zoom results in out of memory error,open,2024-06-11T18:13:44Z,2024-08-09T14:20:51Z,,"bug, P3"
+7018,Fix issue where scattergl traces disappear while zooming or panning,closed,2024-06-06T14:18:45Z,2024-07-04T14:32:09Z,,"bug, community, regression"
+7011,*axis* `hoversubplots` should work with `matches` axes,open,2024-06-03T17:14:21Z,2024-08-09T14:21:32Z,,"bug, P3"
+7008,Color array or color scale do not work in patterned markers hover x unified hovermode,open,2024-05-30T17:55:58Z,2024-08-09T14:22:07Z,,"bug, P3"
+7004,Bug: `zorder` not working on overlaying subplots,closed,2024-05-24T16:07:48Z,2024-07-23T18:17:21Z,archmoj,bug
+7002,Fix `isosurface` maximum value calculation when `isomax` is set to null,closed,2024-05-22T16:13:31Z,2024-05-22T16:15:33Z,,bug
+6999,Improve precision of surface3d worldPosition calculation,closed,2024-05-16T17:39:59Z,2024-05-29T10:03:27Z,,"bug, community"
+6998,Improve numerical stability of 3D projection,closed,2024-05-15T12:45:24Z,2024-05-29T10:03:09Z,,"bug, community"
+6997,Fix drag on legend scrollbar while `edits.legendPosition` is `true`,closed,2024-05-15T04:16:35Z,2024-05-29T10:02:50Z,,"bug, community"
+6996,fix getFullTransformMatrix in shadow DOM,closed,2024-05-14T10:46:06Z,2024-05-29T10:02:32Z,,"bug, community"
+6992,bump plotly/d3 v3.8.2,closed,2024-05-08T16:19:59Z,2024-05-29T10:02:18Z,,bug
+6982,Hovertemplate use html tag is not working,open,2024-04-24T05:46:22Z,2025-02-27T15:54:17Z,,"bug, P3"
+6977,"Clickmode ""event+select"" activated and Clicking outside of Graph calls onUpdate incorrectly",open,2024-04-19T22:45:02Z,2024-08-09T14:24:03Z,,"bug, P2"
+6973,Colorbar Orientation Change Causes Render Issue,open,2024-04-17T18:06:16Z,2024-08-09T14:24:22Z,,"bug, P3"
+6971,different spacing between tick labels and axis title with multi line text,closed,2024-04-16T15:33:37Z,2024-04-17T13:28:45Z,,bug
+6970,Fix inconsistent axis title standoff when title is one text line vs. multiple lines,closed,2024-04-16T13:55:21Z,2024-06-19T15:14:17Z,,"bug, community"
+6967,"autotickangles for axes with tickson=""boundaries"" or showdividers=true",closed,2024-04-15T09:44:11Z,2024-06-19T15:13:58Z,,bug
+6965,Avoid duplicate points in splom hover,closed,2024-04-12T22:20:22Z,2024-04-12T22:22:29Z,,bug
+6963,"Ensure winning points of hover are listed first when `hoversubplots` is set to ""axis"" and sorting by distance ",closed,2024-04-12T20:43:17Z,2024-04-15T18:10:42Z,,bug
+6962,Maintain original drawing order of traces when traces with similar type are sent to back,closed,2024-04-12T14:33:46Z,2024-04-12T19:08:10Z,,bug
+6960,"hoversubplots=""axis"" with hovermode=""x"" on stacked traces, shows x-axis label on first trace",closed,2024-04-11T21:57:42Z,2024-04-15T18:09:48Z,,bug
+6959,"Unified hover on splom shows duplicate point when setting `hoversubplots: ""axis""`",closed,2024-04-11T19:16:44Z,2024-04-12T22:22:27Z,,bug
+6955,Adding a negative `zorder` to one scatter trace could impact drawing order of other scatter traces and put all of them behind bars!,closed,2024-04-10T23:01:26Z,2024-04-12T19:08:08Z,,bug
+6954,fix: do not ovelap hoverlabels for different tracetypes,closed,2024-04-10T20:10:51Z,2024-07-04T14:30:04Z,,"bug, community"
+6953,Fix closest hover and click+select with `zorder`,closed,2024-04-10T02:16:01Z,2024-04-10T02:19:36Z,,bug
+6948,Plotly.js cluster not working correctly,open,2024-04-04T08:43:38Z,2024-08-09T14:25:31Z,,"bug, P2"
+6944,Fix hover count info label in `createHoverLabelForColorHovermode`,closed,2024-03-27T20:11:31Z,2024-12-25T21:36:08Z,,"bug, community"
+6941,"""a"" placeholder link on mode bar buttons doesn't work on some screen readers",open,2024-03-26T22:31:24Z,2024-08-09T14:27:15Z,,"bug, P2"
+6940,mode bar is not accessible using a keyboard,open,2024-03-26T22:27:12Z,2024-11-20T14:51:54Z,gvwilson,"bug, P2"
+6930,BUILDING.md: minor typo and some Markdown syntax errors,open,2024-03-15T19:39:55Z,2024-08-09T14:27:47Z,,"bug, P2, infrastructure"
+6928,Fix `scattergl` rendering when colors include capital letters,closed,2024-03-15T13:01:28Z,2024-03-15T19:16:36Z,,bug
+6926,Tooltip value display incorrent,open,2024-03-15T08:19:08Z,2024-08-09T14:27:54Z,,"bug, P2"
+6925,Heatmap text over cells with missing data displayed as zeros!,closed,2024-03-14T20:19:13Z,2024-03-15T19:07:34Z,,"bug, sev-2"
+6924,Fix `heatmap` text color and `texttemplate` on cells with missing data ,closed,2024-03-14T19:01:30Z,2024-03-15T19:07:36Z,,bug
+6923,Fix centering multi-line headers for `treemap` traces,closed,2024-03-14T16:12:32Z,2024-03-15T19:07:02Z,,bug
+6922,Treemap titles are not centered when multi-line name used,closed,2024-03-13T14:21:36Z,2024-03-15T19:07:00Z,,"bug, sev-2"
+6920,screenreader needs for SVG accessibility,open,2024-03-12T21:45:31Z,2024-08-09T14:28:19Z,,"bug, P2"
+6919,Heatmap text not visible when z values are None,closed,2024-03-12T13:47:49Z,2024-03-15T19:07:34Z,,"bug, sev-3"
+6917,Hoverlabel overlaps each other,closed,2024-03-08T14:58:07Z,2024-07-04T14:31:36Z,,bug
+6916,pie chart hover label hidden,open,2024-03-07T22:40:20Z,2024-08-09T14:28:46Z,,"bug, regression, P3"
+6913,"Combining rangemode tozero and tickformat set to "","" produces unexpected results",open,2024-03-01T15:34:14Z,2024-08-09T14:28:53Z,,"bug, P3"
+6912,Add x boundaries for ticksarray,closed,2024-03-01T15:31:06Z,2024-03-15T21:29:22Z,,bug
+6910,Fix insiderange with category axes,closed,2024-02-29T02:21:54Z,2024-03-01T14:40:44Z,,bug
+6908,hoverdistance broken in 3D scatter plots (hover radius vs click radius)?,open,2024-02-28T07:11:59Z,2024-08-09T14:29:28Z,,"bug, P3"
+6904,"Inconsistent behavior when providing an array of marker sizes in ""markers"" mode on scatter3D",open,2024-02-21T23:57:07Z,2024-08-09T14:29:38Z,,"bug, P3"
+6903,Rangeslider won't reset after zooming out,open,2024-02-19T16:45:46Z,2024-11-13T21:38:31Z,,"bug, P3"
+6901,fix: tooltip pointer position in hovermode x,closed,2024-02-15T17:11:56Z,2024-02-27T14:54:13Z,,"bug, community"
+6900,Tooltip pointer (triangle) not correctly positioned with hovermode 'x',closed,2024-02-15T13:41:28Z,2024-02-27T14:54:14Z,,bug
+6898,Clicks are sometimes missed with clickmode layout key,open,2024-02-14T18:25:51Z,2024-08-09T14:29:57Z,,"bug, sev-2, P2"
+6897,ScatterGL throws ` TypeError: r[v] is undefined` when using frames,open,2024-02-14T16:38:15Z,2024-08-09T14:30:06Z,,"bug, sev-3, P3"
+6896,"axes range not working. Range is +-1, data is 0->1.6e10",open,2024-02-14T16:28:10Z,2024-08-09T14:30:20Z,,"bug, P3"
+6893,"Fix resizing `pie` like traces when `textinfo` is set to ""none""",closed,2024-02-12T17:12:22Z,2024-03-06T22:20:51Z,,"bug, community"
+6889,Bug/pikul standoff position,closed,2024-02-09T05:32:01Z,2024-03-22T19:14:26Z,,"bug, community"
+6885,Bugfix: categorical axis tickson boundaries showgrid,closed,2024-02-06T11:39:36Z,2024-02-08T19:23:24Z,,bug
+6883,Mismatch between legend and line colors when using uppercase css colors,closed,2024-02-02T19:47:15Z,2024-03-14T20:26:08Z,,"bug, sev-1"
+6881,MathJax text in scatter's text does not obey scaling,open,2024-02-02T13:55:39Z,2024-08-09T14:31:21Z,,"bug, P3"
+6879,"Unhandled exception on ""ctrl+left/right-click"" drag or ""shift+right-click"" drag on a chart",open,2024-02-02T08:04:07Z,2024-08-09T14:31:29Z,,"bug, P2"
+6872,Type definition error: Type `{ matches: string; }` is not assignable to type `Partial<LayoutAxis>`,open,2024-01-30T07:17:39Z,2024-08-09T14:31:50Z,,"bug, P2"
+6871,`plotly_selected` is not triggered on selection changes because of legend events,open,2024-01-29T08:49:09Z,2024-08-09T14:32:00Z,,"bug, P2"
+6870,Fix interacting with selection on subplots with overlaid axes,closed,2024-01-26T15:12:32Z,2024-02-01T17:09:28Z,,bug
+6869,internal relayout method called with undefined,open,2024-01-26T13:10:47Z,2024-08-09T14:33:04Z,,"bug, P3"
+6868,Type definition error: Type Date is not assignable to type `Annotations.x`,open,2024-01-26T09:00:34Z,2024-08-09T14:33:11Z,,"bug, P2"
+6867,[Bug] scattermapbox present but invisible on Firefox 121.0.1,closed,2024-01-25T15:28:24Z,2024-01-25T20:18:45Z,,"bug, sev-2"
+6865,Improved hover detection for scatter plot fill `tonext*`,closed,2024-01-23T18:32:24Z,2024-01-30T19:26:04Z,,"bug, community"
+6863,Plotly Pie chart legend not work when I turn off all legend ,open,2024-01-22T03:38:24Z,2024-08-09T14:33:17Z,,"bug, P2"
+6862,Unclear Intended behavior for marker.size=0 for scatter and scattergl,open,2024-01-19T20:13:46Z,2024-08-09T14:33:35Z,LiamConnors,"bug, P3"
+6886,incorrect item toggle behavior when using multiple legends,open,2024-01-11T13:58:18Z,2024-08-09T15:03:03Z,,"bug, P3"
+6840,UI revision does not work while specifying projection type,open,2024-01-11T09:03:27Z,2024-08-09T15:03:26Z,,"bug, P2"
+6838,Range Slider with multi category repositions if dragging on the gray area,open,2024-01-10T05:40:42Z,2024-08-09T15:03:43Z,,"bug, P3"
+6837,Automargin breaks with dir=rtl,open,2024-01-05T21:14:03Z,2024-08-02T11:20:36Z,,"bug, P3"
+6833,Incorrect behavior of Plotly.downloadImage ,open,2024-01-04T11:11:42Z,2024-08-09T15:04:03Z,,"bug, P2"
+6830,Fix `scattergl` rendering bug on M1 mac devices,closed,2024-01-02T17:22:28Z,2024-01-02T17:45:02Z,,"bug, community"
+6829,Add switch to specify major/minor in `axes.arrayTicks()`,closed,2023-12-27T04:43:32Z,2024-01-29T04:50:18Z,,"bug, community"
+6828,BUG: Setting 'array' tickmode on minor and major ticks causes 'ticksOut' to contain a duplicate of itself.,closed,2023-12-27T04:38:33Z,2024-01-12T22:01:08Z,,bug
+6821,"plotting large datasets behaves differently in 2.23 as in 2.16 with zsmooth ""false"" or ""fast""",open,2023-12-18T03:34:07Z,2024-08-09T15:05:43Z,,"bug, regression, P3"
+6819,Log-scale layout of heatmap bricks for log-scale axes (fixes #5991),closed,2023-12-15T19:02:55Z,2024-01-26T21:40:38Z,,"bug, community"
+6841,"Ayref validator does not support ""paper"" (PR attached)",open,2023-12-15T14:43:38Z,2024-08-02T11:20:37Z,,"bug, sev-2, P3"
+6817,Respect `insiderange` when multiple overlaid axes having `insideticklabel`,closed,2023-12-13T19:30:08Z,2024-02-08T19:25:26Z,,bug
+6815,bug in 3D controls on Safari,open,2023-12-11T17:06:36Z,2024-08-09T15:08:25Z,,"bug, P3"
+6814,scattergl: categorical data is not drawn while zooming or panning ,closed,2023-12-08T23:18:43Z,2024-07-04T14:32:21Z,,"bug, regression"
+6810,omitted base property in index.d.ts,open,2023-12-08T05:50:21Z,2024-08-09T15:09:42Z,T4rk1n,"bug, P2"
+6807,Inner div breaks the border of outer div when there is a scroll bar,open,2023-12-07T03:54:51Z,2024-08-09T15:10:05Z,,"bug, P3"
+6805,"text only used for leaves not ""branches"" in treemap",open,2023-11-29T19:09:33Z,2024-08-09T15:10:18Z,,"bug, P3"
+6804,Scatterpolargl texttemplate displays incorrectly,open,2023-11-29T08:05:42Z,2024-08-09T15:10:24Z,,"bug, P3"
+6799,Fix hovering over Sankey node only fully highlights first trace,closed,2023-11-27T19:09:29Z,2023-12-15T15:41:56Z,,"bug, community"
+6798,Relayout not provided with event data after mousewheel zoom,open,2023-11-24T17:53:54Z,2024-08-09T15:10:31Z,,"bug, P3"
+6797,Special characters in plotly.js causing minification and packaging issues,open,2023-11-24T10:40:09Z,2024-08-09T15:10:53Z,archmoj,"bug, P2, infrastructure"
+6796,Fix range defaults to take into account `minallowed` and `maxallowed` values,closed,2023-11-23T16:54:26Z,2023-12-01T14:33:41Z,,bug
+6803,Weird ordering of elements in Parallel Categories Plot,open,2023-11-23T15:14:11Z,2024-10-23T19:11:05Z,,"bug, sev-3, P3"
+6795,Scattergl does not fill (`tonexty`) if another Scattergl trace is present ,open,2023-11-23T14:42:24Z,2024-08-09T15:11:15Z,,"bug, P3"
+6794,bar chart does not display very small values when big and small values are present,open,2023-11-23T12:23:18Z,2024-08-09T15:11:40Z,,"bug, P3"
+6788,Layout images disappear in odd cases,open,2023-11-21T23:03:03Z,2024-08-09T15:12:31Z,,"bug, sev-3, P3"
+6787,fix scattergl legend with marker angle array,closed,2023-11-18T01:56:50Z,2023-11-20T13:46:38Z,,bug
+6783,Hover info is sticky on touch interfaces even after the source graph is changed,open,2023-11-11T13:46:20Z,2025-02-25T21:02:39Z,,"bug, sev-2, P2, cs"
+6782,Bump `mapbox-gl` dependency from `v1.10.1` to `v1.13.3`,closed,2023-11-10T18:28:16Z,2023-11-10T19:44:25Z,,bug
+6781,plot schema should not show `line.shape` options for `scatterpolargl` trace ,closed,2023-11-09T15:23:28Z,2023-11-09T15:30:43Z,,bug
+6780,Do not break if mouse moves to x=0 when using rangeslider,closed,2023-11-09T14:57:55Z,2023-11-14T09:42:12Z,,"bug, community"
+6778,additional setup needed to pass api key for `stamen` styles,closed,2023-11-08T17:31:45Z,2023-11-08T18:42:24Z,,bug
+6776,stamen styles are now served by stadiamaps.com,closed,2023-11-07T18:33:52Z,2023-11-07T19:45:25Z,,bug
+6774,scatterpolargl line.shape is not supported,closed,2023-11-06T17:34:31Z,2023-11-09T15:30:34Z,,"bug, sev-4"
+6771,legendgroup visibility toggling does not work for shapes when showlegend is false,open,2023-11-02T20:33:27Z,2024-08-09T15:14:19Z,,"bug, P3"
+6770,scattergl trace with marker angle array does not draw marker in legend,closed,2023-11-02T17:00:55Z,2023-11-20T13:46:35Z,,bug
+6767,"choropleth: when geojson is set, the geojson file from cdn.plot.ly is still loaded first",open,2023-10-31T16:28:19Z,2024-08-09T15:14:37Z,archmoj,"bug, sev-4, P2"
+6765,'Something went wrong with axis scaling' error when using `minallowed` or `maxallowed` go outside range defaults ,closed,2023-10-31T12:29:28Z,2023-12-01T14:33:39Z,,"bug, sev-4"
+6762,"single-ended y-axis range specification [0,null] is not respected when x.automargin is triggered.  (2.27.0)",open,2023-10-25T22:04:46Z,2024-08-09T15:14:48Z,,"bug, sev-2, P2"
+6760,Old color-rgba dep causes deprecation warning,closed,2023-10-24T13:48:15Z,2025-02-21T04:33:35Z,,"bug, P2, cs"
+6929,Legendgroup visibility not consistent with shape,open,2023-10-23T16:18:23Z,2025-02-13T01:58:19Z,,"bug, sev-2, P2"
+6758,handle multi-line text in title automargin,closed,2023-10-20T19:55:06Z,2023-10-24T17:54:40Z,,bug
+6757,Clear empty boxes and candlestick using react,closed,2023-10-20T13:41:17Z,2023-10-20T13:41:33Z,,bug
+6756,hover is broken on `box-violin-x0-category-position` after v2 | `closest` option ,open,2023-10-20T11:48:08Z,2024-08-09T15:15:38Z,,"bug, sev-3, P3"
+6753,Legend properties on shapes property of layouts is not being tracked by Typescript,open,2023-10-19T15:53:59Z,2024-08-09T15:15:45Z,,"bug, P3"
+6752,Fix issue 6751: epoch date formats '%H:%M:%S' as 'undefined',closed,2023-10-18T21:18:24Z,2023-10-20T15:37:27Z,,"bug, community"
+6751,Timestamp '1970/01/01 00:00:00' formats as 'undefined' in hovertext,closed,2023-10-18T13:37:41Z,2023-10-20T13:49:24Z,,bug
+6750,Overlap of rangeslider and legend,open,2023-10-18T07:34:20Z,2024-08-09T15:15:55Z,,"bug, P3"
+6747,X-coordinates are duplicated in plotly_click points,open,2023-10-06T15:47:14Z,2024-08-09T15:16:06Z,,"bug, P2"
+6745,Contour Graph does not include Boundary Values ,open,2023-10-05T08:03:00Z,2024-08-09T15:16:12Z,,"bug, P3"
+6743,Fix range interactions affecting partial ranges in other subplots,closed,2023-10-04T17:22:31Z,2023-10-04T17:32:50Z,,bug
+6742,`supply defaults by pass` bug caused by partial range,closed,2023-10-04T16:15:29Z,2023-10-04T17:32:02Z,archmoj,bug
+6746,`stamen` map tiles changes in November 2023,closed,2023-10-04T13:43:50Z,2023-11-14T15:59:21Z,archmoj,"bug, feature, sev-1"
+6741,Add willReadFrequently to 2d canvas contexts to heatmap,closed,2023-09-30T18:11:40Z,2023-10-04T17:34:43Z,,bug
+6739,Don't hide compilation errors,closed,2023-09-30T05:44:55Z,2023-10-04T18:34:32Z,,bug
+6738,Latex doesn't render in slider names or step labels. ,open,2023-09-29T22:16:49Z,2024-08-09T15:16:21Z,,"bug, P3"
+6737,Scrollbar sensitivity in plot legend skips legend items,open,2023-09-29T17:24:04Z,2024-08-09T15:16:27Z,,"bug, sev-3, P3"
+6736,hoverlabel.grouptitlefont getting reset,open,2023-09-27T16:33:22Z,2024-08-09T15:16:34Z,,"bug, sev-3, P3"
+6733,violin plots not showing negative/non-negative data correctly,open,2023-09-22T02:47:20Z,2024-08-09T15:17:21Z,,"bug, P3"
+6728,Pie chart not displaying when plotting big and small numbers at the same time.,open,2023-09-18T13:45:04Z,2024-08-09T15:17:30Z,,"bug, sev-2, P2"
+6727,Fixing issue #5350 by moving the 'false' check,closed,2023-09-15T19:42:02Z,2023-09-22T20:18:48Z,,"bug, community"
+6725,Position title after legend width calculated,closed,2023-09-15T15:35:11Z,2023-09-22T15:23:23Z,,"bug, community"
+6724,"Emit plotly_click event on touchscreens with ""select"" dragmode ",closed,2023-09-14T17:43:18Z,2023-10-04T17:37:10Z,,"bug, community"
+6723,Fix key in Finnish locale,closed,2023-09-13T12:00:23Z,2023-09-14T13:41:02Z,,"bug, community"
+6722,Line breaks don't work on modebarbuttons,open,2023-09-12T14:09:32Z,2024-08-09T15:17:58Z,,"bug, P3"
+6718,Fixed issue - column order changes on hover,closed,2023-08-29T11:05:34Z,2023-10-10T19:59:37Z,,"bug, community"
+6716,Order of toggled traces with legend on stacked area plot changes output plot,open,2023-08-25T03:46:05Z,2024-08-09T15:18:31Z,,"bug, sev-3, P3"
+6715,Bar chart rendering issues,closed,2023-08-22T03:39:00Z,2024-07-12T12:17:04Z,,"bug, sev-4"
+6714,Cone tips do not point at the correct positions,open,2023-08-21T10:37:42Z,2024-08-09T15:18:41Z,,"bug, P2"
+6704,Fix potential prototype pollution in `nestedProperty`,closed,2023-08-11T15:08:43Z,2023-08-11T15:37:13Z,,bug
+6703,Fix potential prototype pollution in `expandObjectPaths`,closed,2023-08-10T22:10:53Z,2023-08-11T14:43:29Z,,bug
+6700,drag and drop doesn't do a selection rectangle if selection width or selection height is too small with zoom tool on heatmap,open,2023-08-08T09:23:19Z,2024-08-09T15:37:52Z,,"bug, P3"
+6699,Column order changes on hover,closed,2023-08-07T11:02:38Z,2024-07-12T12:02:23Z,,bug
+6696,Resizing pie chart with tooltips misaligns it and throws error,open,2023-08-03T22:48:43Z,2024-08-09T15:38:59Z,,"bug, P3"
+6695,do not return with empty legend items to clear old legends,closed,2023-08-02T14:02:17Z,2023-08-02T14:02:33Z,,"bug, regression"
+6694,Legend not updated when removing all traces from plot in 2.25.0,closed,2023-08-02T09:29:13Z,2023-08-02T19:53:16Z,,"bug, regression"
+6693,Providing a negative number as the only range value reversed the axis,closed,2023-08-01T18:46:48Z,2024-08-10T17:43:28Z,,"bug, P3"
+6689,Heatmaps with hovertemplate with %{text} is not working,open,2023-07-27T21:46:59Z,2024-08-09T15:39:43Z,,"bug, P3"
+6687,ToggleSpikelines used in combination with hovercompare not working on plotly v2.24.3,open,2023-07-27T02:22:10Z,2024-08-09T15:39:52Z,,"bug, P3"
+6686,Minor ticks don't work with tickformat %Y and ticklabelmode period,open,2023-07-25T19:28:10Z,2024-08-09T15:40:02Z,,"bug, P2, cs"
+6685,Use of named colours in scatterGL is not case-insenstive,closed,2023-07-25T15:17:26Z,2024-03-15T19:16:32Z,,bug
+6684,Fix isolated state detection in multi legend case,closed,2023-07-25T15:14:27Z,2023-07-25T15:17:02Z,,"bug, regression"
+6683,Double click isolated traces in multiple legends should unhide all,closed,2023-07-25T14:23:38Z,2023-07-25T15:17:00Z,,"bug, regression"
+6673,Volume on non-uniform grid does not appear,open,2023-07-13T13:07:50Z,2024-08-09T15:40:20Z,,"bug, P3"
+6672,Plotly.react leaves duplicate clippaths,open,2023-07-11T16:09:57Z,2024-08-09T15:40:33Z,,"bug, P2"
+6671,`zerolinecolor` and `zerolinewidth` properties do not apply to their respective axis,open,2023-07-11T08:25:28Z,2024-08-09T15:40:40Z,,"bug, P3"
+6669,Isosurface and other 3D types prevent Scatterplot hover,open,2023-07-10T14:21:52Z,2024-08-09T15:40:51Z,,"bug, P3"
+6668,No way to center legend title in horizontal mode when x is set to a value between 0 and 1,closed,2023-07-10T13:19:23Z,2024-07-12T12:03:28Z,,bug
+6664,Fix per legend `traceorder` defaults and legend groups in multi legends,closed,2023-07-04T22:23:12Z,2023-07-05T01:22:39Z,,bug
+6663,`traceorder` and groups not setup correctly on multi legends,closed,2023-07-04T19:53:46Z,2023-07-05T01:22:36Z,,bug
+6657,Fix double click pie slices having multiple legends,closed,2023-06-30T15:46:18Z,2023-07-04T16:29:54Z,,bug
+6656,Pie double click problem when having multiple legends,closed,2023-06-30T12:53:51Z,2023-07-04T16:29:51Z,,bug
+6655,Fix double clicking one item in a legend hides traces in other legends,closed,2023-06-30T12:41:19Z,2023-06-30T12:43:45Z,,bug
+6654,Double clicking one item in a legend hides traces in other legends,closed,2023-06-30T12:39:37Z,2023-06-30T12:43:43Z,,bug
+6652,Fix Non-Mapbox Scatter with text markers,closed,2023-06-27T21:59:52Z,2023-07-18T20:17:58Z,,"bug, community"
+6651,Horizontal Stacked Bar Labels Cut Off,open,2023-06-26T10:56:34Z,2024-08-09T15:41:20Z,,"bug, P3"
+6647,Right after drawing a new shape it is not set on the fullLayout when there is a shape in template ,closed,2023-06-16T18:36:19Z,2023-06-20T16:00:09Z,nickmelnikov82,bug
+6645,modebar tools are not accessible,open,2023-06-15T15:13:41Z,2024-08-09T15:42:08Z,,"bug, P2"
+6644,editing legend group title in editable mode modifies titles of all traces in that group,open,2023-06-13T13:49:06Z,2024-08-09T15:42:14Z,,"bug, P3"
+6639,Fix legend groups toggle,closed,2023-06-09T21:48:52Z,2023-06-09T21:49:09Z,,"bug, regression"
+6638,toggling visibility of most legend groups fails in editable charts as of plotly 2.22.0,closed,2023-06-09T16:24:10Z,2023-06-09T21:49:07Z,,"bug, regression"
+6636,Loss of precision with `scattergl`,open,2023-06-09T08:07:45Z,2024-08-09T15:43:15Z,,"bug, P3"
+6635,Fix waterfall `hovertemplate` not showing delta on totals similar to `texttemplate` ,closed,2023-06-08T15:44:53Z,2023-06-09T19:36:19Z,,bug
+6634,waterfall `hovertemplate` not showing delta on totals similar to `texttemplate`,closed,2023-06-08T15:40:45Z,2023-06-09T19:36:17Z,,bug
+6633,`onClick` event handler doesn't take into account a right-click for Pie Charts.,open,2023-06-08T08:47:01Z,2024-08-09T15:43:21Z,,"bug, P3"
+6632,Fix minimal copying of arrays in `minExtend` function,closed,2023-06-07T18:57:26Z,2023-06-07T18:57:42Z,,"bug, regression"
+6630,Plot breaks when using relayout with coloraxis and resizing too small,open,2023-06-06T20:49:15Z,2024-08-09T15:43:27Z,,"bug, P3"
+6629,Fix pattern colors of aggregated pie with patterns ,closed,2023-06-06T14:14:06Z,2023-06-06T14:14:38Z,,bug
+6628,Fix rendering of pie legends when arrays e.g. `pattern` or `line.width` having 4 items or more,closed,2023-06-05T19:59:51Z,2023-06-07T19:00:14Z,,bug
+6627,"Fix patterns coloring for pie, sunburst, funnelarea, icicle & treemap",closed,2023-06-05T15:05:21Z,2023-06-05T15:05:47Z,,bug
+6625,Fix contour plot colorscale domain,closed,2023-06-02T18:16:02Z,2023-07-18T20:25:18Z,,"bug, community"
+6616,Bugfix: Only add minimum margin-spacing for container referenced components,closed,2023-05-29T17:42:05Z,2023-06-01T22:43:42Z,,bug
+6615,Fix for #6614,closed,2023-05-24T21:19:30Z,2023-05-30T17:44:08Z,,"bug, community, regression"
+6614,Regression of #5854,closed,2023-05-24T20:14:44Z,2024-07-12T12:06:33Z,,"bug, regression"
+6613,Vite problem building my application,open,2023-05-24T18:45:02Z,2024-08-09T15:43:48Z,archmoj,"bug, P2, infrastructure"
+6612,"Plot margins do not reset on Plotly.react() if layout.legend.xref or yref are set to ""container""",open,2023-05-24T17:23:47Z,2024-08-09T15:43:56Z,,"bug, P3"
+6609,Dragmode false not working for horizontal scroll,open,2023-05-20T22:54:26Z,2024-08-09T15:44:02Z,,"bug, P3"
+6608,Render shape label while drawing,closed,2023-05-18T21:46:49Z,2023-05-19T22:11:14Z,,bug
+6606,Heatmap PNG Download Missing Plot on macOS/iOS/iPadOS Safari and other iOS/iPadOS WebKit-based browsers,open,2023-05-15T19:57:16Z,2024-11-01T15:12:30Z,,"bug, regression, P3"
+6605,Fix heatmap/image traces without zsmooth on Safari/iOS,closed,2023-05-14T18:50:15Z,2023-08-20T11:33:43Z,,"bug, community, regression"
+6604,2.23.0: Setting zsmooth to false for heatmaps seems to be ignored or isn't working in zsmooth on some OS+Browsers e.g. Safari and iPad/iPhone Chrome ,closed,2023-05-13T03:18:48Z,2023-05-15T20:00:35Z,,"bug, regression"
+6600,`image` traces with negative `dx` or `dy`,closed,2023-05-12T14:13:04Z,2024-07-05T12:04:04Z,,bug
+6588,Rectangular selection becomes full height selection if mouse Δy is close to 0,open,2023-05-02T13:05:53Z,2024-08-09T15:45:44Z,,"bug, P3"
+6584,Plotly reset axes button not working as expected.,open,2023-04-28T17:43:51Z,2024-08-09T15:46:11Z,,"bug, P3"
+6583,Text scaling bugs when using dynamic CSS transform and content-editable after clicking on the plot,open,2023-04-25T21:48:17Z,2024-08-09T15:46:19Z,,"bug, P3"
+6581,#6571 fix scatter3d marker opacity when marker.opacity is set to 0,closed,2023-04-25T03:18:19Z,2023-04-26T19:44:13Z,,"bug, community"
+6570,Fix dx/dy mix up in  display_outlines.js,closed,2023-04-15T14:39:01Z,2023-04-27T12:34:59Z,,"bug, community"
+6567,Fix: visible = legendonly in scattermapbox worked wrong,closed,2023-04-14T12:40:03Z,2023-04-27T13:27:14Z,,bug
+6565,Fix heatmap rendering when zsmooth=fast,closed,2023-04-12T20:21:39Z,2023-08-20T11:33:40Z,,"bug, community"
+6564,"Heatmap truncated when zsmooth=""fast""",closed,2023-04-12T20:12:35Z,2023-04-17T18:47:55Z,,bug
+6563,added tabletmode to fire plotly_click event for mobile devices.,closed,2023-04-12T12:57:01Z,2023-04-21T13:53:28Z,,"bug, community"
+6560,problems with mapbox density heatmap color,open,2023-04-11T13:33:17Z,2024-08-09T15:47:20Z,,"bug, P3"
+6556,unexpected histogram bin size behavior,open,2023-04-07T13:28:59Z,2024-08-09T15:47:58Z,,"bug, P3"
+6555,fix-6507 fixed colorbar.showticklabels: false,closed,2023-04-07T13:01:25Z,2023-04-17T20:43:52Z,,bug
+6554,fix-6548 fixed hover.on event for scattermapbox.,closed,2023-04-07T12:39:58Z,2024-04-10T14:36:40Z,,bug
+6549,Table headers containing spaces are unstable,open,2023-04-04T08:46:16Z,2024-08-09T15:48:29Z,,"bug, P3"
+6544,BUG: 0 and small values aren't displayed on Bar Chart when `textposition` is set to `auto`,open,2023-03-29T14:09:34Z,2024-08-09T15:48:36Z,,"bug, P3"
+6538,Double-clicking zoomed heat map does not return to default view,open,2023-03-28T22:48:17Z,2024-08-09T15:49:18Z,,"bug, P3"
+6537,Zooming on orthographic surface plot is nearly impossible.,open,2023-03-28T22:41:29Z,2024-08-09T15:49:24Z,,"bug, P3"
+6533,Heatmap rendering performance when many slider steps,open,2023-03-21T10:50:50Z,2024-08-12T15:52:50Z,,"bug, P3, performance"
+6530,"Box Selection behaves weirdly with overlay = ""y"". ",closed,2023-03-17T10:40:01Z,2024-02-01T17:09:26Z,,bug
+6528,fix for incorrect final position when dragging legend,closed,2023-03-17T01:55:25Z,2023-03-17T17:36:36Z,,"bug, community"
+6517,Fix feature detection for Samsung browser on desktop,closed,2023-03-10T22:37:14Z,2023-03-11T00:20:03Z,,bug
+6515,'hovercompare' modebar button does not retain hovermode y,open,2023-03-10T20:31:29Z,2024-08-09T16:36:20Z,,"bug, P3"
+6507,heatmap: colorbar.showticklabels cannot be set to false (nothing is rendered),closed,2023-03-03T11:17:09Z,2023-04-20T08:19:55Z,,bug
+6504,Download plot as a png with Font Awesome fails,open,2023-03-02T18:36:49Z,2024-08-09T16:35:57Z,,"bug, P3"
+6499,axisDraw: Hitting ax.domain[1] < ax.domain[0],open,2023-02-24T22:39:30Z,2024-08-09T16:35:13Z,,"bug, P3"
+6508,visible ='legendonly' doesn't work anymore in Scattermapbox,closed,2023-02-18T15:02:58Z,2023-04-27T13:27:07Z,,bug
+6493,Range Slider flips mirror-like when viewport gets narrow,open,2023-02-17T19:06:07Z,2024-08-09T16:34:44Z,,"bug, P2"
+6492,Multiple legends in horizontal mode overlap chart on resize from a narrow viewport to a wide one,open,2023-02-17T18:13:19Z,2024-08-09T16:34:34Z,,"bug, P3"
+6487,Avoid attaching internal d3 object to the window,closed,2023-02-15T22:58:38Z,2023-02-15T23:01:06Z,,"bug, regression"
+6483,"Since 2.17.0, window.d3 is exported with internal 3.8.0 version preventing loading of external d3 library",closed,2023-02-15T02:33:44Z,2023-02-15T23:01:02Z,,"bug, regression"
+6478,parcoords rendering incorrectly on Firefox,open,2023-02-11T07:44:51Z,2024-08-09T16:34:28Z,,"bug, P3"
+6476,Fix lower / upper fence french translation,closed,2023-02-10T10:38:45Z,2023-02-15T23:02:59Z,,"bug, community"
+6486,Clustering error using non-mapbox styles,open,2023-02-08T17:38:52Z,2024-08-09T16:34:09Z,,"bug, P3"
+6471,plotly_legendclick is sending the old state,open,2023-02-06T14:44:40Z,2024-08-09T16:34:04Z,,"bug, P3"
+6467,Hover label is offset from cursor in this map example,open,2023-02-02T22:05:41Z,2024-08-09T16:33:59Z,,"bug, P3"
+6466,Fix hover on IE,closed,2023-02-02T16:53:38Z,2023-02-02T17:04:24Z,,"bug, regression"
+6453,Plotly `selected` event infinity loop when using selection 'handles',open,2023-01-30T12:34:20Z,2024-08-09T16:33:02Z,,"bug, P2"
+6451,Correct es-PE locale,closed,2023-01-29T15:57:31Z,2023-02-18T21:21:32Z,,"bug, community"
+6445,Fix scaling of SVG exports by not adding `vector-effect` to static plots,closed,2023-01-24T18:19:28Z,2023-01-24T19:50:29Z,,bug
+6444,JavaScript Exception - Uncaught (in promise) Error after upgrading dash to 2.7.1 ,closed,2023-01-24T05:02:53Z,2023-06-22T18:22:26Z,,"bug, regression"
+6443,Avoid extra redraw calls when updating axes with `tickmode` other than sync,closed,2023-01-19T16:12:25Z,2023-01-19T16:14:32Z,,bug
+6442,Avoid overlap of point and axis hover labels,closed,2023-01-19T07:03:33Z,2023-03-06T15:43:22Z,,"bug, community"
+6440,Fix library's imported name using `requirejs` AMD loader,closed,2023-01-17T20:55:38Z,2023-01-18T21:52:41Z,,"bug, regression"
+6437,Fix es5 dist on master,closed,2023-01-12T16:52:36Z,2023-01-12T16:52:48Z,,bug
+6432,Improve detection of mobile & tablet devices,closed,2023-01-10T16:43:24Z,2023-01-12T13:34:38Z,,bug
+6429,Fix line redraw,closed,2023-01-08T22:32:58Z,2023-01-09T14:43:58Z,,"bug, regression"
+6416,Pre v2.17.0 fixes,closed,2022-12-22T20:27:07Z,2022-12-22T20:27:21Z,,bug
+6415,`alignmentgroup` & `offsetgroup` restyle bug,open,2022-12-21T14:33:01Z,2024-08-09T16:32:27Z,,"bug, P3"
+6414,Fix auto `backoff` when marker symbols and sizes are arrays,closed,2022-12-21T00:34:49Z,2022-12-21T14:24:44Z,,bug
+6403,Axis ticks and title may overlap after scrolling axis,open,2022-12-15T23:34:59Z,2024-08-09T16:32:22Z,,"bug, P3"
+6402,Axis title not moved when adding padding to plot margin,open,2022-12-15T23:30:58Z,2024-08-09T16:32:13Z,,"bug, P3"
+6401,scrollzoom on automargined axes gives rendering flickers,open,2022-12-15T23:25:56Z,2024-08-09T16:32:08Z,,"bug, P3"
+6397,no resize cursor on static sliders,closed,2022-12-14T16:52:01Z,2022-12-16T15:22:08Z,,bug
+6396,cursor on static sliders should not show resize,closed,2022-12-14T16:31:19Z,2022-12-16T15:22:06Z,,bug
+6393,disable interactions for `slider` when `staticPlot` is true,closed,2022-12-12T23:01:26Z,2022-12-13T16:09:39Z,,bug
+6392,static `slider`,closed,2022-12-12T22:32:01Z,2022-12-13T00:10:52Z,,bug
+6391,Long inside text - double margin and long delay,open,2022-12-12T14:48:48Z,2024-08-09T16:31:19Z,,"bug, P3"
+6387,Fix `scattermapbox` update bug,closed,2022-12-07T00:01:57Z,2022-12-14T14:40:56Z,,"bug, regression"
+6386,Colored and Styled Error Bars described incorrectly in docs,open,2022-12-06T14:40:23Z,2024-11-20T17:42:56Z,,"bug, P2"
+6382,`scattermapbox` restyle bug,closed,2022-11-30T21:02:13Z,2022-12-07T22:12:15Z,,"bug, regression"
+6383,boxmode 'group' on 'logscale' boxgap issue,open,2022-11-30T01:52:22Z,2024-08-09T16:30:16Z,,"bug, P3"
+6505,Scatter3D marker flickering/clipping while rotating the plot,open,2022-11-25T15:25:01Z,2024-08-09T16:30:10Z,,"bug, P3"
+6371,Hovertemplate's text does not change between sliders.steps when on mobile and there's also no method of closing the tool-tip once opened,open,2022-11-21T11:17:38Z,2024-08-09T16:29:50Z,,"bug, P3"
+6369,"Scatter3D flickering on any mouse event (pan, zoom) when updating data on hight rate",open,2022-11-17T10:50:22Z,2024-08-09T16:29:44Z,,"bug, P3"
+6367,Fix mapbox clearOutline calls,closed,2022-11-11T23:56:12Z,2022-11-12T00:19:18Z,,"bug, regression"
+6365,Old WebGL contexts not destroyed after updating with React plot component,open,2022-11-10T15:27:32Z,2024-08-09T16:29:10Z,,"bug, P3"
+6363,scatter_mapbox not updating in Dash with plotly.js 2.16.1,closed,2022-11-10T10:17:05Z,2023-02-01T03:01:00Z,,bug
+6362,make_subplots + hrect rendering bug,open,2022-11-09T10:11:39Z,2024-08-09T16:29:05Z,,"bug, P3"
+6360,Fixed hover behaviour for multicategory plots,closed,2022-11-04T23:47:35Z,2022-11-16T15:23:26Z,,"bug, community"
+6359,Scatter 3D dragmode turntable loses the camera.eye on JavaScript reload,open,2022-11-04T09:55:05Z,2024-08-09T16:28:49Z,,"bug, P3"
+6358,Attach the clearSelect method to mapbox only if it exists,closed,2022-11-03T13:08:50Z,2022-11-11T23:57:58Z,,"bug, regression"
+6354,Mapbox maps rendering issue with multiple worlds,closed,2022-10-31T18:50:31Z,2024-07-04T12:39:42Z,,bug
+6346,Selection broken after reacting add another trace on top of `choroplethmapbox` ,closed,2022-10-20T17:55:05Z,2022-10-21T15:23:02Z,,bug
+6345,choroplethmapbox update on select,closed,2022-10-20T15:05:38Z,2022-10-21T15:23:04Z,,bug
+6337,Pie chart - wrong plot when window resize,open,2022-10-07T06:47:34Z,2024-08-09T16:27:48Z,,"bug, P3"
+6336,Double click to zoom out alternates between ranges,open,2022-10-05T07:22:16Z,2024-08-09T16:27:41Z,,"bug, P3"
+6335,Hide text on empty slices to avoid PDF exports in MS Word from SVG imports,closed,2022-10-04T16:16:10Z,2022-10-06T15:53:34Z,,bug
+6331,[BUG] Series plot hover only shows first line,closed,2022-09-29T09:41:19Z,2022-11-16T15:23:26Z,,"bug, regression"
+6328,Node hover effect not working correctly in Sankey plots,closed,2022-09-27T06:43:22Z,2023-12-15T15:41:57Z,,bug
+6325,`hoveron: 'fills'` does not work for stacked area chart ,open,2022-09-23T22:19:52Z,2024-08-09T16:27:17Z,,"bug, P3"
+6474,bar chart: textposition='auto' not working for 0 values,open,2022-09-23T15:59:43Z,2024-08-09T16:27:10Z,,"bug, P3"
+6323,Fix exporting transparent colors in `rangeslider` & `selections`,closed,2022-09-22T13:43:12Z,2022-10-06T15:34:57Z,,bug
+6318,Fix exporting patterns with transparent color ,closed,2022-09-19T15:04:30Z,2022-09-22T13:02:34Z,,bug
+6312,Automargin zoom,closed,2022-09-07T18:32:22Z,2022-09-15T17:45:34Z,,bug
+6310,rangeslider template bug (non-attribute inserted into layout instead of fullLayout),open,2022-09-06T14:24:32Z,2024-08-09T16:26:37Z,emilykl,"bug, P2"
+6309,toggleHover property is not working when using modeBarButtonsToAdd method with Pie Charts config,open,2022-09-05T16:37:44Z,2024-08-09T16:25:59Z,,"bug, P3"
+6308,Secondary x-axis numberline doesn't show on histogram plots,open,2022-09-04T23:51:52Z,2024-08-09T16:25:53Z,,"bug, P3"
+6298,“Error parsing” in empty axis,open,2022-08-17T07:57:42Z,2024-08-09T16:25:48Z,,"bug, P3"
+6296,"`staticPlot` disable interactions for `sunburst`, `treemap`, `icicle`, `pie`, `funnelarea`, `parcats`, `parcoords` & `sankey` traces ",closed,2022-08-11T17:09:53Z,2022-08-31T21:09:41Z,,bug
+6291,`staticPlot` config not disabling interactions for some traces,closed,2022-08-11T15:39:51Z,2022-08-31T21:09:39Z,,bug
+6288,"Wrong calculation of min/max with annotation and `autorange: ""reversed""`",open,2022-08-09T06:26:48Z,2024-08-09T16:25:42Z,,"bug, P3"
+6284,Constraint-type contour plot cannot shade entire area,open,2022-08-01T21:40:01Z,2024-08-09T16:25:22Z,,"bug, P3"
+6281,Fixed Mapbox Touch Event on Mobile After Switching Back from Select Mode,closed,2022-07-28T04:19:35Z,2022-08-12T21:03:59Z,,"bug, community"
+6279,"if `hoverinfo` of trace is set to `skip` ,  any event has not occured.",open,2022-07-27T02:20:24Z,2024-08-09T16:25:16Z,,"bug, P3"
+6277,emit `plotly_selected` event on plot API calls and GUI edits,closed,2022-07-25T17:17:46Z,2022-07-25T20:16:11Z,,bug
+6272,Selected/unselected markers opacity can't be set to 0 in splom plot,open,2022-07-20T06:34:08Z,2024-08-09T16:25:08Z,,"bug, P3"
+6267,Handle missing drag layer of invisible `sankey` traces to fix select error,closed,2022-07-15T17:57:08Z,2022-07-15T19:56:14Z,,bug
+6266,"problem with missing ""_bgRect"" drag layer for invisible `sankey` when clicking select on the modebar",closed,2022-07-15T17:34:16Z,2022-07-15T19:56:10Z,,bug
+6265,Fix `sankey` select error and improve handling of zero indexed subplots,closed,2022-07-15T17:02:20Z,2022-07-15T20:53:46Z,,"bug, regression"
+6264,Sankey select error,closed,2022-07-15T15:59:11Z,2022-07-15T20:53:41Z,,"bug, regression"
+6263,modebar select error case of cartesian with Sankey plot,open,2022-07-15T15:52:00Z,2024-08-09T16:24:32Z,,"bug, P3"
+6262,Emit selection events in drawmode when an existing selection modified,closed,2022-07-15T14:14:02Z,2022-07-15T20:07:43Z,,bug
+6260,Avoid attaching selections to missing eventData,closed,2022-07-14T19:33:26Z,2022-07-14T20:29:37Z,,"bug, regression"
+6259,Cannot set properties of undefined (setting 'selections'),closed,2022-07-14T19:17:52Z,2022-07-14T20:29:32Z,,"bug, regression"
+6258,Fix `mapbox` shift select regression,closed,2022-07-14T16:25:26Z,2022-07-14T16:31:30Z,,bug
+6257,Selecting points on non-cartesian subplots deselects points on cartesian subplots,open,2022-07-14T15:05:44Z,2024-08-09T16:24:21Z,,"bug, P3"
+6256,"Locale Partially Effective: Dictionary Errors in pt-BR, pt-PT, and ko",open,2022-07-14T00:15:18Z,2024-08-09T16:24:16Z,,"bug, P2"
+6251,bug when animating Scattergl,open,2022-07-06T13:21:05Z,2024-08-09T16:24:08Z,archmoj,"bug, P2"
+6249,`autorange` throws when y range is small,open,2022-07-01T09:30:28Z,2024-08-09T16:23:32Z,,"bug, P2"
+6236,use middle gray instead of 777 for default `parcoords` unselected line color,closed,2022-06-20T14:41:45Z,2022-07-05T19:35:18Z,,bug
+6235,Jitter / stuttering while zooming around on GL scatter plot,open,2022-06-18T21:31:53Z,2024-10-15T15:01:56Z,,"bug, P3, performance"
+6228,Subplot area should be updated case of legend having MathJax,open,2022-06-14T19:48:10Z,2024-08-09T16:23:04Z,,"bug, P3"
+6226,[BUG] go.Heatmap y axis labels misaligned when using mathjax,closed,2022-06-12T05:17:54Z,2024-07-03T17:19:17Z,,bug
+6212,boxplots with q1/median/q3 signature always show fences as min/max on hover,open,2022-06-08T06:29:51Z,2024-08-09T16:22:56Z,,"bug, P3"
+6200,render histograms on log axes with bin edge at 0,open,2022-05-31T15:19:33Z,2024-11-22T13:20:20Z,,"bug, P3"
+6198,Bars in the same `alignmentgroup` should have the same width,closed,2022-05-27T15:10:02Z,2024-07-03T17:17:33Z,,bug
+6189,revise `box` & `violin` hover labels - improve order & handle duplicates,closed,2022-05-12T22:55:47Z,2022-06-14T17:12:00Z,,bug
+6177,Fix modeBarButtons issue,closed,2022-05-05T10:27:09Z,2022-05-09T11:58:23Z,,bug
+6174,Outlier slows down zooming in scattergl,open,2022-04-30T16:42:54Z,2024-08-09T16:22:11Z,,"bug, P3"
+6173,undesirable half pixel pad when axis showline is set to false,closed,2022-04-29T16:38:02Z,2024-07-03T17:15:08Z,,bug
+6170,Tooltip does not display on a bar chart with a single data point,closed,2022-04-18T22:02:13Z,2024-07-03T17:12:39Z,,bug
+6163,improve handling blank tick labels,closed,2022-04-01T16:23:47Z,2022-04-21T17:45:16Z,,bug
+6161,Plotly waterfall with offset base: hovertext activated on hover at wrong position,open,2022-03-30T14:35:11Z,2024-08-09T16:21:50Z,,"bug, P3"
+6156,Plotly.relayout call stops the _fullLayout of the DOM object to track subsequent layout changes triggered by mouse interaction,open,2022-03-24T15:45:23Z,2024-08-09T16:21:24Z,,"bug, P2"
+6155,Legend text overlapping Labels of Y axis when legends set tot left of Chart,open,2022-03-24T13:26:32Z,2024-08-09T16:21:12Z,,"bug, P3"
+6151,fix clearing carpet.gridwidth,closed,2022-03-18T22:13:06Z,2022-03-22T20:13:37Z,,bug
+6147,disable polar rotation drag when dragmode = false,closed,2022-03-18T05:23:04Z,2022-05-09T21:25:05Z,,"bug, community"
+6146,Replace calls to deprecated String.substr(),closed,2022-03-18T02:31:34Z,2024-07-10T17:43:09Z,gvwilson,bug
+6141,Regenerate functions for regl-based traces in the strict bundle,closed,2022-03-15T16:42:10Z,2022-03-15T16:44:32Z,,bug
+6140,Scattergl in strict-bundle still requires unsafe-eval,closed,2022-03-14T22:45:32Z,2022-03-15T19:26:51Z,,bug
+6138,show/hide legend items does not work for stacked area chart,open,2022-03-14T18:17:43Z,2025-03-31T14:11:16Z,,"bug, P3"
+6338,Axis Ticks not flushed with Graph Border,open,2022-03-13T17:02:10Z,2024-08-09T16:20:54Z,,"bug, P3"
+6133,Fix `mesh3d` generation when `alphahull` is positive,closed,2022-03-07T23:39:21Z,2022-03-08T13:47:00Z,,"bug, regression"
+6131,Empty plot for mesh3d with alphahull>0,closed,2022-03-07T15:35:18Z,2022-03-08T13:46:57Z,,"bug, regression"
+6128,Trace is invisible on de/activating via legend,open,2022-03-03T13:21:55Z,2024-08-09T16:19:37Z,,"bug, P3"
+6820,"Plotly fails when using ""scattergl"" and value greater than 2^24 [Only on M1]",closed,2022-03-02T05:30:04Z,2024-01-02T17:44:59Z,,"bug, sev-2, P2"
+6127,Dropdown buttons not “clickable” on Mobile for a Plotly Offline export,open,2022-02-25T09:17:29Z,2024-08-09T16:18:59Z,,"bug, P3"
+6112,Axis thickness is inconsistent,closed,2022-02-10T16:14:29Z,2024-06-26T18:27:38Z,,bug
+6109,Depend on the latest `probe-image-size` module v7.2.3,closed,2022-02-04T19:39:11Z,2022-02-04T19:39:35Z,,bug
+6108,Incorrect coordinates on click in scatter plot inside shadow dom,closed,2022-02-04T17:58:34Z,2025-02-17T21:19:16Z,alexcjohnson,"bug, P1"
+6094,Fix vertical spacing of legend items in horizontal mode,closed,2022-01-25T14:59:10Z,2022-02-01T16:15:56Z,,bug
+6089,Legend groups should size individually when stacked vertically,closed,2022-01-21T17:23:24Z,2022-02-01T16:15:51Z,,bug
+6087,scrollZoom = False does not work on mobile devices,open,2022-01-21T15:32:26Z,2024-08-09T16:17:01Z,,"bug, P3"
+6082,"Restyle function breaks ""scatter"" traces at  the ""h"" orientation",open,2022-01-17T16:23:44Z,2024-08-09T16:16:51Z,,"bug, P3"
+6078,String.substr is deprecated,open,2022-01-13T15:38:09Z,2024-08-09T16:16:44Z,archmoj,"bug, good first issue, P2"
+6070,Correct formatted x/y `texttempate` for `histogram` trace,closed,2021-12-20T17:16:55Z,2021-12-20T17:27:25Z,,bug
+6069,"Fix x/y `texttemplate` for `histogram`, `bar`, `funnel` and `waterfall` traces",closed,2021-12-20T16:22:41Z,2021-12-20T16:24:03Z,,bug
+6068,Missing x/y `texttemplate` for funnel and waterfall,closed,2021-12-20T16:09:06Z,2021-12-20T16:24:00Z,,bug
+6067,Wrong text when formatting x/y `texttemplate` on histogram,closed,2021-12-20T16:00:16Z,2021-12-20T17:27:22Z,,bug
+6066,Missing x/y `texttemplate` on histogram,closed,2021-12-20T15:56:23Z,2021-12-20T16:24:00Z,,bug
+6065,Missing x `texttemplate` for bars when the x array is not provided,closed,2021-12-20T15:36:30Z,2021-12-20T16:24:00Z,,bug
+6061,Do not exceed global font size when heatmap textfont is set to auto,closed,2021-12-15T22:22:31Z,2021-12-15T23:30:39Z,,bug
+6051,Discard negative values from pie chart post-aggregation instead of during summation,closed,2021-12-07T18:34:28Z,2021-12-09T19:25:27Z,,"bug, community"
+6047,"Purging and removing element while hovering causes ""undefined is not an object""",open,2021-11-30T19:54:09Z,2024-08-09T16:16:22Z,,"bug, P3"
+6046,fix uirevision autorange bug,closed,2021-11-29T16:05:49Z,2021-12-02T14:13:30Z,,bug
+6043,Avoid bar with text to jump when selected,closed,2021-11-25T21:55:13Z,2021-11-26T18:39:33Z,,bug
+6041,Selecting bars with text impacts bar positions,closed,2021-11-24T19:21:15Z,2021-11-26T18:39:31Z,,bug
+6039,Fix mapbox getView scale for Retina display,closed,2021-11-23T23:13:14Z,2021-12-03T02:11:37Z,,bug
+6037,Scattergl doesn't fill to zero y (`tozeroy`) properly,open,2021-11-23T06:14:16Z,2024-08-09T16:15:58Z,,"bug, P3"
+6036,Bump probe-image-size v7.2.2,closed,2021-11-22T19:25:01Z,2021-12-01T19:09:44Z,,bug
+6032,Visual artefacts on filled area plot + wrong axis on stackgroup,open,2021-11-20T17:40:17Z,2024-08-09T16:15:52Z,,"bug, P3"
+6031,bug with selectedpoints when using multiple histogram,open,2021-11-19T10:32:23Z,2024-08-09T16:15:31Z,,"bug, P3"
+6021,Fixed hover events in Shadow DOM,closed,2021-11-11T19:58:33Z,2021-11-12T18:58:58Z,,"bug, community"
+6015,maxdepth missing from exported member of plotly typescript,open,2021-11-10T17:52:39Z,2024-08-09T16:14:35Z,,"bug, P2"
+6014,Webpack v5 compatibility issue (with workaround),open,2021-11-09T12:30:35Z,2024-08-09T16:14:28Z,archmoj,"bug, P2, infrastructure"
+6013,X and Y axis values repeat when the data is constant,open,2021-11-08T08:07:48Z,2024-08-09T16:13:56Z,,"bug, P2"
+6011,pin down to-px at 1.0.1,closed,2021-11-05T15:12:19Z,2021-11-05T15:21:59Z,,"bug, regression"
+6010,Unable to load plotly.js v2.6.0 in `Orca`,closed,2021-11-05T14:26:39Z,2021-11-05T15:21:56Z,,"bug, regression"
+6008,Ignore stackgl node_modules folder when using `npm pack`,closed,2021-11-03T18:19:14Z,2021-11-03T18:42:02Z,,"bug, regression"
+6007,v2.6.0 pack size increased to over 100MB,closed,2021-11-03T17:52:18Z,2021-11-03T18:41:59Z,,"bug, regression"
+6004,Fix npm ci for npm 6 users,closed,2021-10-27T17:34:16Z,2021-11-05T15:10:06Z,,"bug, regression"
+6002,Fix horizontal alignment of colorbar in editable mode when xanchor is set to center,closed,2021-10-26T14:57:30Z,2021-10-26T15:16:58Z,,bug
+6001,problem editing position of colorbar when xanchor is set to center,closed,2021-10-26T14:51:30Z,2021-10-29T17:26:53Z,,bug
+5997,horizontal legend undesirable positioning,closed,2021-10-21T22:16:45Z,2024-06-26T18:19:30Z,,bug
+5996,Do not wrap (enter to first column) legend items if already on the first column,closed,2021-10-21T21:00:42Z,2021-10-22T14:21:28Z,,bug
+5995,legend horizontal wrapping should not try to wrap long items if they are already in the first column,closed,2021-10-21T20:30:04Z,2021-10-29T17:27:50Z,,bug
+5993,Temporary fix to help improve rendering of graphs with Mathjax on Firefox v82 and higher,closed,2021-10-20T15:57:39Z,2021-10-26T19:41:46Z,,bug
+5992,Adjust imaginary tickvals default to fix react,closed,2021-10-19T17:43:42Z,2021-10-29T20:26:46Z,,bug
+5985,"Interpolate contours in linear space, not data space",closed,2021-10-17T19:41:04Z,2021-10-19T18:49:36Z,,"bug, community"
+5984,Time is not displayed in hover text at midnight (00:00:00),open,2021-10-15T19:09:17Z,2024-08-09T16:13:47Z,,"bug, P3"
+5976,Revise `convertToTspans`,closed,2021-10-09T02:49:28Z,2021-10-18T17:20:51Z,,bug
+5965,Hovertemplate not using single text value for all data points,open,2021-10-02T08:08:07Z,2024-08-09T17:08:46Z,,"bug, P3"
+5964,Display prefix and suffix of invisible polar axes in hover,closed,2021-10-01T16:31:07Z,2021-10-01T19:23:20Z,,bug
+5962,hover missing prefix and suffix on polar subpolts when the axis is not visible,closed,2021-10-01T15:41:57Z,2021-10-01T19:23:18Z,,bug
+5958,Fix scatter3d opacity restyle bug,closed,2021-09-30T00:36:21Z,2021-10-04T19:17:51Z,,"bug, community"
+5954,Fix unhover event data for gl3d subplots,closed,2021-09-29T00:40:41Z,2021-10-12T18:45:40Z,,"bug, community"
+5952,"A trace without data is displayed when a ""stacking"" defined",open,2021-09-28T18:10:37Z,2024-08-09T17:08:38Z,,"bug, P3"
+5945,Scattergl tooltip order inverted when using scattergl on overlapping traces ,open,2021-09-22T15:59:11Z,2024-08-09T17:08:20Z,,"bug, P3"
+5944,transition animation does not work in combination with modeBarButtons config enabled,open,2021-09-22T10:02:19Z,2024-08-09T17:08:05Z,,"bug, P3"
+5931,Range slider updating: plots inside range slider are not updated,open,2021-09-10T13:49:38Z,2024-08-09T17:06:53Z,,"bug, P3"
+5927,Scattergl plot is sometimes slow to interact with even with moderate number of points,open,2021-09-07T14:24:41Z,2024-11-22T13:28:01Z,,"bug, P3, performance"
+5923,Further reduce the number of `noCI` tests by installing the required fonts and adjust the tests,closed,2021-09-03T20:01:50Z,2024-06-26T18:08:36Z,,bug
+5922,Use npm v7 and node.js 16 in development and testing,closed,2021-09-03T19:05:18Z,2021-09-03T20:12:23Z,,bug
+5918,connectgaps: false not working with fill: 'tozeroy',open,2021-09-01T16:47:46Z,2024-08-09T17:06:41Z,,"bug, P3"
+5916,Adjust position of hover in respect to CSS transform,closed,2021-08-31T22:48:08Z,2021-09-02T21:02:54Z,,bug
+5913,Handle case of div with zero dimension when positioning unified hover box,closed,2021-08-30T18:31:34Z,2021-08-31T16:48:47Z,,"bug, regression"
+5911,"Clicking on legend group titles should always toggle the group, even when groupclick=item",open,2021-08-27T20:36:45Z,2024-08-09T17:06:34Z,,"bug, P3"
+5910,double-clicking on items when groupclick='item' should behave as if the item was not in a group,open,2021-08-27T20:36:08Z,2024-08-09T17:06:29Z,,"bug, P3"
+5909,Fix double click legends when groupclick is set to toggleitem,closed,2021-08-27T19:28:09Z,2021-08-27T20:35:04Z,,bug
+5908,"double-click items hides all when `groupclick`: ""toggleitem""",closed,2021-08-27T19:22:29Z,2021-08-27T20:34:51Z,,bug
+5899,Contour plot interpolation method always treats data as linear,closed,2021-08-20T15:32:59Z,2021-10-19T18:49:46Z,,bug
+5896,Axis labels (sprites) breaking into the chart,open,2021-08-19T18:57:12Z,2024-08-09T17:06:15Z,,"bug, P3"
+5895,Use `hoverlabel.font` for group titles in unified hover modes,closed,2021-08-17T21:49:30Z,2021-08-25T14:26:34Z,,bug
+5879,Fix cartesian hover toggle,closed,2021-08-05T16:48:13Z,2024-07-13T19:48:40Z,gvwilson,"bug, community"
+6792,Scattergl freezes when y values have lots of zeros,open,2021-08-05T15:42:17Z,2024-08-12T15:52:51Z,,"bug, sev-2, P2, performance"
+5878,removed invalid .then call using lib.promiseError which does not exis…,closed,2021-08-05T12:30:13Z,2021-08-05T14:08:13Z,,"bug, community"
+5871,Chart overflows when URL changes,open,2021-08-02T09:02:28Z,2024-08-09T17:05:18Z,,"bug, P3"
+5868,Propose fixing eslint module to catch calls to Function.apply,closed,2021-07-30T17:18:52Z,2021-07-30T18:38:59Z,,bug
+5865,Excluding regl based traces from the strict bundle,closed,2021-07-30T01:04:32Z,2021-07-30T12:01:58Z,,bug
+5864,Fix period positioned hover to work in different time zones as well as on grouped bars,closed,2021-07-28T21:44:55Z,2021-07-29T20:07:48Z,,bug
+5861,timezone dependent bugs,open,2021-07-28T15:39:33Z,2024-08-09T17:05:12Z,,"bug, P3"
+5854,"Skip `""hoverinfo"": ""none""` trace display for hover modes",closed,2021-07-26T15:08:46Z,2021-10-07T12:57:50Z,,"bug, community"
+5853," `mirror: ""all""`: spurious ticks",open,2021-07-26T03:26:55Z,2024-08-09T17:04:55Z,,"bug, P3"
+5852,Use ids from axes instead of [object Object] in hover data key,closed,2021-07-24T17:58:40Z,2021-07-29T20:15:30Z,,bug
+5851,Fillcolor not showing up after clicking on legends from bottom to top,open,2021-07-22T21:14:16Z,2024-08-09T17:03:14Z,,"bug, P3"
+5848,wrong range in hover info for basic histogram,open,2021-07-21T17:10:41Z,2024-08-09T17:03:01Z,,"bug, P3"
+5846,Fix hover with period alignment points and improve positioning of spikes and unified hover label,closed,2021-07-21T14:48:29Z,2021-07-23T16:15:11Z,,bug
+5845,Position hover in respect to the average of values in (x|y) unified modes,closed,2021-07-20T20:42:12Z,2021-07-20T21:04:14Z,,"bug, regression"
+5844,"Vertical position of ""x unified"" hover does not match the average values",closed,2021-07-20T20:27:54Z,2021-07-20T21:04:10Z,,"bug, regression"
+5841,Bars and unified hover location with half-years periods,closed,2021-07-20T15:03:05Z,2021-07-29T20:07:45Z,,bug
+5838,Fix unknown filename when exporting charts using new versions of Safari,closed,2021-07-19T21:01:07Z,2021-07-20T12:08:12Z,,"bug, community"
+5836, Fix scatter and scattergl hover on axes with period and adjust the unified hover position in respect to mean,closed,2021-07-19T18:42:55Z,2021-07-20T20:24:13Z,,bug
+5834,Failure in creating basic bundle without unexpected characters on CircleCI,closed,2021-07-19T14:11:58Z,2021-07-19T14:17:02Z,,bug
+5828,TailwindCSS breaks Plotly modebar layout,open,2021-07-16T07:24:43Z,2024-08-09T17:02:45Z,,"bug, P3"
+5823,Pie items in legend groups show up as black squares when hidden,open,2021-07-13T14:45:05Z,2024-08-09T17:02:37Z,,"bug, P3"
+5822,hover misplaced with period positioning,closed,2021-07-13T14:11:10Z,2021-07-26T18:29:37Z,,bug
+5818,Adjust links to time format options so that they point to the d3-time-format v2.2.3 applied not the latest,closed,2021-07-12T04:20:19Z,2021-07-12T11:42:12Z,,bug
+5805,legendgrouptitle and traceorder=normal,open,2021-07-07T13:06:13Z,2024-08-09T17:02:30Z,,"bug, P3"
+5804,fix mapbox_geojson-attributes mock & baseline,closed,2021-07-06T22:18:29Z,2021-07-06T22:20:10Z,,bug
+5803,Fix to improve sanitizing href inputs for SVG and HTML text elements,closed,2021-07-06T17:50:59Z,2021-07-06T20:54:05Z,,bug
+5802,Pie Chart Misalignment Issue when resizing the browser window ,open,2021-07-06T15:02:01Z,2024-08-09T17:01:56Z,,"bug, P3"
+5793,Wind rose malfunctioning,open,2021-07-01T09:44:19Z,2024-08-09T17:01:46Z,LiamConnors,"bug, P3"
+5790,Performance Issues with large data sets since 2.x.x,open,2021-06-30T15:33:13Z,2024-08-12T15:52:49Z,,"bug, P3, performance"
+5787,Investigate fixing scroll zoom handler after switching to more recent d3-geo,closed,2021-06-29T20:20:20Z,2024-06-25T13:40:08Z,,bug
+5783,Rangebreaks overlap issue,open,2021-06-29T15:28:12Z,2024-08-09T17:01:01Z,,"bug, sev-2, P3"
+5777,Range slider does not render traces defined as scattergl type,open,2021-06-28T12:28:45Z,2024-08-09T17:00:52Z,,"bug, P3"
+5771,Allow clickable legend group titles when group has no pie-like traces,closed,2021-06-25T20:23:19Z,2021-07-17T20:54:04Z,,bug
+5770,Investigate why we are unable to generate two mapbox baselines using Kaleido,closed,2021-06-25T19:49:48Z,2024-07-08T17:33:49Z,gvwilson,bug
+5767,Shapes are misplaced when using numbers as categoryarray values,open,2021-06-25T14:10:59Z,2024-08-09T17:00:46Z,,"bug, P3"
+5765,Clickable legend group title,closed,2021-06-25T00:04:14Z,2023-06-02T10:38:32Z,,bug
+5763,Fix fetching geojson when ES6 import is used to load the library,closed,2021-06-23T17:11:10Z,2021-06-24T17:47:29Z,,bug
+5753,Error fetching geojson when ES6 import is used,closed,2021-06-21T22:41:59Z,2021-06-24T17:47:25Z,,bug
+5750,Autorange on Y broken with facets and range on X,closed,2021-06-19T11:03:33Z,2024-06-25T13:38:58Z,,bug
+5733,"Implement fgopacity, fgcolor & ""overlay"" fillmode for bars, fix bar legend and pattern with marker colorscale",closed,2021-06-16T23:06:41Z,2021-06-18T16:34:06Z,,"bug, feature"
+5732,Set the maximum width of categorical bars & boxes to category unit - case of categoryarray,closed,2021-06-15T22:10:18Z,2021-06-17T16:38:07Z,,bug
+5731,bar widths and categoryarray,closed,2021-06-15T13:11:16Z,2021-06-17T16:38:04Z,,bug
+5721,x-unified hover tooltips overflow,closed,2021-06-08T14:46:20Z,2021-07-23T17:53:15Z,,bug
+5712,"Separate command line script for making custom bundles and rename it to ""custom-bundle""",closed,2021-06-04T19:04:23Z,2021-06-04T20:48:33Z,,"bug, feature"
+5708,Fix native ES6 import,closed,2021-06-03T19:25:04Z,2021-06-03T22:10:31Z,,bug
+5707,Plotly Waterfall values are being cut off by xaxis,open,2021-06-03T12:56:20Z,2024-08-09T17:00:10Z,,"bug, P3"
+5698,3D surface plotly_relayout does not trigger with touch drag.  Scroll zoom reports older camera vector.,open,2021-06-01T07:25:03Z,2024-08-09T16:59:39Z,,"bug, P3"
+5696,"Revise attributions of Carto, Stamen and Open Street Map styles",closed,2021-05-31T19:14:00Z,2021-06-02T13:25:12Z,,bug
+5686,Fixup misinterpreted clip-path by some programs after export,closed,2021-05-26T15:47:34Z,2021-05-26T17:14:33Z,,bug
+5685,clip-path misinterpreted by some programs after export,closed,2021-05-26T15:28:50Z,2021-05-26T17:14:29Z,,bug
+5684,Fixup hidden mathjax ticklabel,closed,2021-05-26T00:48:15Z,2021-05-26T00:48:48Z,,"bug, regression"
+5683,Pick closest points to the winning point in compare mode and position unified hover box in front of winning point,closed,2021-05-25T16:59:51Z,2021-05-28T02:59:31Z,,bug
+5681,Incorrect hover invariant in period mode,closed,2021-05-25T13:56:50Z,2021-05-28T02:59:26Z,,bug
+5680,Unified hover box location problem,closed,2021-05-25T13:55:19Z,2021-05-28T02:59:26Z,,bug
+5676,Provide latLon hover labels on scattermapbox and densitymapbox,closed,2021-05-21T16:05:46Z,2021-05-21T18:57:47Z,,bug
+5675,OpennStreetMap credit,closed,2021-05-21T12:25:03Z,2021-06-02T13:25:07Z,,bug
+5674,why Plotly.react() is as slow as Plotly.newPlot()? updating single trace of many,open,2021-05-21T09:26:17Z,2024-08-12T15:52:48Z,,"bug, P3, performance"
+5673,Fixup parcoords constraintrange valType and validate parcoords mocks,closed,2021-05-20T23:33:53Z,2021-07-17T20:37:13Z,,bug
+5669,Unable to validate contourcarpet,open,2021-05-19T22:56:28Z,2024-08-09T16:58:21Z,,"bug, P3"
+5668,Fixup hover filters,closed,2021-05-19T21:43:01Z,2021-05-24T18:31:10Z,,bug
+5666,Fix bar get color,closed,2021-05-18T22:44:00Z,2021-05-19T01:50:53Z,,bug
+5662,Fixup and simplify bar hover min and max positions with period,closed,2021-05-17T22:43:12Z,2021-05-18T15:35:48Z,,bug
+5656,hover edge cases on period positioned points,closed,2021-05-13T13:53:49Z,2021-05-28T03:16:37Z,,bug
+5655,visible: 'legendonly' removes plot from hover event data,open,2021-05-12T07:06:42Z,2024-08-09T16:58:11Z,,"bug, P3"
+5643,x-unified hover skips a level for data with different lengths,closed,2021-05-07T23:13:06Z,2021-06-08T15:22:36Z,,bug
+5622,Fixup texttemplate on log axes,closed,2021-05-04T16:42:31Z,2021-05-05T18:50:20Z,,bug
+5618,Fixup hover on period positioned points,closed,2021-04-29T21:06:03Z,2021-05-13T14:26:52Z,,bug
+5616,Pie chart leader lines are not cleaned up when layout height changes in call to Plotly.react,open,2021-04-29T12:42:10Z,2024-08-09T16:57:40Z,,"bug, P3"
+5614,Plotly.react legend label color does not ...react... to label color changes,open,2021-04-28T09:21:55Z,2024-08-09T16:57:34Z,,"bug, P3"
+5611,New defaults for colorbar.title.font and legend.title.font to depend on colorbar.tickfont and legend.font and increase their sizes,closed,2021-04-26T20:54:45Z,2021-05-05T17:06:47Z,,bug
+5610,Take into account inside labels of the counter axis during autorange relayout,closed,2021-04-26T19:07:05Z,2021-04-27T14:05:15Z,,bug
+5609,Fix Safari Download,closed,2021-04-26T18:14:49Z,2021-07-19T20:58:33Z,,"bug, community"
+5607,Fix geo plot hover interaction for Firefox,closed,2021-04-23T09:20:27Z,2021-06-03T15:07:07Z,,"bug, community"
+5605,Fix the list of traces for publishing packages to npm,closed,2021-04-22T16:14:50Z,2021-05-04T16:02:00Z,,bug
+5601,padding problem relayouting autorange when counter axis has inside ticklabels,closed,2021-04-21T17:59:42Z,2021-05-05T19:46:23Z,,bug
+5597,do not depend on recursive remove directory for node.js < v12.10,closed,2021-04-20T22:33:32Z,2021-04-21T17:39:08Z,,bug
+5595,Legend title in horizontal mode is misaligned and ambiguously sized,closed,2021-04-20T15:18:33Z,2021-05-05T17:06:43Z,,bug
+5589,Take into account inside labels of overlaid axes in when hiding labels on the counter axis,closed,2021-04-14T16:21:47Z,2021-04-21T17:21:36Z,,bug
+5586,Take into account inside labels of overlaid axes in autorange padding,closed,2021-04-09T22:05:14Z,2021-04-10T14:10:00Z,,bug
+5585,Invalid text on the logarithmic axis,closed,2021-04-09T14:21:45Z,2021-05-05T18:50:16Z,,bug
+5584,Implement ticklabeloverflow to improve control over display of tick labels,closed,2021-04-08T20:15:08Z,2021-04-14T14:08:48Z,,"bug, feature"
+5583,Should set opacity to 1 to be visible,closed,2021-04-08T14:32:00Z,2021-04-08T14:58:50Z,,bug
+5582,Hide period label intersecting inside tick labels of the counter axis,closed,2021-04-07T19:44:55Z,2021-04-10T14:10:49Z,,bug
+5572,"hovermode=""x"" is unreliable with multiple traces",closed,2021-03-29T20:59:11Z,2021-05-24T18:31:06Z,,bug
+5568,Sunburst leaf opacity does not apply to black text ,open,2021-03-25T20:32:37Z,2024-08-09T16:56:11Z,,"bug, P3"
+5560,Scatter3D does not remember its visual state in certain conditions,open,2021-03-21T09:42:32Z,2024-08-09T16:56:03Z,,"bug, P3"
+5558,Bars disappear when other traces have `cliponaxis: false`,open,2021-03-19T18:04:41Z,2024-08-09T16:55:43Z,,"bug, P3"
+5556,Cannot edit plot title or axes on Safari browsers,open,2021-03-17T17:37:11Z,2024-08-09T16:55:38Z,,"bug, P3"
+5554,Hover rules for non-period-positioned bars,closed,2021-03-16T17:10:52Z,2021-05-25T14:41:25Z,,bug
+5553,Hover rules for period-positioned traces,closed,2021-03-16T17:08:35Z,2021-05-13T14:26:48Z,,bug
+5551,scrollZoom no longer works for me in Chrome (Example on Plotly also broken),closed,2021-03-16T10:33:08Z,2024-06-24T13:57:32Z,,bug
+5550,Hide gridlines and ticks overlapping inside ticklabels,closed,2021-03-15T20:57:47Z,2021-04-08T14:32:36Z,,bug
+5547,Broken text transitions for sunburst/treemap charts,open,2021-03-12T19:33:33Z,2024-08-09T16:55:31Z,,"bug, P3"
+5543,Fix hover filter to display close period points,closed,2021-03-10T20:56:35Z,2021-04-10T14:11:28Z,,bug
+5542,Fixup bar spike distance,closed,2021-03-10T15:17:06Z,2021-03-16T13:18:22Z,,bug
+5541,Inconsistent “dtick” when using ‘auto’ tickmode,closed,2021-03-10T11:03:02Z,2024-06-24T13:56:28Z,,bug
+5537,Remove pattern from funnel attributes and add tests for histogram and barpolar,closed,2021-03-08T21:10:29Z,2021-04-21T14:58:47Z,,bug
+5534,scattergl: make selection's eventData the same as in scatter traces,closed,2021-03-04T22:11:23Z,2021-03-08T14:26:54Z,,bug
+5533,scattergl traces return selection's eventData that differs from scatter,closed,2021-03-04T22:10:53Z,2021-03-08T14:26:46Z,antoinerg,bug
+5531,Fixup sankey text and shadow,closed,2021-03-04T15:36:46Z,2021-03-05T00:04:40Z,,"bug, feature"
+5529,hovertemplate array with empty string produces console error,open,2021-03-01T19:33:10Z,2024-08-09T16:54:41Z,,"bug, P3"
+5526,Yaxis values remain in rangeslider after plotly.react call is made to modify the data of a chart,closed,2021-02-25T18:04:23Z,2024-06-24T13:55:03Z,,bug
+5525,Interactions with choropleth plot inside elements with `transform: translate` don't work in Firefox,closed,2021-02-25T16:43:42Z,2024-06-25T13:37:16Z,,bug
+5523,Hover text not working with table,open,2021-02-23T18:35:26Z,2024-12-17T13:23:47Z,,"bug, P3"
+5518,getting error as rgba is not a function,open,2021-02-22T21:03:53Z,2024-08-09T16:54:14Z,,"bug, regression, P3"
+5516,hoverinfo=none with hovermode=x unified,closed,2021-02-22T15:51:07Z,2021-10-07T12:57:24Z,,bug
+5515,Range Selector buttons causes view to go out of bounds,open,2021-02-21T12:46:28Z,2024-08-09T16:54:04Z,,"bug, P3"
+5506,Parcoords: Use paper background color for text shadow for better dark mode,closed,2021-02-15T21:19:29Z,2021-03-02T20:57:53Z,,bug
+5505,Error when changing mapbox style with layers using Plotly.react(),open,2021-02-15T20:05:01Z,2024-08-10T17:42:42Z,,"bug, P3"
+5502,Gridlines which would intersect inside tick labels should not be drawn,closed,2021-02-13T15:43:47Z,2021-05-05T19:46:15Z,,bug
+5499,fixup throwing error in requirejs test,closed,2021-02-12T17:58:01Z,2021-02-12T18:27:34Z,,bug
+5497,plotGlPixelRatio has no effect on scattergl,closed,2021-02-12T15:53:36Z,2021-07-12T12:39:06Z,,bug
+5489,Correct arguments passed to circleci tests,closed,2021-02-10T23:53:37Z,2021-02-10T23:54:19Z,,bug
+5485,Switch to latLon hoverlabel,closed,2021-02-09T20:39:00Z,2021-02-10T02:44:59Z,,bug
+5482,Label flaky tests and add early returns in setTimeout functions to bypass undefined fullLayouts,closed,2021-02-09T03:28:00Z,2021-02-09T19:56:25Z,,bug
+5481,Individual negative values discarded in pie chart,closed,2021-02-08T23:33:10Z,2021-12-09T19:25:27Z,,bug
+5477,"plotly_click handler return value is ignored, no way to cancel event processing from custom handler",open,2021-02-08T14:40:22Z,2024-08-09T16:53:13Z,,"bug, P3"
+5476,heatmapgl with axis constraints,closed,2021-02-06T03:04:34Z,2021-02-08T20:03:56Z,,"bug, regression"
+5474,'heatmapgl' with xaxis: { scaleanchor: 'y' } regression in 1.58.0,closed,2021-02-05T19:20:39Z,2021-02-08T20:03:53Z,alexcjohnson,"bug, regression"
+5473,rangebreaks hide wrong days,closed,2021-02-05T15:42:46Z,2021-02-05T16:33:49Z,,bug
+5471,Split syntax task and run no-es6-dist on true publish files,closed,2021-02-04T22:19:44Z,2021-02-04T23:54:09Z,,bug
+5467,post publish using tag from the package version,closed,2021-02-03T16:58:30Z,2021-02-03T22:43:56Z,,bug
+5466,Disallow inline config when running syntax test on bundles,closed,2021-02-03T16:34:52Z,2021-02-03T22:11:52Z,,bug
+5459,hover is not displayed in the case of overflow,open,2021-02-02T22:10:54Z,2024-08-09T16:52:49Z,,"bug, P3"
+5457,"Closure Compiler fails with duplicate member ""cool"" error",closed,2021-02-02T14:43:25Z,2021-02-02T20:38:12Z,,bug
+5448,Double clicks not recognized through the trackpad,open,2021-01-27T22:57:57Z,2024-08-09T16:52:43Z,,"bug, P3"
+5437,Unhover does not fire when drag triggers unhover,closed,2021-01-22T20:01:24Z,2021-01-26T02:17:26Z,,bug
+5434,Focusing an annotation while editing another annotation places the editable text elsewhere,open,2021-01-22T15:49:15Z,2024-08-09T16:52:15Z,,"bug, P2"
+5430,Fixes indicator traces with a threshold equal to 0,closed,2021-01-21T21:04:39Z,2021-01-22T04:50:10Z,,bug
+5428,[bug] cannot show gauge threshold when value is 0,closed,2021-01-21T02:28:27Z,2021-01-21T21:44:02Z,antoinerg,bug
+5426,Improve compress_attributes browserify transform and fixup unexpected characters in bundles,closed,2021-01-20T04:34:17Z,2021-01-21T12:59:00Z,,bug
+5422,Include calendars in all bundles,closed,2021-01-19T19:26:00Z,2021-01-20T02:42:20Z,,bug
+5407,Fire unhover when dragging plot,closed,2021-01-14T17:55:12Z,2021-01-26T02:17:26Z,,bug
+5406,Fixup strict d3 require in devtools,closed,2021-01-14T17:08:31Z,2021-01-14T17:16:35Z,,bug
+5404,clipped axis labels,closed,2021-01-14T15:02:16Z,2021-05-05T19:46:29Z,,"bug, feature"
+5402,inside ticks with dual y-axes,closed,2021-01-14T13:59:20Z,2021-05-05T19:46:38Z,,bug
+5396,demo code is not responsive,open,2021-01-12T10:36:57Z,2024-08-09T16:52:06Z,,"bug, P3"
+5388,Use probe-image-size module to read width and height of images,closed,2021-01-08T01:06:13Z,2021-01-08T13:58:49Z,,bug
+5386,Fix download image and add image test for images with source and fast zsmooth ,closed,2021-01-07T22:05:06Z,2021-01-12T18:17:47Z,,bug
+5382,Unexpected character in some bundles,closed,2021-01-06T21:43:19Z,2021-01-21T12:58:55Z,,bug
+5381,"Yaxis values remain after plotly.react call is made to modify the data of a chart with orientation=""h""",open,2021-01-06T21:21:06Z,2024-08-09T16:51:43Z,,"bug, P3"
+5379,Include transforms in partial bundles,closed,2021-01-06T19:55:00Z,2021-01-07T01:59:55Z,,bug
+5378,Missing transforms on partial bundles,closed,2021-01-06T19:15:11Z,2021-01-07T01:59:50Z,,bug
+5377,ERROR in ./node_modules/image-size/lib/index.js,closed,2021-01-06T17:29:25Z,2021-01-09T20:37:56Z,,bug
+5374,LaTeX/MathJax broken using Firefox v82.0,closed,2021-01-06T01:04:48Z,2024-06-26T18:13:39Z,,bug
+5360,Plotly does not correctly redraw text items when updated through Plotly.react(),open,2020-12-24T02:12:08Z,2024-08-09T16:51:06Z,,"bug, P3"
+5355,"keep null in x,y so regl knows the end of polygon",closed,2020-12-18T20:32:25Z,2021-01-14T19:37:25Z,,"bug, community"
+5351,Preserve drawing buffer for gl3d scenes when using Safari 13,closed,2020-12-17T19:54:39Z,2020-12-18T23:35:17Z,,bug
+5350,plotly_legenddoubleclick never fires if plotly_legendclick return false,closed,2020-12-17T18:45:56Z,2023-09-22T16:58:47Z,,bug
+5345,Fix Plotly.react/Angular missing categories + axis tick labels,closed,2020-12-15T19:47:44Z,2020-12-16T00:59:44Z,,"bug, regression"
+5344,"Console error, ""Excepted Number NaN"" with LegendOnly attribute",open,2020-12-15T12:47:33Z,2024-12-23T22:05:24Z,,"bug, P3"
+6552,Showticklabels=false and title_standoff not None moves xaxis-title to top,open,2020-12-14T11:30:00Z,2024-08-09T16:50:54Z,,"bug, P3"
+5338,odd double-click behaviour with inside ticks,open,2020-12-10T21:15:41Z,2024-08-09T16:50:48Z,,"bug, P3"
+5337,tick / ticklabel mismatch with period positioning,closed,2020-12-10T21:14:17Z,2020-12-10T21:58:18Z,,bug
+5336,Avoid autoscale error with false autorange,closed,2020-12-10T19:39:23Z,2020-12-11T14:44:51Z,,"bug, regression"
+5332,Simplify autorange pipeline for inside ticklabels,closed,2020-12-09T21:56:03Z,2020-12-18T22:48:44Z,,bug
+5331,Handle case of nonnegative or tozero rangemodes for inside ticklabels,closed,2020-12-09T16:18:46Z,2020-12-10T02:37:26Z,,"bug, regression"
+5330,Pick root.color from treemap/sunburst trace,closed,2020-12-08T21:21:14Z,2020-12-08T21:30:04Z,,"bug, regression"
+5329,Make inside ticklabels autorange work with scaleanchor or matches,closed,2020-12-08T20:01:42Z,2020-12-09T00:45:24Z,,bug
+5328,treemap regression since 1.58.0,closed,2020-12-08T19:09:42Z,2020-12-08T21:30:00Z,archmoj,"bug, regression"
+5326,Position the head of dates for ticklabels in respect to axis side and ticklabelposition on x-axis,closed,2020-12-07T23:09:29Z,2020-12-08T16:04:26Z,,bug
+5325,"Provide minimal padding for inside tick labels case of bar, heatmap, line plots",closed,2020-12-07T17:25:58Z,2020-12-07T22:17:29Z,,bug
+5324,x-axis second line date formatting edge case,closed,2020-12-07T16:28:06Z,2020-12-08T16:04:22Z,archmoj,bug
+5322,ticklabelposition inside with bars,closed,2020-12-07T15:44:11Z,2020-12-07T22:17:23Z,archmoj,bug
+5321,strange ticklabelposition behaviour,closed,2020-12-07T15:36:54Z,2020-12-07T22:17:23Z,archmoj,bug
+5318,tick labels missing after interacting with plot from angular-plotly,closed,2020-12-05T00:36:45Z,2020-12-17T15:35:15Z,wbrgss,"bug, regression"
+5316,[BUG] Candlestick chart is not cleared properly when updated with callback  ,closed,2020-12-04T15:43:37Z,2023-10-26T16:00:27Z,,bug
+5315,Adjust minfinalheight in automargin routine to allow narrow subplots e.g. gauge,closed,2020-12-04T14:28:45Z,2020-12-04T16:20:29Z,,"bug, regression"
+5314,Plot sizing issue in 1.58.0 release,closed,2020-12-04T11:08:10Z,2020-12-04T21:28:25Z,archmoj,"bug, regression"
+5312,Plots are initially displayed with a wrong margin in Chrome,open,2020-12-02T09:53:06Z,2024-08-09T16:50:28Z,,"bug, P3"
+5311,zoom behaves incorrectly when dragging with right mouse button held down,open,2020-12-01T15:10:42Z,2024-08-09T16:50:16Z,,"bug, P3"
+5307,Use CSS to support fast image rendering on linear axes,closed,2020-11-27T15:33:19Z,2020-12-01T09:44:45Z,antoinerg,"bug, feature"
+5305,Add support for fast image rendering on any linear axes,closed,2020-11-26T22:24:38Z,2020-11-30T22:24:35Z,,"bug, feature"
+5302,5291: recalculation of dynamic CSS transforms on hover,closed,2020-11-25T01:52:00Z,2020-11-27T16:56:05Z,,"bug, community"
+5301,Not enough pad for tickangle -90 on the left side or with tickangle 90 on the right side,closed,2020-11-24T19:44:52Z,2020-12-02T22:58:27Z,archmoj,bug
+5298,Rangebreaks autorange bug when first point is inside a break,closed,2020-11-21T19:49:23Z,2024-06-24T13:17:57Z,,bug
+5294,"In staticPlot, do not draw-zero length bars",closed,2020-11-20T03:16:27Z,2020-11-22T00:05:04Z,,bug
+5293,Set false locale,closed,2020-11-19T21:15:20Z,2020-11-22T00:05:16Z,,bug
+5292,Unified hover with hi-freq scatter on low-freq bars,closed,2020-11-19T19:23:50Z,2021-05-02T00:00:08Z,archmoj,bug
+5291,Allow for correction of dynamic css transformations,closed,2020-11-19T02:35:47Z,2020-11-27T17:04:07Z,,bug
+5290,Autoscale error with false axis.autorange,closed,2020-11-18T22:29:21Z,2020-12-17T13:45:05Z,archmoj,"bug, regression"
+5289,Issues while using Google Closure Compiler on plotly-cartesian-1.57.1.js,closed,2020-11-17T16:31:11Z,2024-05-27T16:01:15Z,,bug
+5287,rework matching & scaleanchor so they work together,closed,2020-11-17T05:56:47Z,2020-11-21T19:47:33Z,,"bug, feature"
+5285,Missing colors in bar legend having a colorscale,closed,2020-11-16T19:38:30Z,2021-06-18T16:34:02Z,,bug
+5284,Missing choropleth colors in hover,closed,2020-11-16T19:01:31Z,2024-06-24T13:36:51Z,,bug
+5282,Don't add zero-length bars when transitions are off,closed,2020-11-16T17:06:48Z,2020-11-20T15:52:27Z,antoinerg,bug
+5281,Hover info offset in Horizontal Bar Charts with low height,closed,2020-11-16T10:35:14Z,2024-06-24T13:17:18Z,,bug
+5277,Ploty.js in Shadow DOM hover flicker,closed,2020-11-14T21:05:03Z,2024-11-20T09:02:59Z,,bug
+5278,error with array buffer allocation failure,open,2020-11-14T05:59:33Z,2024-08-09T16:49:42Z,,"bug, P3"
+5274,Stacked binary traces,closed,2020-11-13T21:25:21Z,2024-06-24T13:17:08Z,,bug
+5273,diffConfig always returns true if modeBarButtons (array of array) is populated,open,2020-11-13T18:55:12Z,2024-08-09T16:49:24Z,,"bug, P3"
+5269,Fix reordering of mapbox raster/image layers on update,closed,2020-11-12T22:45:49Z,2020-11-13T19:41:19Z,,bug
+5268,Fixup categoryorder for missing values in cartesian traces,closed,2020-11-12T17:43:52Z,2020-11-22T00:05:45Z,,bug
+5267,category order bug,closed,2020-11-12T14:18:40Z,2020-11-12T21:39:40Z,archmoj,bug
+5266,mapox layers reordered after updating figure with Plotly.react,closed,2020-11-12T10:51:00Z,2020-11-13T19:20:56Z,,bug
+5263,should clip inside ticks,closed,2020-11-11T18:39:00Z,2020-11-11T19:28:52Z,,bug
+5262,missing first tick when ticks: 'inside' and ticklabelmode: 'period',closed,2020-11-11T18:24:43Z,2020-12-02T22:58:27Z,archmoj,bug
+5256,Correct wrong element targeting on hover in shadow DOM,closed,2020-11-06T21:19:03Z,2021-01-29T01:43:02Z,,"bug, community"
+5250,unable to detect date/category types of 2d array in a surface plot,closed,2020-11-04T18:52:25Z,2020-11-04T19:13:50Z,archmoj,bug
+5245,Apply root.color in treemap & sunburst style and adopt tests,closed,2020-11-03T23:15:24Z,2020-11-03T23:24:04Z,,"bug, feature"
+5243,ReferenceError: document is not defined,closed,2020-11-03T16:53:12Z,2021-01-15T15:52:32Z,,bug
+5240,Implement strict autotypenumbers,closed,2020-10-29T21:14:11Z,2020-11-04T19:13:58Z,,"bug, feature"
+5239,Fix hover on mobile and tablet devices for gl3d subplots,closed,2020-10-29T16:08:33Z,2020-12-02T20:40:23Z,,"bug, regression"
+5237,Provide room for large computed margins,closed,2020-10-27T22:32:20Z,2020-12-04T15:34:11Z,,bug
+5236,Avoid unnecessary styling of backgrounds during automargin redraws when subplot positions are incomplete,closed,2020-10-27T21:48:39Z,2020-10-28T13:40:45Z,,"bug, regression"
+5235,SVG NaN errors when shapes and bgcolor are specified,closed,2020-10-27T00:16:36Z,2020-10-28T14:31:03Z,,"bug, regression"
+5233,Revise gl3d scene initialization,closed,2020-10-25T23:31:37Z,2020-12-02T20:34:26Z,,bug
+5225,Record last actual margins when plot involving too many redraws,closed,2020-10-20T20:46:47Z,2020-10-20T20:59:16Z,,bug
+5222,webgl error in Create React App,closed,2020-10-20T12:45:45Z,2024-05-27T16:01:24Z,archmoj,bug
+5219,Disable Rotation Drag on Polar when dragmode = false,closed,2020-10-19T13:21:51Z,2024-02-01T23:04:04Z,,bug
+5217,Fix issue where styles weren't reset when re-using SVGs in colorbar,closed,2020-10-17T22:47:52Z,2020-10-19T21:40:17Z,,"bug, community"
+5216,"Provide a default hovertemplate label for attribute ""base"" in bar traces",closed,2020-10-16T16:36:38Z,2020-10-17T00:43:36Z,,bug
+5213,automargin sometimes not recording the sizes,closed,2020-10-14T18:38:07Z,2020-10-20T20:59:08Z,archmoj,bug
+5211,Fix autorange computation when a category match a range extreme,closed,2020-10-13T15:51:38Z,2020-10-14T13:52:44Z,,"bug, community"
+5210,Fix staticPlot behaviour for range slider and legend,closed,2020-10-11T09:04:40Z,2022-12-12T21:43:38Z,,"bug, community"
+5209,Force default dims for downloadImage to null,closed,2020-10-10T16:28:11Z,2020-10-15T16:52:27Z,,bug
+5208,Fix positioning monthly tickformat when initial auto dtick is weekly,closed,2020-10-10T01:31:11Z,2020-10-15T20:19:39Z,,bug
+5207,period label positions off with weekly dtick and monthly tickformat,closed,2020-10-10T00:39:18Z,2020-10-15T20:19:35Z,archmoj,bug
+5206,Set default width/height for toImage to null i.e. rendered size.,closed,2020-10-09T20:20:18Z,2020-10-11T23:11:07Z,,bug
+5204,Mention the full-json option in the Plotly.toImage warning,closed,2020-10-09T15:28:03Z,2020-10-14T16:24:48Z,,bug
+5202,"The Image downloaded using the ""download as png"" button is distorted",closed,2020-10-08T19:25:19Z,2020-10-10T16:31:33Z,,bug
+5201,more sunburst rotation ,closed,2020-10-08T15:51:49Z,2020-10-11T23:21:24Z,,"bug, feature"
+5200,Bar chart X axis autorange not working as expected ?,closed,2020-10-08T10:57:25Z,2020-10-13T19:59:26Z,,bug
+5196,Trying matching and scaling,closed,2020-10-06T14:32:23Z,2020-11-20T22:42:47Z,,"bug, feature"
+5193,Align interactions when plot created inside scaled and/or translated elements using CSS transform,closed,2020-10-06T05:50:35Z,2020-12-15T03:41:00Z,,"bug, feature, community"
+5189,Bump color modules to fix import problem using webpack,closed,2020-10-02T12:10:24Z,2020-10-02T15:33:01Z,,"bug, regression"
+5187,improve labels on axes with rangebreaks,closed,2020-10-01T21:58:49Z,2020-10-09T20:50:47Z,,bug
+5181,Fix modebar not recreated when makePlotFramework called,closed,2020-09-30T19:23:55Z,2020-10-01T17:06:01Z,,"bug, community"
+5180,Adjust tick0 for weekly time periods,closed,2020-09-30T17:06:04Z,2020-09-30T18:57:33Z,,"bug, feature"
+5177,Rangeslider strange behaviour and legend still working while staticPlot is true,closed,2020-09-30T10:31:58Z,2022-12-12T22:33:37Z,,bug
+5176,problem with period ticklabelmode when dtick is less than the period defined by weekly tickformat,closed,2020-09-29T23:01:52Z,2020-10-09T20:50:41Z,archmoj,bug
+5175,Drop period positioning for all histogram traces,closed,2020-09-29T17:15:09Z,2020-09-29T20:40:55Z,,bug
+5168,text doesn’t work with carto scattermapbox,closed,2020-09-27T15:35:08Z,2024-06-24T13:11:02Z,,bug
+5166,Handle colorscale with transparent colors in surface traces,closed,2020-09-25T04:49:13Z,2020-09-27T01:41:54Z,,"bug, feature, community"
+5165,Disable text selection,closed,2020-09-25T04:14:25Z,2020-12-06T23:46:03Z,,bug
+5163,More informative error messages when creating sunburst and treemap charts,closed,2020-09-23T15:48:08Z,2020-09-30T13:22:44Z,,bug
+5161,Lowest colormap color is set to white when chart type is changed to contour,closed,2020-09-23T11:11:56Z,2020-10-19T21:40:17Z,,bug
+5160,More informative error messages when creating sunburst charts,closed,2020-09-22T01:18:38Z,2020-09-30T13:22:40Z,archmoj,bug
+5158,3D plots not showing on Safari Version 14.0 when there is transparency in the scene,closed,2020-09-20T07:05:43Z,2021-10-20T00:50:09Z,archmoj,bug
+5152,Fix rounding big numbers in pie & sunburst traces,closed,2020-09-16T00:13:39Z,2020-09-27T01:43:26Z,,bug
+5146,violin plot show hovers in wrong positions after zoomed by rangeslider,open,2020-09-14T13:05:02Z,2024-08-09T16:47:42Z,,"bug, P3"
+5141,[Feature request] Date format axis for Image trace,closed,2020-09-11T19:56:57Z,2024-06-24T13:14:15Z,,bug
+5139,Fix disappearing legend entries,closed,2020-09-10T12:32:34Z,2020-09-27T01:42:56Z,,bug
+5134,Fix automargin when ticklabelmode is set to period,closed,2020-09-08T14:08:29Z,2020-09-08T14:25:32Z,,bug
+5132,ticklabelmode and automargin,closed,2020-09-08T01:33:42Z,2020-09-08T14:25:28Z,archmoj,bug
+5129,remaining issues with rangebreaks and period tick labels,closed,2020-09-04T16:55:16Z,2020-10-09T20:50:41Z,archmoj,bug
+5122,Pie show incorrect value (in scientific format) when hovered over,closed,2020-09-03T16:32:31Z,2020-09-16T21:58:45Z,archmoj,bug
+5119,install image-size in dependencies,closed,2020-09-03T00:07:34Z,2020-11-03T15:33:03Z,,bug
+5114,Improve axis tick increment,closed,2020-09-01T04:41:28Z,2020-09-02T21:26:36Z,,bug
+5109,Chart title does not obey responsive layout,open,2020-08-30T20:54:23Z,2024-08-09T16:47:01Z,,"bug, P3"
+5102,Margins not updating correctly with rangeslider and changed tick angle,closed,2020-08-25T18:47:49Z,2020-12-03T13:30:55Z,,bug
+5097,Hover box overlapping point/cursor,open,2020-08-24T13:28:27Z,2024-08-09T16:46:10Z,,"bug, P3"
+5096,toImage function does not retain fonts that use quotes because of TOBESTRIPPED,open,2020-08-24T10:46:28Z,2024-08-09T16:45:47Z,,"bug, P3"
+5094,"plotly_doubleclick not firing when dragmode not in [zoom, pan, orbit, turntable, False]",open,2020-08-23T09:33:27Z,2024-08-09T16:45:40Z,,"bug, P3"
+5093,Keep the size of gl2d markers constant when using different plotGlPixelRatio values,closed,2020-08-21T12:11:45Z,2020-08-21T14:40:14Z,,bug
+5091,Problem clearing data points inside the end of the year rangebreak using values,open,2020-08-20T18:47:38Z,2024-08-09T16:45:22Z,,"bug, P3"
+5089,Fixup weekly and quarterly period label positioning and with rangebreaks,closed,2020-08-19T17:37:10Z,2020-09-02T22:06:54Z,,bug
+5088,Improve monthly period label positioning,closed,2020-08-19T15:17:54Z,2020-08-19T17:12:15Z,,bug
+5073,Accept symbol numbers in string format,closed,2020-08-13T21:39:46Z,2020-08-14T16:40:52Z,,bug
+5072,Set width of categorical bars & boxes to category unit i.e. 1,closed,2020-08-13T19:42:27Z,2020-08-18T02:10:37Z,,bug
+5071,Encountered two full labels using ticklabelmode: 'period',closed,2020-08-12T19:59:47Z,2020-08-13T21:24:05Z,archmoj,bug
+5069,negative sign on zero percent,closed,2020-08-12T16:40:54Z,2020-09-02T22:31:04Z,archmoj,bug
+5066,formatting of `base` in hovertemplates differs from `x`,closed,2020-08-11T19:49:18Z,2020-10-17T09:17:39Z,,bug
+5065,handle various time formats in ticklabelmode period,closed,2020-08-11T15:30:13Z,2020-08-13T21:24:24Z,,bug
+5064,fixedrange doesn't take into account matches,open,2020-08-11T15:22:05Z,2024-08-09T16:44:47Z,,"bug, P3"
+5063,title standoff bug when zooming,open,2020-08-11T14:02:58Z,2024-08-09T16:44:42Z,,"bug, P3"
+5062,"rangebreaks, weekly tick labels and period label mode",closed,2020-08-11T12:51:37Z,2020-09-02T22:30:36Z,archmoj,bug
+5061,Fix small sizes of bar with base,closed,2020-08-10T21:38:53Z,2020-08-11T02:02:41Z,,bug
+5060,Fixup labels on reversed axes when ticklabelmode is set to period,closed,2020-08-10T15:08:56Z,2020-08-12T13:49:13Z,,bug
+5059,"Automargins + tickformat="",d"" bug",closed,2020-08-10T14:41:35Z,2024-06-17T18:24:31Z,,bug
+5058,bar widths on categorical axes when barmode=overlay,closed,2020-08-10T14:11:50Z,2020-08-18T02:10:22Z,archmoj,bug
+5057,Base attribute bug ,closed,2020-08-10T07:53:21Z,2020-08-11T07:00:44Z,archmoj,bug
+5055,Do not display first tick added by period ticklabelmode,closed,2020-08-07T17:19:22Z,2020-08-10T14:20:04Z,,bug
+5052,The wheel scroll for tables doesn't work with firefox.,closed,2020-08-06T16:37:34Z,2020-08-11T15:33:52Z,,bug
+5051,Improved browser compatibility for table scroll,closed,2020-08-06T16:08:31Z,2020-08-11T15:33:53Z,,"bug, community"
+5143,[BUG] Some parts of Candlestick doesn't get redraw-ed in callbacks ,closed,2020-08-06T03:13:04Z,2023-10-26T16:01:44Z,,bug
+5050,problem with 3d camera and uirevision,open,2020-08-05T19:38:47Z,2024-08-09T16:44:37Z,,"bug, P3"
+5045,Update title and tick labels during react with transition,closed,2020-08-04T19:30:45Z,2020-08-11T23:36:04Z,,bug
+5044,Category order not updating when using react with transition,closed,2020-08-04T14:28:37Z,2020-08-11T23:35:57Z,archmoj,bug
+5037,layout.transition.duration prevents layout.title.text changes,closed,2020-07-31T19:20:49Z,2020-08-11T23:35:57Z,archmoj,bug
+5035,Fix typo in plotinfo keys,closed,2020-07-31T01:47:23Z,2020-07-31T03:33:35Z,,bug
+5033,Fix default half span of latitude,closed,2020-07-30T13:54:44Z,2020-07-30T19:43:08Z,,bug
+5026,"Upgrade d3 time format to expose new formatting options for weekdays, weeks and quarters",closed,2020-07-28T22:16:41Z,2020-08-11T14:15:52Z,,"bug, feature"
+5021,Disable text selection,closed,2020-07-27T01:48:03Z,2020-09-25T21:43:39Z,archmoj,bug
+5017,Shapes are drawn outside the plot when using annotations and autorange.,open,2020-07-23T17:56:49Z,2024-08-09T17:19:46Z,,"bug, P3"
+5015,Accept ISO-8601 short time offset format,closed,2020-07-23T04:00:09Z,2020-07-24T22:25:24Z,,"bug, community"
+5013,3d scene disappears if dragging while modebar button event hasn't returned,closed,2020-07-22T20:52:52Z,2024-06-17T18:26:33Z,,bug
+5012,3d camera reset on modebar click after scrollzoom,closed,2020-07-22T20:50:01Z,2024-06-17T18:25:49Z,,bug
+5011,Keep hidden grid lines of oriented traces when color is defined by template,closed,2020-07-22T20:08:03Z,2020-07-23T21:26:42Z,,"bug, regression"
+5005,3d camera reset after react,open,2020-07-21T18:15:30Z,2024-08-09T17:19:54Z,archmoj,"bug, regression, P3"
+5004,3d zoom not preserving with uirevision,closed,2020-07-21T14:28:07Z,2024-06-17T18:25:29Z,,bug
+5003,Bug in displaying the text defined in hovertemplate for Surface,open,2020-07-21T08:34:04Z,2024-08-09T17:20:03Z,,"bug, P3"
+5000,Latex/Automargin issue: badly positioned markers,closed,2020-07-15T14:48:01Z,2024-06-24T13:55:44Z,,"bug, regression"
+4999,Hover label order for overlapping points is backwards when using WebGL,open,2020-07-13T14:46:11Z,2024-08-09T17:20:11Z,,"bug, P3"
+4994,Fix logging and notifyOnLogging to work with Plotly.newPlot calls,closed,2020-07-09T23:06:47Z,2021-11-10T12:03:58Z,,bug
+4987,rerendering heatmap with different data causes hovering to throw errors,closed,2020-07-07T19:11:29Z,2024-06-24T13:15:32Z,,bug
+4984,GeoJSON winding causing confusion,closed,2020-07-07T01:32:40Z,2024-06-24T13:06:11Z,,bug
+4979,.textline remains when window size gets large,open,2020-07-03T06:28:00Z,2024-08-09T17:20:31Z,,"bug, P3"
+4977,Relink matching axes categories during Plotly.relayout calls,closed,2020-07-02T17:20:03Z,2020-07-02T17:48:11Z,,"bug, regression"
+4975,Fix numeric sort in ternary drag,closed,2020-06-30T21:24:49Z,2020-07-01T00:11:00Z,,bug
+4974,Using `restyle` method in `updatemenus` button removes the modebar,closed,2020-06-30T21:23:30Z,2020-10-01T17:06:01Z,,bug
+4973,Fix parcats category order when dimension only includes numbers,closed,2020-06-30T21:22:26Z,2020-07-01T00:09:42Z,,bug
+4972,Parcats problem sorting numeric categories,closed,2020-06-30T19:55:54Z,2020-07-01T00:09:34Z,archmoj,bug
+4969,Fix median transform aggregation,closed,2020-06-30T17:08:23Z,2020-06-30T21:25:43Z,,bug
+4966,Plotly Transform Aggretation: median calculation appears wrong,closed,2020-06-30T00:38:37Z,2020-06-30T21:25:38Z,,bug
+4971,hoverlabel not working properly with subplots when resizing window,closed,2020-06-29T23:31:35Z,2020-07-02T17:48:06Z,archmoj,"bug, regression"
+4963, Multicategory axis dividers are misaligned on large heatmap.,open,2020-06-28T14:12:22Z,2024-08-09T17:20:36Z,,"bug, P3"
+4962,Any support for contourgl?,closed,2020-06-27T00:48:03Z,2021-01-15T01:13:34Z,,bug
+4961,scrollbar is made invisible without deactivating it,open,2020-06-26T19:50:11Z,2024-08-09T17:21:02Z,,"bug, P3"
+4954,Error values don't appear on hover when using scattergl,closed,2020-06-25T00:01:27Z,2024-06-24T13:06:22Z,,bug
+4951,Fix contourgl supplyDefaults,closed,2020-06-24T17:57:33Z,2020-06-24T18:17:52Z,,bug
+4950,Fix heatmapgl supplyDefaults,closed,2020-06-24T15:57:30Z,2020-06-24T16:35:30Z,,bug
+4946,Wrong translation in locale file for Japanese,open,2020-06-24T08:58:00Z,2024-08-09T17:21:15Z,,"bug, P2"
+4945,heatmapgl does not coerce its own attributes,closed,2020-06-24T02:33:14Z,2020-06-24T16:35:24Z,archmoj,bug
+4944,3-D cube grids changing locations while zooming in & out,closed,2020-06-23T16:18:52Z,2024-06-17T13:12:45Z,,bug
+4942,Colorscale should be betwen 0-255 or 0-1 but not a mixed behaviour,open,2020-06-23T07:05:44Z,2024-08-09T17:21:27Z,,"bug, P3"
+4941,restyle opacity is not applied on scatter3d,closed,2020-06-23T03:13:12Z,2024-06-17T13:12:50Z,,bug
+4940,Plotly.validate issue with coloraxis attribute,closed,2020-06-22T22:51:25Z,2024-06-17T13:12:54Z,,bug
+4939,Fix divider placement on reversed axes,closed,2020-06-22T22:18:06Z,2020-06-23T13:51:23Z,,"bug, community"
+4938,handle undefined args in Plotly.validate,closed,2020-06-22T22:09:17Z,2020-06-22T22:51:53Z,,bug
+4937,"Fix misalignment of candlestick, ohlc and box plots when using rangebreaks",closed,2020-06-22T21:45:03Z,2020-06-22T23:02:37Z,,bug
+4933,"Misalignment of candlestick, ohlc and box plots when using rangebreaks ",closed,2020-06-21T13:43:11Z,2020-06-22T23:02:33Z,archmoj,bug
+4927,Multicategory axis dividers are misaligned when autorange is reversed,closed,2020-06-17T00:07:12Z,2020-06-23T13:51:23Z,,bug
+4925,only take container computed size in px,closed,2020-06-16T08:56:33Z,2020-06-16T13:53:58Z,,bug
+4919,scattergl + lines bug,closed,2020-06-13T22:05:48Z,2024-06-17T13:11:20Z,,bug
+4918,"Using opacityscale with surface results in ordering by addition order, not depth",open,2020-06-12T20:42:35Z,2024-08-09T17:22:07Z,,"bug, P3"
+4906,unable to set axis linecolor & linewidth via template,open,2020-06-08T01:04:48Z,2024-08-09T17:22:24Z,archmoj,"bug, P3"
+4904,"Fix setting tickwidth, tickcolor, ticklen, linecolor and possibly more attributes via template",closed,2020-06-05T22:54:49Z,2020-06-17T15:07:04Z,,bug
+4903,Fix gl3d ticks when converting dates to milliseconds,closed,2020-06-05T15:05:29Z,2020-06-05T15:39:52Z,,"bug, regression"
+4902,gl3d ticks are off by timezone,closed,2020-06-05T11:42:23Z,2020-06-05T15:39:41Z,archmoj,"bug, regression"
+4900,Fix bar lengths in milliseconds from base,closed,2020-06-04T21:25:47Z,2020-06-05T03:35:51Z,,bug
+4886,Plotly.react transition glitch when annotation array length decreases,closed,2020-05-30T17:35:06Z,2024-06-24T13:12:21Z,,bug
+4885,Missing fonts in PNG exports,open,2020-05-29T23:24:24Z,2025-03-03T16:48:09Z,antoinerg,"bug, P3"
+4883,no calendar on partial bundles,closed,2020-05-28T05:40:30Z,2021-01-20T02:42:14Z,,bug
+4880,Date ticks on x axis have different format,open,2020-05-27T20:59:07Z,2024-08-09T17:23:26Z,,"bug, P3"
+4879,Problem overlapping rangebreaks,closed,2020-05-27T20:28:17Z,2020-06-03T17:32:35Z,archmoj,bug
+4878,discard ranges for single value parcoords dimensions when drag a new axis range,closed,2020-05-27T20:25:33Z,2020-06-08T14:47:48Z,,bug
+4876,"Parcoords - lines disappear, categorical axis with single tick",closed,2020-05-27T15:30:14Z,2020-06-08T14:47:44Z,,bug
+4865,scatter3d line width problem with connectgaps,closed,2020-05-25T15:07:43Z,2024-06-17T13:16:19Z,,bug
+4858,bypass non-string ids when matching axes,closed,2020-05-22T19:36:40Z,2020-05-22T21:48:38Z,,bug
+4856,Plotly.react resets context and breaks autosize,open,2020-05-22T15:20:14Z,2024-08-09T17:23:32Z,,"bug, P3"
+4855,Scattermapbox built-in styles cause an error,closed,2020-05-22T09:33:07Z,2024-06-17T13:16:47Z,,bug
+4854,"Y-axis 0 value is labelled as -0%, not 0%. ",open,2020-05-22T06:39:01Z,2024-08-09T17:23:38Z,,"bug, P3"
+4853,[IE11] Zoom using scroll doesn't work,closed,2020-05-21T19:22:33Z,2020-06-04T18:34:28Z,,bug
+4852,unable to set tickwidth and tickcolor via template,closed,2020-05-21T15:47:20Z,2024-06-17T18:26:18Z,,bug
+4851,Fix setting array tickmode on date & log axes ,closed,2020-05-20T18:43:47Z,2020-05-21T16:29:53Z,,bug
+4850,cdn.plot.ly lacks IPv6 support,open,2020-05-20T15:52:13Z,2024-08-09T17:23:51Z,,"bug, P3, infrastructure"
+4848,Explicitly setting tickmode to array disables tickvals in date axis,closed,2020-05-20T13:44:48Z,2020-05-21T16:29:49Z,archmoj,bug
+4846,Sankey Diagram hover-label opacity unaffected ,open,2020-05-20T05:39:46Z,2024-08-09T17:23:58Z,,"bug, P3"
+4844,Empty array axis anchor leads to fatal id.match is not a function error,closed,2020-05-19T21:23:00Z,2020-05-22T21:48:33Z,archmoj,bug
+4839,Plotly.react doesn't transition correctly when only annotations are changed,open,2020-05-19T00:27:38Z,2024-08-09T17:24:03Z,,"bug, P3"
+4836,Lines on scatter graph not showing up,open,2020-05-15T15:07:34Z,2024-08-09T17:24:24Z,,"bug, P3"
+4835,Y-axis labels going over y-axis title,closed,2020-05-14T15:27:33Z,2020-12-02T20:53:17Z,,"bug, feature"
+4832,Fix react category order of matching axes,closed,2020-05-14T00:24:36Z,2020-05-14T18:18:05Z,,bug
+4831,Fix rangebreaks overlapping and tick positions,closed,2020-05-13T22:50:03Z,2020-06-03T17:32:43Z,,bug
+4829,Fix for histogram2d with rangebreaks,closed,2020-05-13T14:19:17Z,2020-05-13T17:05:44Z,,bug
+4828,problem with the time-zone on making baselines,closed,2020-05-12T14:10:40Z,2020-06-08T20:48:16Z,,bug
+4827,Fix legend title react,closed,2020-05-11T18:43:36Z,2020-05-11T19:28:39Z,,bug
+4826,faceting react() bug,closed,2020-05-11T18:06:33Z,2020-05-14T18:18:00Z,archmoj,bug
+4825,histogram2d problem with rangbreaks,closed,2020-05-11T16:07:36Z,2020-05-13T17:05:35Z,archmoj,bug
+4821,Fix rangebreaks on heatmap with 2d z array,closed,2020-05-07T22:08:18Z,2020-05-11T18:01:04Z,,bug
+4820,"Default violin bandwidth misnamed: should be Scott's, not Silverman's",open,2020-05-07T17:58:09Z,2024-11-20T17:43:20Z,,"bug, P3"
+4819,Long axis title not shown properly,open,2020-05-07T17:18:16Z,2024-08-09T17:24:55Z,,"bug, P3"
+4818,plot & hover problems of heatmap (case of 2d-z array) with rangebreaks,closed,2020-05-07T16:35:46Z,2020-06-05T03:42:27Z,archmoj,bug
+4816,Fix react to plot_bgcolor changes,closed,2020-05-06T20:17:30Z,2020-05-06T22:29:25Z,,bug
+4815,cannot change start of week day,closed,2020-05-06T12:39:08Z,2024-11-12T07:47:23Z,,"bug, P3"
+4814,Handle rangebreak gaps in `candlestick` & `ohlc`,closed,2020-05-05T21:21:05Z,2020-05-07T20:07:04Z,,bug
+4813,"No error thrown if invalid type provided, silently falls back to `scatter`",open,2020-05-05T14:06:07Z,2024-08-09T17:25:25Z,,"bug, P3"
+4812,Category-axis bar chart has incorrect width if category label equals endpoint of autocomputed range,closed,2020-05-05T02:01:30Z,2020-10-22T12:07:42Z,,bug
+4811,Downgrade acorn to v6 ,closed,2020-05-04T22:34:17Z,2020-05-04T22:38:39Z,,bug
+4810,Apply and ensure stroke event only to activate editable shapes,closed,2020-05-04T19:08:57Z,2020-05-05T15:17:59Z,,"bug, regression"
+4808,Can no longer pan/zoom when mousedown is on shapes,closed,2020-05-04T13:40:38Z,2020-05-04T21:08:16Z,archmoj,"bug, regression"
+4807,react() and plot_bgcolor,closed,2020-05-04T13:17:37Z,2023-06-02T19:53:47Z,archmoj,bug
+4806,Shapes on below layer hides hover labels on 1.54.0,closed,2020-05-03T10:00:18Z,2020-05-04T21:08:16Z,archmoj,"bug, regression"
+4801,Plotly not showing subgroup identificator in horizontal version,open,2020-05-01T17:43:09Z,2024-08-09T17:25:31Z,,"bug, P3"
+4797,Handle undefined layout and data in Plotly.validate,closed,2020-05-01T11:40:39Z,2020-06-22T22:51:49Z,archmoj,bug
+4794,Fixup default angle of markers on scattermapbox,closed,2020-04-30T18:59:26Z,2020-04-30T19:57:33Z,,"bug, regression"
+4792,`itemsizing = 'constant'` doesn't work in 3D scatter plots,open,2020-04-30T15:12:10Z,2024-08-09T17:25:38Z,,"bug, P3"
+4791,Bump mapbox-gl to 1.10.0,closed,2020-04-29T00:20:14Z,2020-04-29T12:24:41Z,,"bug, feature"
+4795,Using hour rangebreaks causes candlestick chart to fail,closed,2020-04-26T23:10:14Z,2020-05-07T20:07:00Z,archmoj,bug
+4789,No bar transition when uniformtext is used,closed,2020-04-25T15:06:00Z,2024-07-04T12:40:22Z,,bug
+4787,[BUG] hovermode='x' or 'x-unified' displays information about nearby traces with different 'x' value,closed,2020-04-23T16:33:53Z,2024-04-24T06:17:29Z,,bug
+4785,Plots with multiple axes are not aware of other axis tick labels,open,2020-04-23T15:41:47Z,2024-08-09T17:25:48Z,,"bug, P3"
+4783,Addressing transform sort order with null values,closed,2020-04-22T18:55:40Z,2020-04-24T16:59:16Z,,"bug, community"
+4779,legend title not react()ing,closed,2020-04-21T15:20:19Z,2020-05-11T19:28:35Z,archmoj,bug
+4778,notifier: Use full font stack as elsewhere,closed,2020-04-20T19:10:30Z,2020-04-23T14:35:13Z,,"bug, community"
+4777,Fix Missing WebGL Message,closed,2020-04-20T13:04:07Z,2020-04-29T14:27:15Z,,bug
+4803,xaxis tick not fully displayed when text is too large,open,2020-04-16T18:00:29Z,2024-11-27T13:06:50Z,,"bug, P3"
+4766,sankey: node.link.(width|color) does not support arrays,closed,2020-04-15T17:25:46Z,2024-06-17T13:20:51Z,,bug
+4765,[Bug] data[type=scattergl ]  gives error if webGL is not supported,closed,2020-04-15T15:35:23Z,2020-04-20T17:00:15Z,,bug
+4761,Reversed Y-Axis are flipped to none reversed when click and drag with right mouse button,closed,2020-04-14T09:57:38Z,2024-06-26T18:18:31Z,,"bug, regression"
+4759,Plotly.validate error on transforms mocks,closed,2020-04-13T20:09:36Z,2024-06-17T13:21:37Z,,bug
+4758,Unable to set box.marker.color via template,open,2020-04-13T16:35:17Z,2024-08-09T17:26:10Z,,"bug, P3"
+4752,Bump mapbox-gl to 1.9.1,closed,2020-04-10T00:04:02Z,2020-04-27T21:08:36Z,,"bug, feature"
+4749,Wrong order for grouped bar chart sorting (descending),open,2020-04-09T18:16:34Z,2024-08-09T17:26:15Z,,"bug, P3"
+4742,Candlestick body width bug with range breaks,closed,2020-04-08T16:48:53Z,2020-05-07T20:07:00Z,archmoj,bug
+4729,React bug with Candlestick,closed,2020-04-03T18:55:36Z,2023-10-20T13:41:31Z,,bug
+4725,"Fix ""extremes"" opacityscale function",closed,2020-04-02T19:15:32Z,2020-04-20T15:17:58Z,,bug
+4723,"The opacityscale, 'extremes', has constant opacity equal to 1",closed,2020-04-02T18:49:27Z,2020-06-05T03:42:43Z,archmoj,bug
+4722,Tick labels when using hourly rangebreaks,closed,2020-04-02T17:17:45Z,2020-06-03T17:32:35Z,archmoj,bug
+4720,React mapbox style,closed,2020-04-02T03:12:11Z,2020-04-20T15:17:45Z,,bug
+4719,Fail to react to tiles in mapbox.style.sources,closed,2020-04-01T20:21:49Z,2020-04-06T19:28:12Z,alexcjohnson,bug
+4718,Data order is not applied by React when using matching axes,closed,2020-04-01T18:23:04Z,2020-05-14T18:18:00Z,archmoj,bug
+4717,Small sectors in pie chart render incorrectly (Chrome / Linux),open,2020-03-30T23:12:54Z,2024-08-27T12:57:42Z,,"bug, P3"
+4716,Spike position in unified hover mode,closed,2020-03-30T21:20:48Z,2021-03-16T14:25:55Z,,bug
+4715,Invalid rangebreaks should be ignored instead of resulting in a bad render,closed,2020-03-30T20:40:21Z,2020-03-31T12:54:38Z,archmoj,bug
+4714,Skip zeroline when negative sizes are present on positive base and vice versa,closed,2020-03-30T18:09:50Z,2020-04-20T15:17:50Z,,bug
+4713,Bar hovers near range breaks,closed,2020-03-30T17:27:25Z,2024-06-17T13:23:45Z,,bug
+4711,Sorting a line chart with multiple traces messes up order of traces,open,2020-03-30T14:37:02Z,2024-08-09T14:08:05Z,,"bug, P3"
+4701,autorange should not display zero line for certain bars with positive base and negative value,closed,2020-03-28T09:44:41Z,2020-04-06T19:03:59Z,archmoj,bug
+4700,rangebreaks mapping on reversed ranges,closed,2020-03-28T05:25:12Z,2020-03-29T21:59:07Z,archmoj,bug
+4699,Fixup rangebreaks l2p and p2l functions ,closed,2020-03-28T04:25:19Z,2020-03-29T21:59:12Z,,bug
+4698,Improve positioning of rangebreaks,closed,2020-03-28T00:36:08Z,2020-03-28T01:25:38Z,,bug
+4697,time labels on reversed horizontal axes with rangebreaks are slightly off ,closed,2020-03-27T19:11:24Z,2020-03-28T01:25:59Z,,bug
+4696,Do not show tick labels falling inside rangebreaks,closed,2020-03-27T18:12:02Z,2020-03-27T19:17:54Z,,bug
+4695,"Avoid tight daily labels on axes with rangebreaks when using ""day of week"" pattern",closed,2020-03-27T13:35:34Z,2020-03-27T17:15:33Z,,bug
+4693,rangebreaks hovermode=closest offset,closed,2020-03-26T20:46:16Z,2020-03-29T21:59:07Z,archmoj,bug
+4692,rangebreaks sometimes draws the gridline on the wrong point,closed,2020-03-26T20:45:50Z,2020-03-27T19:17:47Z,archmoj,bug
+4688,"Avoid missing gridlines on axis with rangebreaks using ""day of week"" pattern",closed,2020-03-25T22:44:00Z,2020-03-25T23:24:31Z,,bug
+4687,unified hover: honor layout.hoverlabel,closed,2020-03-25T21:22:25Z,2020-03-26T19:33:56Z,,bug
+4686,missing grid lines and tick labels with range breaks at daily level,closed,2020-03-25T19:44:37Z,2020-03-25T23:24:25Z,archmoj,bug
+4685,Set tick value defaults via template,closed,2020-03-25T19:15:53Z,2020-03-25T22:48:06Z,,bug
+4684,Handle date heads on axes with rangebreaks,closed,2020-03-25T18:00:34Z,2020-03-25T19:09:47Z,,bug
+4683,hoverlabel formatting in unified mode,closed,2020-03-25T15:00:34Z,2020-03-26T19:33:52Z,antoinerg,bug
+4682,Incorrect text position with ScatterGL plots,closed,2020-03-25T14:16:24Z,2024-06-17T13:14:22Z,,bug
+4681,scatter3d with different marker.size unexpectedly turns on transparency,open,2020-03-25T13:48:31Z,2024-08-09T14:07:17Z,,"bug, P2"
+4679,Missing second line (date part) of the tick label on some axes with rangebreaks,closed,2020-03-25T00:39:23Z,2020-03-25T19:09:42Z,archmoj,bug
+4677,Improve auto ticks over axes with rangebreaks,closed,2020-03-23T21:41:15Z,2020-03-25T00:41:24Z,,bug
+4673,"unable to set tick0, dtick, tickvals, tickmode via template",closed,2020-03-23T14:42:43Z,2020-03-25T22:47:52Z,archmoj,bug
+4672,unable to set width and height via template,open,2020-03-23T00:46:51Z,2024-08-09T14:06:52Z,archmoj,"bug, P3"
+4671,unable to set various layout components via template,closed,2020-03-23T00:43:19Z,2020-03-23T16:07:37Z,archmoj,bug
+4670,Set Cartesian axis attributes via template,closed,2020-03-22T16:45:41Z,2020-03-25T00:35:42Z,,bug
+4669,Set unified hovermode via template,closed,2020-03-22T00:56:24Z,2020-03-24T20:44:33Z,,bug
+4667,New rangebreaks and unified hover should work from templates,closed,2020-03-20T18:43:20Z,2020-03-25T00:36:35Z,archmoj,bug
+4666,"gridlines, ticks and ticklabels within rangebreaks",closed,2020-03-20T18:24:47Z,2020-03-25T00:41:19Z,archmoj,bug
+4664,compare/unified hover include all points at same coordinate,closed,2020-03-19T20:02:51Z,2020-03-19T21:01:52Z,,bug
+4663,Handle NaN positions in funnel & waterfall and skip connectors over rangebreaks ,closed,2020-03-18T21:50:36Z,2020-03-19T18:21:20Z,,bug
+4662,"histogram: in hover labels, harmonize start/end values of shared bins",closed,2020-03-18T19:24:24Z,2020-03-19T01:50:10Z,,bug
+4660,Revise operation in rangebreaks ,closed,2020-03-18T03:58:28Z,2020-03-18T15:00:55Z,,bug
+4656,compare/unified hover should include all points at same coordinate,closed,2020-03-17T12:23:32Z,2020-03-19T21:01:49Z,antoinerg,bug
+4655,Range break semantics,closed,2020-03-17T12:19:26Z,2020-03-24T15:12:46Z,archmoj,"bug, feature"
+4653,Revise flags of rangebreak pattern,closed,2020-03-16T20:19:42Z,2020-03-17T23:35:12Z,,bug
+4652,revise rangebreak operation default,closed,2020-03-16T18:26:23Z,2020-03-18T16:56:47Z,,bug
+4651,"Updatemenus: traces of the same type are similarly updated, despite settings",closed,2020-03-16T16:12:46Z,2022-08-29T01:50:51Z,,bug
+4648,stacked histograms have different start/end values on hover ,closed,2020-03-16T13:54:28Z,2020-03-19T01:48:43Z,antoinerg,bug
+4647,Multiple extendTraces calls causes axis data to mix,open,2020-03-16T12:35:58Z,2024-08-09T14:05:49Z,,"bug, P3"
+4644,Handle hover over rangebreaks for bar-like traces,closed,2020-03-15T23:34:22Z,2020-03-16T17:47:10Z,,bug
+4642,Fix to display transparent surface with contours when opacity is less than one ,closed,2020-03-15T04:00:07Z,2020-03-15T13:19:51Z,,bug
+4641,rename axis.breaks to axis.rangebreaks,closed,2020-03-14T20:45:59Z,2020-03-14T23:40:22Z,,"bug, feature"
+4640,Table Unable to Become Invisible with 'updatemenus' Buttons,open,2020-03-14T16:24:05Z,2024-08-09T14:05:40Z,,"bug, P3"
+4639,Fix reverse autorange on cartesian axes with breaks,closed,2020-03-13T19:42:49Z,2020-03-13T19:56:43Z,,bug
+4638,spikedistance=-1: lines are not drawn up to the closest bar in some cases,closed,2020-03-13T18:57:16Z,2024-06-14T13:00:34Z,,bug
+4637,fix for spikedistance=-1,closed,2020-03-13T18:54:52Z,2020-03-13T20:05:55Z,,bug
+4634,Fix4631 - handle NaN cases to allow breaks on bar-like traces,closed,2020-03-12T17:49:14Z,2020-03-12T18:04:10Z,,"bug, regression"
+4631,Bars with NaNs as positions lead to console errors,closed,2020-03-12T13:55:55Z,2020-03-19T18:21:12Z,,"bug, regression"
+4629,false z data displayed when hovering over scatter3d on gl3d_wolrd-cals mock,closed,2020-03-11T22:39:55Z,2024-06-17T13:14:14Z,,bug
+4628,ScatterGL plot fails with WebGL errors if more than 16 symbols are used.,closed,2020-03-11T19:45:05Z,2024-06-24T13:09:56Z,,"bug, regression"
+4627,fix for spikedistance set to infinity,closed,2020-03-11T17:41:00Z,2020-04-03T15:09:28Z,antoinerg,bug
+4626,spike lines do not appear when `spikedistance`,closed,2020-03-11T17:24:42Z,2020-03-12T19:10:35Z,,bug
+4622,Parcoords brush can be hidden,closed,2020-03-11T12:48:42Z,2024-06-14T13:00:01Z,,"bug, feature"
+4612,locale fi download plot as a png button translate not work,closed,2020-03-03T08:57:58Z,2023-09-14T13:44:48Z,,bug
+4608,geo pan bug,closed,2020-03-02T00:29:13Z,2024-06-14T12:58:16Z,,bug
+4605,Colorbar LaTeX title renders improperly,open,2020-02-27T08:01:15Z,2024-08-09T14:05:31Z,,"bug, P3"
+4601,Fix to make identical bundles on different nodes,closed,2020-02-25T02:24:26Z,2020-02-25T15:24:31Z,,bug
+4596,In a multi-trace figure the traces that are not animated get invisible when animation starts,closed,2020-02-21T09:45:24Z,2024-07-03T17:28:39Z,,bug
+4595,Reset splom selectBatch and unselectBatch on updates,closed,2020-02-20T22:25:43Z,2020-02-20T22:45:04Z,,bug
+4591,cannot use several customdata values per data points in go.Pie,open,2020-02-18T23:12:51Z,2024-08-09T14:05:11Z,,"bug, P3"
+4589,scatter3d plot with 1.5M points gives RangeError: attempting to construct out-of-bounds TypedArray on ArrayBuffer,closed,2020-02-18T16:35:59Z,2024-06-14T12:57:12Z,,bug
+4588,SPLOM deselect not un-highlighting points,closed,2020-02-17T11:48:06Z,2020-02-21T09:13:49Z,etpinard,bug
+4580,Ensure text fits inside sunburst sectors with zero values,closed,2020-02-13T05:56:58Z,2020-02-13T15:01:31Z,,bug
+4579,Include gl3d scene.aspectmode changes in relayout updates,closed,2020-02-13T04:10:05Z,2020-02-14T14:10:34Z,,bug
+4578,Preserve gl3d scene aspectratio after orthographic scroll zoom,closed,2020-02-12T20:12:06Z,2020-02-12T22:11:25Z,,bug
+4577,WebGL/scattergl issue in Brave browser,closed,2020-02-12T19:24:41Z,2020-10-26T13:25:12Z,,bug
+4573,inconsistent interactive bar display,closed,2020-02-11T23:34:16Z,2020-02-12T15:45:16Z,archmoj,bug
+4572,getting warning about too many auto-margin redraws,open,2020-02-11T21:37:58Z,2024-08-30T11:58:53Z,,"bug, P3"
+4570,"after panning, a hover label appear above data point close to start position",open,2020-02-11T20:07:41Z,2024-08-09T13:45:02Z,,"bug, P3"
+4569,sunburst text does not fit inside for 0-valued sectors,closed,2020-02-11T18:29:46Z,2020-02-13T15:00:35Z,archmoj,bug
+4568,Fix for displaying narrow bars in interactive mode,closed,2020-02-10T23:51:28Z,2020-02-12T15:45:27Z,,"bug, regression"
+4567,Regression of bar plot axis scaling between 1.51.1 and 1.51.2,closed,2020-02-10T22:43:22Z,2024-05-27T16:05:11Z,archmoj,bug
+4566,Fix download images to match live gl3d plot,closed,2020-02-10T20:34:39Z,2020-03-10T15:13:11Z,,bug
+4563,Plotly cannot be loaded if Mathjax v3 is already loaded,closed,2020-02-09T13:52:43Z,2022-03-31T19:57:05Z,,bug
+4562,Fix orthographic hover after scroll zoom,closed,2020-02-08T20:18:17Z,2020-02-10T15:40:55Z,,bug
+4558,Bar length in milliseconds,closed,2020-02-06T21:55:01Z,2020-06-05T03:36:34Z,archmoj,bug
+4555,Make notify-on-logging work with newPlot,open,2020-02-06T16:18:26Z,2024-08-08T13:16:57Z,archmoj,"bug, sev-4, P3"
+4551,uirevision should preserve `layout.mapbox.center` rather than reverting to `template.layout.mapbox.center` upon subsequent `Plotly.react.calls`,closed,2020-02-04T23:36:10Z,2024-06-14T12:56:53Z,,bug
+4550,Gl3d hover not working on mobile and tablet since v1.34.0,closed,2020-02-04T21:09:46Z,2020-11-02T02:56:06Z,,"bug, regression"
+4549,Detect correct device in the second attempt to create 3-D scene,closed,2020-02-04T19:38:10Z,2020-07-07T13:53:44Z,,bug
+4547,print sankey to PDF introduce artifcats,closed,2020-02-04T06:55:47Z,2024-06-14T12:56:48Z,,bug
+4546,Fix 3-D config for webgl buffer on iPad Pro & iPad 7th + iOs v13 + Safari ,closed,2020-02-03T17:50:09Z,2020-02-03T21:08:53Z,,bug
+4540,Contour label extra pad and correct minus sign,closed,2020-01-31T21:23:12Z,2020-03-14T00:29:40Z,archmoj,bug
+4539,Fix hover of mesh3d traces with face color and face intensity,closed,2020-01-31T19:46:26Z,2020-01-31T20:51:08Z,,bug
+4537,Fix waterfall 'closest' hover when cursor is below the size axis,closed,2020-01-31T19:19:07Z,2020-01-31T20:39:57Z,,bug
+4534,"Fix hover for mesh3d, isosurface and volume",closed,2020-01-30T23:08:18Z,2020-01-31T16:09:49Z,,"bug, regression"
+4533,Mesh3d unable to hover on points positioned on the right side of the scene,closed,2020-01-30T18:55:45Z,2020-01-31T16:09:44Z,archmoj,"bug, regression"
+4529,Handle 'missing' matching axes,closed,2020-01-29T22:24:20Z,2020-01-31T16:04:11Z,,bug
+4527,Mesh3d: false information displayed on hover when hovertemplate gives cell intensities or facecolor,closed,2020-01-29T11:27:41Z,2020-01-31T20:55:22Z,archmoj,bug

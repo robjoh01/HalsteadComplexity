@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:600,400,300,200|Droid+Sans|PT+Sans+Narrow|Gravitas+One|Droid+Sans+Mono|Droid+Serif|Raleway|Old+Standard+TT" />
+</head>
+<body>
+
+    <div id="plot-list" style="overflow:auto; height:100px;"></div>
+    <div id="status-info" style="display:block; position:absolute; top:150px;"></div>
+    <div id="embedded-graph"></div>
+    <div id="embedded-image" style="display:block; position:absolute; top:800px;"></div>
+
+    <script type="text/javascript" src="../../dist/extras/mathjax/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+
+    <!-- use dev plotly.js build -->
+    <script type="text/javascript" src="../../build/plotly.js" charset="utf-8"></script>
+
+    <!-- use local topojson files -->
+    <script>Plotly.setPlotConfig({ topojsonURL: '../../dist/topojson/' });</script>
+
+    <script type="text/javascript" src="../../build/test_dashboard-bundle.js"></script>
+
+    <!-- helper functions to manipulate the graph div -->
+    <script>
+    var Tabs = {
+        getGraph: function() {
+            return document.getElementById('embedded-graph').children[0];
+        },
+        fresh: function() {
+            var anchor = document.getElementById('embedded-graph'),
+                graphDiv = Tabs.getGraph();
+
+            if(graphDiv) anchor.removeChild(graphDiv);
+            graphDiv = document.createElement('div');
+            anchor.appendChild(graphDiv);
+
+            return graphDiv;
+        }
+    };
+    </script>
+
+</body>
+</html>
