@@ -14,7 +14,7 @@ from analyzer import combine_results_to_csv
 
 console = Console()
 
-def handle_single_file_mode(input_path, output_path):
+def handle_single_file_mode(input_path, output_path, silent=False):
     """
     Handle single file mode.
 
@@ -49,9 +49,9 @@ def handle_single_file_mode(input_path, output_path):
     csv = output_path and output_path.endswith(".csv")
 
     # Call analyze_code with the specified files
-    analyze_code(input_path, output_path, csv)
+    analyze_code(input_path, output_path, csv, silent)
 
-def handle_batch_mode(input_list_path, output_list_path=None, combined_output_path=None):
+def handle_batch_mode(input_list_path, output_list_path=None, combined_output_path=None, silent=False):
     """
     Handle batch mode for multiple input/output files.
 
@@ -86,7 +86,7 @@ def handle_batch_mode(input_list_path, output_list_path=None, combined_output_pa
             filename = os.path.basename(input_path)
 
             # Analyze the file and get the result
-            result = analyze_code(input_path, None, False)
+            result = analyze_code(input_path, None, False, silent)
             all_results.append((filename, result))
 
             # Print status
@@ -125,7 +125,7 @@ def handle_batch_mode(input_list_path, output_list_path=None, combined_output_pa
             csv_output = output_path and output_path.endswith(".csv")
 
             # Call analyze_code with the specified files
-            analyze_code(input_path, output_path, csv_output)
+            analyze_code(input_path, output_path, csv_output, silent)
 
 if __name__ == "__main__":
     args = get_arguments()
@@ -137,8 +137,8 @@ if __name__ == "__main__":
 
         # Check if a single output file is specified with -o
         if args.output and not args.output_list:
-            handle_batch_mode(args.input_list, combined_output_path=args.output)
+            handle_batch_mode(args.input_list, combined_output_path=args.output, silent=args.silent)
         else:
-            handle_batch_mode(args.input_list, args.output_list)
+            handle_batch_mode(args.input_list, args.output_list, silent=args.silent)
     else:
-        handle_single_file_mode(args.input, args.output)
+        handle_single_file_mode(args.input, args.output, silent=args.silent)
