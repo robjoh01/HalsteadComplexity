@@ -1,0 +1,1 @@
+& "$PSScriptRoot\run.ps1" --batch --input-list "plotly/js/inputs.txt" --output "plotly/js/output.csv" --silent
