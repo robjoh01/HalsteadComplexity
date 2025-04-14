@@ -9,10 +9,12 @@ Halstead Metrics,Unique Operands,41
 Halstead Metrics,Total Operators,68
 Halstead Metrics,Total Operands,91
 Halstead Metrics,Vocabulary,52
-Halstead Metrics,Length,159
+Halstead Metrics,Program Length,159
 Halstead Metrics,Volume,906.37
 Halstead Metrics,Difficulty,12.21
 Halstead Metrics,Effort,11064.34
+Halstead Metrics,Time,614.69
+Halstead Metrics,Delivered Bugs,0.30
 
 Keyword Frequency,class,1
 Keyword Frequency,if,4

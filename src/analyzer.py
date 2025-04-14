@@ -143,7 +143,7 @@ def combine_results_to_csv(results, output_path):
             # Add a blank row between files for better readability
             writer.writerow([])
 
-def analyze_code(file_path, output_file=None, csv=False):
+def analyze_code(file_path, output_file=None, csv=False, silent=False):
     """
     Analyze the code in the given file and print or save the results.
 
@@ -154,7 +154,7 @@ def analyze_code(file_path, output_file=None, csv=False):
     Returns:
         None
     """
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
     result = Result(
@@ -170,6 +170,7 @@ def analyze_code(file_path, output_file=None, csv=False):
         else:
             result.write_to_file(output_file)
     else:
-        result.print_to_console()
+        if not silent:
+            result.print_to_console()
 
     return result

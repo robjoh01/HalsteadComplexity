@@ -14,6 +14,7 @@ def get_arguments():
         -b, --batch: Enables batch mode for multiple input/output files.
         -il, --input-list: Path to a text file containing a list of input file paths.
         -ol, --output-list: Path to a text file containing a list of output file paths.
+        -s, --silent: Suppress console output.
 
     Returns:
         args: The parsed command line arguments.
@@ -50,6 +51,11 @@ def get_arguments():
         "-ol", "--output-list",
         type=str,
         help="Path to a text file containing a list of output file paths (used with --batch)."
+    )
+    parser.add_argument(
+        "-s", "--silent",
+        action="store_true",
+        help="Suppress console output."
     )
 
     return parser.parse_args()

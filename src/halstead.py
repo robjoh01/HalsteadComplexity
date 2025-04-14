@@ -59,7 +59,7 @@ def calc_loc_metrics(lines: list) -> dict:
     blank_lines = sum(1 for line in lines if line.strip() == "")
     comment_lines = sum(1 for line in lines if line.strip().startswith("#"))
     code_lines = total_lines - blank_lines - comment_lines
-    
+
     return {
         'Total Lines': total_lines,
         'Blank Lines': blank_lines,
@@ -80,34 +80,38 @@ def calc_halstead_metrics(lines: list) -> dict:
 
     code_text = " ".join(lines)
     tokens = re.findall(r'\b\w+\b|\S', code_text)
-    
+
     operands = set(re.findall(r'\b\w+\b', code_text))
 
     unique_operators = set(tok for tok in tokens if tok in OPERATORS)
     unique_operands = operands
-    
+
     # Halstead calculations
     n1 = len(unique_operators)
     n2 = len(unique_operands)
     N1 = sum(1 for tok in tokens if tok in OPERATORS)
     N2 = sum(1 for tok in tokens if tok in operands)
-    
+
     vocabulary = n1 + n2
     length = N1 + N2
     volume = length * math.log2(vocabulary) if vocabulary > 0 else 0
     difficulty = (n1 / 2) * (N2 / n2) if n2 > 0 else 0
     effort = difficulty * volume
-    
+    time = effort / 18
+    delivered_bugs = volume / 3000
+
     return {
         'Unique Operators': n1,
         'Unique Operands': n2,
         'Total Operators': N1,
         'Total Operands': N2,
         'Vocabulary': vocabulary,
-        'Length': length,
+        'Program Length': length,
         'Volume': volume,
         'Difficulty': difficulty,
-        'Effort': effort
+        'Effort': effort,
+        'Time': time,
+        'Delivered Bugs': delivered_bugs
     }
 
 def calc_keyword_frequency(lines: list) -> dict:
@@ -123,7 +127,7 @@ def calc_keyword_frequency(lines: list) -> dict:
 
     tokens = re.findall(r'\b\w+\b', " ".join(lines))
     keyword_counts = Counter(tok for tok in tokens if tok in KEYWORDS)
-    
+
     return keyword_counts or Counter({"None": 0})
 
 def calc_average_line_length(lines: list) -> float:
