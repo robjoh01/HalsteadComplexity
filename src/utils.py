@@ -74,3 +74,60 @@ def calc_score_and_grade(loc: dict, halstead: dict, key_freq: dict, avg_line: fl
     # Assign grade
     grade = assign_grade(score)
     return score, grade
+
+def extract_version(file_path):
+    """
+    Extract the version number from a file path.
+
+    Args:
+        file_path (str): The full path to the file (e.g., "plotly\python\plotly.py-6.0.0\packages\python\plotly\_plotly_utils\files.py")
+
+    Returns:
+        str: The version number (e.g., "6.0.0")
+    """
+    # Normalize path separators (convert backslashes to forward slashes)
+    normalized_path = file_path.replace('\\', '/')
+
+    # Split the path into parts
+    parts = normalized_path.split('/')
+
+    # Look for parts containing version numbers (like "plotly.py-6.0.0")
+    for part in parts:
+        if '-' in part:
+            # Look for patterns like "name-X.Y.Z"
+            possible_version = part.split('-')[-1]
+            # Check if it looks like a version number (contains dots and digits)
+            if '.' in possible_version and any(c.isdigit() for c in possible_version):
+                return possible_version
+
+    # If no version found in the path, return a default or None
+    return None
+
+def remove_path_prefix(file_path, prefix):
+    """
+    Remove a specified prefix from a file path.
+
+    Args:
+        file_path (str): The full path to the file
+        prefix (str): The prefix to remove (e.g., 'plotly/python', 'plotly/js')
+
+    Returns:
+        str: The file path with the prefix removed
+    """
+    # Normalize path separators for both file_path and prefix
+    normalized_path = file_path.replace('\\', '/')
+    normalized_prefix = prefix.replace('\\', '/')
+
+    # Ensure prefix ends with a slash
+    if not normalized_prefix.endswith('/'):
+        normalized_prefix += '/'
+
+    # Find the position of the prefix in the path
+    start_pos = normalized_path.find(normalized_prefix)
+
+    # If found, return everything after the prefix
+    if start_pos != -1:
+        return normalized_path[start_pos + len(normalized_prefix):]
+
+    # If not found (which shouldn't happen if prefix is always there)
+    return normalized_path
