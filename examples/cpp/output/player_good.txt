@@ -12,10 +12,12 @@ Unique Operands: 41
 Total Operators: 68
 Total Operands: 91
 Vocabulary: 52
-Length: 159
+Program Length: 159
 Volume: 906.37
 Difficulty: 12.21
 Effort: 11064.34
+Time: 614.69
+Delivered Bugs: 0.30
 
 Keyword Frequency:
 class: 1
