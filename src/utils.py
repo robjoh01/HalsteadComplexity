@@ -103,6 +103,28 @@ def extract_version(file_path):
     # If no version found in the path, return a default or None
     return None
 
+def extract_date_from_quarterly_path(file_path):
+    """
+    Extract the date from a quarterly version path.
+
+    Args:
+        file_path (str): The path to check (e.g., "plotly/python/versions/2017/Q1_2017-01-01")
+
+    Returns:
+        str: The date string (e.g., "2017-01-01") or None if not found
+    """
+    import re
+
+    # Normalize path separators
+    normalized_path = file_path.replace('\\', '/')
+
+    # Look for quarterly version pattern (Q#_YYYY-MM-DD)
+    match = re.search(r'Q\d+_(\d{4}-\d{2}-\d{2})', normalized_path)
+    if match:
+        return match.group(1)
+
+    return None
+
 def remove_path_prefix(file_path, prefix):
     """
     Remove a specified prefix from a file path.

@@ -10,7 +10,8 @@ from rich import box
 from utils import (
     calc_score_and_grade,
     extract_version,
-    remove_path_prefix
+    remove_path_prefix,
+    extract_date_from_quarterly_path
 )
 from halstead import (
     calc_loc_metrics,
@@ -27,6 +28,7 @@ class Result:
     """
     def __init__(self, filepath, loc_metrics, halstead_metrics, keyword_frequency, avg_line_length):
         self.filepath = remove_path_prefix(filepath, 'plotly/python')
+        self.date = extract_date_from_quarterly_path(filepath)
         self.version  = extract_version(filepath)
         self.loc_metrics = loc_metrics
         self.halstead_metrics = halstead_metrics
@@ -123,28 +125,28 @@ def combine_results_to_csv(results, output_path):
         writer = csv.writer(csvfile)
 
         # Write header row
-        writer.writerow(["Filepath", "Filename", "Version", "Section", "Metric", "Value"])
+        writer.writerow(["Filepath", "Filename", "Date", "Version", "Section", "Metric", "Value"])
 
         # Write data for each file
         for filename, result in results:
             # Add LOC metrics
             for key, value in result.loc_metrics.items():
-                writer.writerow([result.filepath, filename, result.version, "LOC Metrics", key, f"{value:.2f}" if isinstance(value, float) else str(value)])
+                writer.writerow([result.filepath, filename, result.date, result.version, "LOC Metrics", key, f"{value:.2f}" if isinstance(value, float) else str(value)])
 
             # Add Halstead metrics
             for key, value in result.halstead_metrics.items():
-                writer.writerow([result.filepath, filename, result.version, "Halstead Metrics", key, f"{value:.2f}" if isinstance(value, float) else str(value)])
+                writer.writerow([result.filepath, filename, result.date, result.version, "Halstead Metrics", key, f"{value:.2f}" if isinstance(value, float) else str(value)])
 
             # Add keyword frequency
             for key, value in result.keyword_frequency.items():
-                writer.writerow([result.filepath, filename, result.version, "Keyword Frequency", key, f"{value:.2f}" if isinstance(value, float) else str(value)])
+                writer.writerow([result.filepath, filename, result.date, result.version, "Keyword Frequency", key, f"{value:.2f}" if isinstance(value, float) else str(value)])
 
             # Add average line length
-            writer.writerow([result.filepath, filename, result.version, "General", "Average Line Length", f"{result.avg_line_length:.2f}"])
+            writer.writerow([result.filepath, filename, result.date, result.version, "General", "Average Line Length", f"{result.avg_line_length:.2f}"])
 
             # Add score and grade
-            writer.writerow([result.filepath, filename, result.version, "Results", "Final Score", result.score])
-            writer.writerow([result.filepath, filename, result.version, "Results", "Grade", result.grade])
+            writer.writerow([result.filepath, filename, result.date, result.version, "Results", "Final Score", result.score])
+            writer.writerow([result.filepath, filename, result.date, result.version, "Results", "Grade", result.grade])
 
             # Add a blank row between files for better readability
             writer.writerow([])
