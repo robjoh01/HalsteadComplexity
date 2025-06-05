@@ -37,9 +37,14 @@ SYMBOLS = [
     "<<=", ">>=", "**=", "//", "//=", "@", "@=", "->", "...", ":=", "!"
 ]
 
+MULTI_WORD_OPERATORS = [
+    "is not", "not in"
+]
+
 OPERATORS = {
     *SYMBOLS,
-    *KEYWORDS
+    *KEYWORDS,
+    *MULTI_WORD_OPERATORS
 }
 
 def calc_loc_metrics(lines: list) -> dict:
@@ -65,6 +70,45 @@ def calc_loc_metrics(lines: list) -> dict:
         'Code Lines': code_lines
     }
 
+def tokenize_code(code_text):
+    """
+    Tokenize code while preserving multi-character and multi-word operators.
+    """
+
+    temp_code = code_text
+    multi_word_map = {}
+
+    for i, op in enumerate(MULTI_WORD_OPERATORS):
+        placeholder = f"__MULTIWORD_{i}__"
+        temp_code = temp_code.replace(op, placeholder)
+        multi_word_map[placeholder] = op
+
+    sorted_symbols = sorted(SYMBOLS, key=len, reverse=True)
+
+    # Create regex pattern that matches:
+    # 1. String literals (double and single quoted)
+    # 2. Multi-word operator placeholders
+    # 3. Multi-character operators (longest first)
+    # 4. Keywords and identifiers
+    # 5. Single characters
+    multiword_pattern = '|'.join(re.escape(placeholder) for placeholder in multi_word_map.keys())
+    symbol_pattern = '|'.join(re.escape(sym) for sym in sorted_symbols)
+    keyword_pattern = r'\b(?:' + '|'.join(KEYWORDS) + r')\b'
+    identifier_pattern = r'\b\w+\b'
+
+    pattern = f'r"[^"]*"|\'[^\']*\'|{multiword_pattern}|{symbol_pattern}|{keyword_pattern}|{identifier_pattern}'
+
+    tokens = re.findall(pattern, temp_code)
+
+    final_tokens = []
+    for token in tokens:
+        if token in multi_word_map:
+            final_tokens.append(multi_word_map[token])
+        else:
+            final_tokens.append(token)
+
+    return final_tokens
+
 def calc_halstead_metrics(lines: list) -> dict:
     """
     Calculate Halstead complexity metrics.
@@ -77,10 +121,10 @@ def calc_halstead_metrics(lines: list) -> dict:
     """
 
     code_text = " ".join(lines)
-    tokens = re.findall(r'"[^"]*"|\'[^\']*\'|\b\w+\b|\S', code_text)
+    tokens = tokenize_code(code_text)
+
     unique_operators = set(tok for tok in tokens if tok in OPERATORS)
-    unique_operand_tokens = set(re.findall(r'\b\w+\b', code_text))
-    unique_operands = set(word for word in unique_operand_tokens if word not in OPERATORS)
+    unique_operands = set(tok for tok in tokens if tok not in OPERATORS)
 
     # Halstead calculations
     n1 = len(unique_operators)
