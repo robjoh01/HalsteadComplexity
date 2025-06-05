@@ -10,7 +10,6 @@ from collections import Counter
 # Python example
 
 # Caveats:
-# - 'is not' and 'not in' will count as 2 operators
 # - braces are counted separately
 # - function definitions are counted as operands
 
