@@ -169,8 +169,8 @@ def analyze_code(file_path, output_file=None, csv=False, silent=False):
             result.write_to_csv(output_file)
         else:
             result.write_to_file(output_file)
-    else:
-        if not silent:
-            result.print_to_console()
+
+    if not silent:
+        result.print_to_console()
 
     return result
