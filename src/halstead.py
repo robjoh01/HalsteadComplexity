@@ -14,37 +14,53 @@ from collections import Counter
 # - function definitions are counted as operands
 
 # https://docs.python.org/3/reference/lexical_analysis.html#keywords
-ALL_KEYWORDS = {
-    'False', 'None', 'True', 'and', 'as', 'assert', 'async',
+# Excluded 'False', 'True', 'None' Constants (operands)
+PY_KEYWORDS = [
+    'and', 'as', 'assert', 'async',
     'await', 'break', 'class', 'continue', 'def', 'del', 'elif',
     'else', 'except', 'finally', 'for', 'from', 'global', 'if',
     'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or',
     'pass', 'raise', 'return', 'try', 'while', 'with', 'yield'
-}
+]
 
-EXCLUDED_KEYWORDS = {
-    'False', 'True', 'None',  # Constants (operands)
-}
-
-KEYWORDS = ALL_KEYWORDS - EXCLUDED_KEYWORDS
+# https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords
+JS_KEYWORDS = [
+    'break', 'case', 'catch', 'class', 'const', 'continue', 'debugger',
+    'default', 'delete', 'do', 'else', 'export', 'extends', 'false',
+    'finally', 'for', 'function', 'if', 'import', 'in', 'instanceof',
+    'new', 'null', 'return', 'super', 'switch', 'this', 'throw', 'true',
+    'try', 'typeof', 'var', 'void', 'while', 'with',
+    'let', 'static', 'yield', 'await',
+    'implements', 'interface', 'package', 'private', 'protected',
+    'arguments', 'as', 'async', 'eval', 'from', 'get', 'of', 'set'
+]
 
 # https://docs.python.org/3/library/token.html
-SYMBOLS = [
-    "(", ")", "[", "]", ":", ",", ";", "+", "-", "*", "/", "|", "&",
-    "<", ">", "=", ".", "%", "{", "}", "==", "!=", "<=", ">=", "~", "^",
-    "<<", ">>", "**", "+=", "-=", "*=", "/=", "%=", "&=", "|=", "^=",
-    "<<=", ">>=", "**=", "//", "//=", "@", "@=", "->", "...", ":=", "!"
+PY_SYMBOLS = [
+    '(', ')', '[', ']', ':', ',', ';', '+', '-', '*', '/', '|', '&',
+    '<', '>', '=', '.', '%', '{', '}', '==', '!=', '<=', '>=', '~', '^',
+    '<<', '>>', '**', '+=', '-=', '*=', '/=', '%=', '&=', '|=', '^=',
+    '<<=', '>>=', '**=', '//', '//=', '@', '@=', '->', '...', ':=', '!'
+]
+
+# https://tc39.es/ecma262/#sec-punctuators
+JS_SYMBOLS = [
+    '?.', '{', '(', ')', '[', ']', '.', '...', ',', ';', '<', '>', '<=', '>=',
+    '==', '!=', '===', '!==', '+', '-', '*', '%', '**', '++', '--', '<<',
+    '>>', '>>>', '&', '|', '^', '!', '~', '&&', '||', '??', '?', ':', '=',
+    '+=', '-=', '*=', '%=', '**=', '<<=', '>>=', '>>>=', '&=', '|=', '^=',
+    '&&=', '||=', '??=', '=>', '/', '/=', '}'
 ]
 
 MULTI_WORD_OPERATORS = [
-    "is not", "not in"
+    'is not', 'not in'
 ]
 
-OPERATORS = {
-    *SYMBOLS,
-    *KEYWORDS,
+OPERATORS = [
+    *PY_SYMBOLS,
+    *PY_KEYWORDS,
     *MULTI_WORD_OPERATORS
-}
+]
 
 def calc_loc_metrics(lines: list) -> dict:
     """
@@ -82,7 +98,7 @@ def tokenize_code(code_text):
         temp_code = temp_code.replace(op, placeholder)
         multi_word_map[placeholder] = op
 
-    sorted_symbols = sorted(SYMBOLS, key=len, reverse=True)
+    sorted_symbols = sorted(PY_SYMBOLS, key=len, reverse=True)
 
     # Create regex pattern that matches:
     # 1. String literals (double and single quoted)
@@ -92,7 +108,7 @@ def tokenize_code(code_text):
     # 5. Single characters
     multiword_pattern = '|'.join(re.escape(placeholder) for placeholder in multi_word_map.keys())
     symbol_pattern = '|'.join(re.escape(sym) for sym in sorted_symbols)
-    keyword_pattern = r'\b(?:' + '|'.join(KEYWORDS) + r')\b'
+    keyword_pattern = r'\b(?:' + '|'.join(PY_KEYWORDS) + r')\b'
     identifier_pattern = r'\b\w+\b'
 
     pattern = f'r"[^"]*"|\'[^\']*\'|{multiword_pattern}|{symbol_pattern}|{keyword_pattern}|{identifier_pattern}'
@@ -165,7 +181,7 @@ def calc_keyword_frequency(lines: list) -> dict:
     """
 
     tokens = re.findall(r'\b\w+\b', " ".join(lines))
-    keyword_counts = Counter(tok for tok in tokens if tok in KEYWORDS)
+    keyword_counts = Counter(tok for tok in tokens if tok in PY_KEYWORDS)
 
     return keyword_counts or Counter({"None": 0})
 

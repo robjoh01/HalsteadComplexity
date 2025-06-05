@@ -97,7 +97,7 @@ The `.exe` file will be generated in the `dist` folder.
 
 ### Prerequisites
 
-Before running the program, you have to ensure that you have the correct operators for the language you are testing in `src/halstead.py`. The default operators included are for Python.
+Before running the program, you have to ensure that you have the correct operators for the language you are testing. You can do so in `src/halstead.py`. The default operators are set to Python. JavaScript is also included.
 
 #### Caveats
 
