@@ -7,11 +7,10 @@ import math
 
 from collections import Counter
 
-# Python example
-
-# Caveats:
+# Note:
 # - braces are counted separately
-# - function definitions are counted as operands
+# - function definitions and calls are both counted as operands
+# - template literals are combined with the string, counting as a single operand (f"{n} is odd.")
 
 # https://docs.python.org/3/reference/lexical_analysis.html#keywords
 # Excluded 'False', 'True', 'None' Constants (operands)
@@ -24,11 +23,12 @@ PY_KEYWORDS = [
 ]
 
 # https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords
+# Excluded 'false', 'true' Constants (operands)
 JS_KEYWORDS = [
     'break', 'case', 'catch', 'class', 'const', 'continue', 'debugger',
-    'default', 'delete', 'do', 'else', 'export', 'extends', 'false',
+    'default', 'delete', 'do', 'else', 'export', 'extends',
     'finally', 'for', 'function', 'if', 'import', 'in', 'instanceof',
-    'new', 'null', 'return', 'super', 'switch', 'this', 'throw', 'true',
+    'new', 'null', 'return', 'super', 'switch', 'this', 'throw',
     'try', 'typeof', 'var', 'void', 'while', 'with',
     'let', 'static', 'yield', 'await',
     'implements', 'interface', 'package', 'private', 'protected',
@@ -52,13 +52,22 @@ JS_SYMBOLS = [
     '&&=', '||=', '??=', '=>', '/', '/=', '}'
 ]
 
-MULTI_WORD_OPERATORS = [
+PY_COMMENT = '#'
+JS_COMMENT = '//'
+
+PY_MULTI_WORD_OPERATORS = [
     'is not', 'not in'
 ]
+JS_MULTI_WORD_OPERATORS = []
+
+KEYWORDS = PY_KEYWORDS
+SYMBOLS = PY_SYMBOLS
+MULTI_WORD_OPERATORS = PY_MULTI_WORD_OPERATORS
+COMMENT = PY_COMMENT
 
 OPERATORS = [
-    *PY_SYMBOLS,
-    *PY_KEYWORDS,
+    *SYMBOLS,
+    *KEYWORDS,
     *MULTI_WORD_OPERATORS
 ]
 
@@ -89,32 +98,99 @@ def tokenize_code(code_text):
     """
     Tokenize code while preserving multi-character and multi-word operators.
     """
+    # Remove single-line comments (# to end of line)
+    lines = code_text.split('\n')
+    cleaned_lines = []
+    for line in lines:
+        # Find # that's not inside a string
+        in_string = False
+        quote_char = None
+        comment_pos = None
 
-    temp_code = code_text
+        for i, char in enumerate(line):
+            if not in_string and char in ['"', "'"]:
+                in_string = True
+                quote_char = char
+            elif in_string and char == quote_char and (i == 0 or line[i-1] != '\\'):
+                in_string = False
+                quote_char = None
+            elif not in_string:
+                if len(COMMENT) == 1 and char == COMMENT:
+                    comment_pos = i
+                    break
+                elif len(COMMENT) == 2 and i + 1 < len(line) and char + line[i+1] == COMMENT:
+                    comment_pos = i
+                    break
+
+        if comment_pos is not None:
+            cleaned_lines.append(line[:comment_pos])
+        else:
+            cleaned_lines.append(line)
+
+    code_text = '\n'.join(cleaned_lines)
+
+    # Handle multi-word operators, but only outside of strings
+    temp_code = ""
+    i = 0
     multi_word_map = {}
 
-    for i, op in enumerate(MULTI_WORD_OPERATORS):
-        placeholder = f"__MULTIWORD_{i}__"
-        temp_code = temp_code.replace(op, placeholder)
-        multi_word_map[placeholder] = op
+    while i < len(code_text):
+        # Check if we're starting a string
+        if code_text[i] in ['"', "'", '`']:
+            quote_char = code_text[i]
+            # Find the end of the string
+            j = i + 1
+            while j < len(code_text):
+                if code_text[j] == quote_char and (j == i + 1 or code_text[j-1] != '\\'):
+                    break
+                j += 1
+            # Add the entire string (including quotes) without modification
+            temp_code += code_text[i:j+1]
+            i = j + 1
+        else:
+            # Check for multi-word operators at this position
+            found_multiword = False
+            for op_idx, op in enumerate(MULTI_WORD_OPERATORS):
+                if code_text[i:i+len(op)] == op:
+                    # Make sure it's a complete word boundary match
+                    before_ok = (i == 0 or not code_text[i-1].isalnum())
+                    after_ok = (i + len(op) >= len(code_text) or not code_text[i+len(op)].isalnum())
 
-    sorted_symbols = sorted(PY_SYMBOLS, key=len, reverse=True)
+                    if before_ok and after_ok:
+                        placeholder = f"__MULTIWORD_{op_idx}__"
+                        temp_code += placeholder
+                        multi_word_map[placeholder] = op
+                        i += len(op)
+                        found_multiword = True
+                        break
+
+            if not found_multiword:
+                temp_code += code_text[i]
+                i += 1
+
+    # Sort symbols by length (longest first) to match multi-char operators first
+    sorted_symbols = sorted(SYMBOLS, key=len, reverse=True)
 
     # Create regex pattern that matches:
-    # 1. String literals (double and single quoted)
-    # 2. Multi-word operator placeholders
-    # 3. Multi-character operators (longest first)
-    # 4. Keywords and identifiers
-    # 5. Single characters
+    # 1. f-strings and other prefixed string literals (f"...", r"...", etc.)
+    # 2. Regular string literals (double and single quoted)
+    # 3. Multi-word operator placeholders
+    # 4. Multi-character operators (longest first)
+    # 5. Keywords and identifiers
+    # 6. Single characters
     multiword_pattern = '|'.join(re.escape(placeholder) for placeholder in multi_word_map.keys())
     symbol_pattern = '|'.join(re.escape(sym) for sym in sorted_symbols)
-    keyword_pattern = r'\b(?:' + '|'.join(PY_KEYWORDS) + r')\b'
+    keyword_pattern = r'\b(?:' + '|'.join(KEYWORDS) + r')\b'
     identifier_pattern = r'\b\w+\b'
 
-    pattern = f'r"[^"]*"|\'[^\']*\'|{multiword_pattern}|{symbol_pattern}|{keyword_pattern}|{identifier_pattern}'
+    if multiword_pattern:
+        pattern = f'[frbFRB]*"[^"]*"|[frbFRB]*\'[^\']*\'|`[^`]*`|{multiword_pattern}|{symbol_pattern}|{keyword_pattern}|{identifier_pattern}'
+    else:
+        pattern = f'[frbFRB]*"[^"]*"|[frbFRB]*\'[^\']*\'|`[^`]*`|{symbol_pattern}|{keyword_pattern}|{identifier_pattern}'
 
     tokens = re.findall(pattern, temp_code)
 
+    # Replace placeholders back with original multi-word operators
     final_tokens = []
     for token in tokens:
         if token in multi_word_map:
@@ -138,10 +214,9 @@ def calc_halstead_metrics(lines: list) -> dict:
     code_text = " ".join(lines)
     tokens = tokenize_code(code_text)
 
+    # Halstead calculations
     unique_operators = set(tok for tok in tokens if tok in OPERATORS)
     unique_operands = set(tok for tok in tokens if tok not in OPERATORS)
-
-    # Halstead calculations
     n1 = len(unique_operators)
     n2 = len(unique_operands)
     N1 = sum(1 for tok in tokens if tok in OPERATORS)
@@ -181,7 +256,7 @@ def calc_keyword_frequency(lines: list) -> dict:
     """
 
     tokens = re.findall(r'\b\w+\b', " ".join(lines))
-    keyword_counts = Counter(tok for tok in tokens if tok in PY_KEYWORDS)
+    keyword_counts = Counter(tok for tok in tokens if tok in KEYWORDS)
 
     return keyword_counts or Counter({"None": 0})
 
