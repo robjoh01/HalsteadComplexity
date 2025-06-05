@@ -7,41 +7,39 @@ import math
 
 from collections import Counter
 
-KEYWORDS = {
-    'if',
-    'else',
-    'for',
-    'while',
-    'return',
-    'import',
-    'def',
-    'class',
-    'try',
-    'except',
-    'with',
-    'lambda'
+# Python example
+
+# Caveats:
+# - 'is not' and 'not in' will count as 2 operators
+# - braces are counted separately
+# - function definitions are counted as operands
+
+# https://docs.python.org/3/reference/lexical_analysis.html#keywords
+ALL_KEYWORDS = {
+    'False', 'None', 'True', 'and', 'as', 'assert', 'async',
+    'await', 'break', 'class', 'continue', 'def', 'del', 'elif',
+    'else', 'except', 'finally', 'for', 'from', 'global', 'if',
+    'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or',
+    'pass', 'raise', 'return', 'try', 'while', 'with', 'yield'
 }
 
+EXCLUDED_KEYWORDS = {
+    'False', 'True', 'None',  # Constants (operands)
+}
+
+KEYWORDS = ALL_KEYWORDS - EXCLUDED_KEYWORDS
+
+# https://docs.python.org/3/library/token.html
+SYMBOLS = [
+    "(", ")", "[", "]", ":", ",", ";", "+", "-", "*", "/", "|", "&",
+    "<", ">", "=", ".", "%", "{", "}", "==", "!=", "<=", ">=", "~", "^",
+    "<<", ">>", "**", "+=", "-=", "*=", "/=", "%=", "&=", "|=", "^=",
+    "<<=", ">>=", "**=", "//", "//=", "@", "@=", "->", "...", ":=", "!"
+]
+
 OPERATORS = {
-    '+',
-    '-',
-    '*',
-    '/',
-    '=',
-    '==',
-    '<',
-    '>',
-    '&&',
-    '||',
-    '!',
-    '(',
-    ')',
-    '{',
-    '}',
-    '[',
-    ']',
-    ',',
-    ';'
+    *SYMBOLS,
+    *KEYWORDS
 }
 
 def calc_loc_metrics(lines: list) -> dict:
@@ -79,18 +77,16 @@ def calc_halstead_metrics(lines: list) -> dict:
     """
 
     code_text = " ".join(lines)
-    tokens = re.findall(r'\b\w+\b|\S', code_text)
-
-    operands = set(re.findall(r'\b\w+\b', code_text))
-
+    tokens = re.findall(r'"[^"]*"|\'[^\']*\'|\b\w+\b|\S', code_text)
     unique_operators = set(tok for tok in tokens if tok in OPERATORS)
-    unique_operands = operands
+    unique_operand_tokens = set(re.findall(r'\b\w+\b', code_text))
+    unique_operands = set(word for word in unique_operand_tokens if word not in OPERATORS)
 
     # Halstead calculations
     n1 = len(unique_operators)
     n2 = len(unique_operands)
     N1 = sum(1 for tok in tokens if tok in OPERATORS)
-    N2 = sum(1 for tok in tokens if tok in operands)
+    N2 = sum(1 for tok in tokens if tok not in OPERATORS)
 
     vocabulary = n1 + n2
     length = N1 + N2
