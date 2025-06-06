@@ -1,0 +1,33 @@
+Code Analysis Report
+
+LOC Metrics:
+Total Lines: 11
+Blank Lines: 1
+Comment Lines: 1
+Code Lines: 9
+
+Halstead Metrics:
+Unique Operators: 9
+Unique Operands: 11
+Total Operators: 20
+Total Operands: 15
+Vocabulary: 20
+Program Length: 35
+Volume: 151.27
+Difficulty: 6.14
+Effort: 928.23
+Time: 51.57
+Delivered Bugs: 0.05
+
+Keyword Frequency:
+def: 1
+if: 1
+is: 2
+return: 2
+else: 1
+not: 1
+
+Average Line Length: 18.50 characters
+
+Final Score: 80/100
+Grade: A-
