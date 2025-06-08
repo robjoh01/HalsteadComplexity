@@ -95,6 +95,16 @@ The `.exe` file will be generated in the `dist` folder.
 
 ## 🔥 Usage
 
+### Prerequisites
+
+Before running the program, you have to ensure that you have the correct operators for the language you are testing. You can do so in `src/halstead.py`. The default operators are set to Python. JavaScript is also included.
+
+#### Note
+
+- Braces are counted separately.
+- Function definitions and calls are both counted as operands.
+- Template literals are combined with the string, counting as a single operand (f"{n} is odd.").
+
 ### Single mode
 
 ```powershell
@@ -104,17 +114,19 @@ The `.exe` file will be generated in the `dist` folder.
 
 ### Batch mode
 
-Multiple files
+Multiple files:
 
 ```powershell
 ./scripts/run.ps1 -b -il "examples/cpp/inputs.txt" -ol "examples/cpp/outputs.txt"
 ```
 
-Combined CSV file
+Combined CSV file:
 
 ```powershell
 ./scripts/run.ps1 -b -il "examples/cpp/inputs.txt" -o "examples/cpp/output/combined.csv"
 ```
+
+Add `-s` to silent the console output.
 
 ## 🆘 Support
 
